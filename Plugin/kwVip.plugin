@@ -1,6 +1,6 @@
 #!name=酷我Vip
 #!desc=Kuwo
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1029.png
+#!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/5f/37/8d5f3701-13c9-0dca-a6b0-d30f458e4b6d/AppIcon-1x_U007emarketing-0-6-0-0-sRGB-85-220-0.png/246x0w.webp
 
 [Script]
 http-response ^https://vip1.kuwo.cn/vip/v2/user/vip\?op=ui&uid=.*&sid=.* script-path=https://raw.githubusercontent.com/W126-L/Tool/refs/heads/master/Scripts/kw.js, requires-body=true, timeout=60, tag=Kuwo
