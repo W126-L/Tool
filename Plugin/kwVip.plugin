@@ -3,7 +3,7 @@
 #!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1029.png
 
 [Script]
-http-response ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js, requires-body=true, timeout=60, tag=Kuwo
+http-response ^https://vip1.kuwo.cn/vip/v2/user/vip\?op=ui&uid=.*&sid=.* script-path=https://raw.githubusercontent.com/W126-L/Tool/refs/heads/master/Scripts/kw.js, requires-body=true, timeout=60, tag=Kuwo
 
 [MITM]
 hostname = vip1.kuwo.cn
