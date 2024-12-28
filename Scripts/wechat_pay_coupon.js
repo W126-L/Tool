@@ -53,15 +53,12 @@ async function main() {
       $.openid = $.userArr[i]['openid'];
 
       // 判断是否执行兑换立减金
-      if ($.exchange == 'true' && $.exchangeInfo) {
-        console.log(`----- 兑换立减金 -----`);
-        // let exchange = $.exchangeInfo.split(':');
-        // $.exchangeList.push(getGift(exchange[0], exchange[1], i + 1));
-        // continue;
-      }else{
-        console.log(`----- 跳过兑换立减金 -----`);
-      }
-      break;
+    //   if ($.exchange == 'true' && $.exchangeInfo) {
+    //     console.log(`----- 兑换立减金 -----`);
+    //     let exchange = $.exchangeInfo.split(':');
+    //     $.exchangeList.push(getGift(exchange[0], exchange[1], i + 1));
+    //     continue;
+    //   }
       // 集章任务
       await collectstamp();
 
@@ -325,13 +322,14 @@ async function todaygift() {
   const result = await Request(options);
   if (result?.errcode == 0 && result?.data) {
     let award_list = result.data.shelf_list[0].award_list;
+    console.log(award_list);
     let [award,] = award_list.filter((item, index, array) => {
       return item?.discount_rule?.discount_coin_count != undefined;
     });
     if (award) {
       const { name, award_id } = award;
       $.log(`兑换今日好礼: [${award_id}]${name}`);
-      await getGift(award_id, name);  // 兑换今日好礼
+      //await getGift(award_id, name);  // 兑换今日好礼
     } else {
       msg += `没有 1 金币商品可兑换 ⚠️`;
     }
