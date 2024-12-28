@@ -322,7 +322,6 @@ async function todaygift() {
   const result = await Request(options);
   if (result?.errcode == 0 && result?.data) {
     let award_list = result.data.shelf_list[0].award_list;
-    console.log(award_list);
     let [award,] = award_list.filter((item, index, array) => {
       return (item?.discount_rule?.discount_coin_count != undefined) && item.name.match(/微信提现免费券/);
     });
