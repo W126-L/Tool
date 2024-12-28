@@ -10,16 +10,6 @@
 
 # BoxJs 订阅：https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.boxjs.json
 
------------------- Surge 配置 ------------------
-
-[MITM]
-hostname = payapp.weixin.qq.com
-
-[Script]
-微付金币² = type=http-response,pattern=https:\/\/payapp\.weixin\.qq\.com\/(coupon-center-user\/home\/login|coupon-center-award\/award\/detail),requires-body=1,max-size=0,binary-body-mode=0,timeout=30,script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wechat_pay_coupon.js,script-update-interval=0
-
-微付金币 = type=cron,cronexp=30 9 * * *,timeout=60,script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wechat_pay_coupon.js,script-update-interval=0
-
 ------------------- Loon 配置 -------------------
 
 [MITM]
@@ -29,40 +19,6 @@ hostname = payapp.weixin.qq.com
 http-response https:\/\/payapp\.weixin\.qq\.com\/(coupon-center-user\/home\/login|coupon-center-award\/award\/detail) tag=微付金币²,script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wechat_pay_coupon.js,requires-body=1
 
 cron "30 9 * * *" script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wechat_pay_coupon.js,tag=微付金币,enable=true
-
---------------- Quantumult X 配置 ---------------
-
-[MITM]
-hostname = payapp.weixin.qq.com
-
-[rewrite_local]
-https:\/\/payapp\.weixin\.qq\.com\/(coupon-center-user\/home\/login|coupon-center-award\/award\/detail) url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wechat_pay_coupon.js
-
-[task_local]
-30 9 * * * https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wechat_pay_coupon.js, tag=微付金币, img-url=https://raw.githubusercontent.com/FoKit/Scripts/main/images/wechat_pay_coupon.png, enabled=true
-
------------------- Stash 配置 ------------------
-
-cron:
-  script:
-    - name: 微付金币
-      cron: '30 9 * * *'
-      timeout: 10
-
-http:
-  mitm:
-    - "payapp.weixin.qq.com"
-  script:
-    - match: https:\/\/payapp\.weixin\.qq\.com\/(coupon-center-user\/home\/login|coupon-center-award\/award\/detail)
-      name: 微付金币
-      type: response
-      require-body: true
-
-script-providers:
-  微付金币:
-    url: https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wechat_pay_coupon.js
-    interval: 86400
-
  */
 
 const $ = new Env('微信支付有优惠');
