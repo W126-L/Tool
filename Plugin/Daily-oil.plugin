@@ -1,0 +1,12 @@
+#!name= 每日油价
+#!desc= 定时获取指定地区油价
+#!author= 墨
+#!homepage= 插件首页，可在插件页面进行跳转
+#!icon= https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/youjia.png
+
+[Argument]
+arg1 = input,"jiangsu/yangzhou",tag=地区,desc=这是一个输入参数的说明
+arg2 = select,"jiangsu/yangzhou","jiangsu/nanjing","jiangsu/huaian",tag=地区,desc=这是一个选择类型的参数说明
+
+[script]
+cron "02 8 * * *" script-path=https://raw.githubusercontent.com/W126-L/Tool/refs/heads/master/Scripts/meiriyoujia.js, timeout=120, tag=每日油价, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/youjia.png,argument=[{arg1},{arg2}]
