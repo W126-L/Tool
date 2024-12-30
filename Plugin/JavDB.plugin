@@ -1,10 +1,10 @@
-#!name=JavDB
-#!desc=JavDB-净化&解锁永久VIP
-#!author=@Wuang备份（原作者@chxm1023）
-#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/JavDB.plugin
-#!homepage=https://github.com/W126-L
-#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/JavDB.png
-#!tag=阿旺の库
+#!name = JavDB
+#!desc = JavDB-净化&解锁永久VIP
+#!author = @Wuang备份-原作者@chxm1023 [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/JavDB.plugin
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/JavDB.png
+#!tag = 阿旺の库
 
 [Script]
 http-response ^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(users|startup|ads) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/JavDB.js, requires-body=true, timeout=60, tag=JavDB,img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/JavDB.png
