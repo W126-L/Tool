@@ -7,7 +7,7 @@
 
 [Argument]
 arg1 = select,"jiangsu/yangzhou","jiangsu/nanjing","jiangsu/huaian",tag=地区,desc=这是一个选择类型的参数说明
-arg2 = input,"0 8 * * *",tag=奶茶多合一任务时间
+arg2 = input,"0 8 * * *",tag=获取油价任务时间
 
 [script]
 cron {arg2} script-path=https://raw.githubusercontent.com/W126-L/Tool/refs/heads/master/Scripts/meiriyoujia.js, timeout=120, tag=每日油价, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/youjia.png,argument=[{arg1}]
