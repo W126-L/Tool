@@ -7,7 +7,7 @@
 #!tag = 阿旺の库
 
 [Script]
-http-request https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo script-path=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js, requires-body=true, timeout=10, tag=中国广电获取cookie数据, img-url=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.png
+http-request https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo script-path = https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js, requires-body = true, timeout = 10, tag = 中国广电获取cookie数据, img-url = https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.png
 
 [MITM]
 hostname = wx.10099.com.cn
