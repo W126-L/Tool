@@ -6,8 +6,7 @@ const $ = new Env("查询油价");
 let addr = "shanxi/linfen"
 let env = $.getEnv()
 if($.isLoon()){
-  console.log($argument);
-  addr = $argument;
+  addr = $argument.arg1;
 }
 if($.isQuanX()){
   let arg = $environment.sourcePath;
