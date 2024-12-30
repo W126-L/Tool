@@ -1,8 +1,14 @@
-#!name= iOS屏蔽系统更新
-#!desc= 防止偷偷自动更新iOS系统@域名分流拦截REJECT
-#!author= Wuang [https://github.com/W126-L]
-#!icon= https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/NoUpdate.png
-#!tag= 阿旺の库
+#!name = iOS屏蔽系统更新
+#!desc = 防止偷偷自动更新iOS系统@域名分流拦截REJECT
+#!author = Wuang [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/BlockiOSUpdate.plugin
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/NoUpdate.png
+#!tag = 阿旺の库
+
+#!author = Wuang备份 [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/CamScanner.plugin
+#!homepage = https://github.com/W126-L
 
 [Rule]
 # Block iOS Update
