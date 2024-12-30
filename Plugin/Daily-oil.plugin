@@ -1,7 +1,7 @@
 #!name= 每日油价
 #!desc= 定时获取指定地区油价
-#!author= 墨
-#!homepage=主页[https://github.com/W126-L]
+#!author= 墨 [https://github.com/W126-L]
+#!homepage=https://github.com/W126-L
 #!icon= https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/youjia.png
 #!openUrl= https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Daily-oil.plugin
 
