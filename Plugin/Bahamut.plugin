@@ -1,3 +1,15 @@
+#!name = 巴哈姆特（動畫瘋）
+#!desc = 動畫瘋（动画疯）屏蔽播放广告脚本 (黑屏25秒自动播放)
+#!author = wuang [https://github.com/W126-L]
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Bahamut.png
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Bahamut.plugin
+#!tag = 阿旺の库
 
+# > 动画疯
+# hostname = api.gamer.com.tw
+^https?:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d\/anime_get_question\.php reject-dict
 
+# > 动画疯
+# (黑屏25秒)
 http-response ^https?:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d/(token|m3u8).php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutAnimeAds.js, requires-body=true, timeout=60, tag=动画疯
