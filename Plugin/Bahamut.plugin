@@ -12,5 +12,5 @@
 # (黑屏25秒)
 http-response ^https?:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d/(token|m3u8).php\? script-path = https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutAnimeAds.js, requires-body = true, timeout = 60, tag = 动画疯
 
-［MITM］
+[MITM]
 hostname = api.gamer.com.tw
