@@ -4,7 +4,7 @@
 ******************************************
 hostname = *.kuwo.cn
 
-^https?:\/\/(?:musicpay|nmobi|vip1|audiobookpay|tingshu｜anymatch)\.kuwo\.cn\/(?:music\.pay\?newver=\d+|mobi.s\?f=kwxs|vip\/(?:enc\/user\/vip\?op=ui&uid=|v2\/theme\?op=gd)|a\.p|v2\/api\/pay\/user\/info) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js
+^https?:\/\/(?:musicpay|nmobi|vip1|audiobookpay|tingshu|anymatch)\.kuwo\.cn\/(?:music\.pay\?newver=\d+|mobi.s\?f=kwxs|vip\/(?:enc\/user\/vip\?op=ui&uid=|v2\/theme\?op=gd|v2\/user\/vip\?vers)|a\.p|v2\/api\/pay\/user\/info) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js
 ******************************************/
 let url = $request.url
 let m = url.match(/vip\/enc/)
