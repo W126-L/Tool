@@ -100,4 +100,27 @@ if(m){
         });
     }
 }
+m = url.match(/vip\/v2\/user\/vip\?vers=/)
+if(m){
+  let res = JSON.parse($response.body)
+	res.data.vipExpire = "4077187200315"
+	res.data.isYearUser = "2"
+	res.data.vipLuxuryExpire = "4077187200315"
+	res.data.svipExpire = "4077187200315"
+	res.data.svipAutoPayUser = "1"
+	res.data.biedSong = "1"
+	res.data.vipIcon = "https://image.kuwo.cn/fe/13e4f930-f8bc-4b86-8def-43cbc3c7d86c7.png"
+  res.data.growthValue = "9999"
+  res.data.vipTag = "VIP7"
+  res.data.openBtnText = "永久会员"
+  res.data.vipmIcon = "https://image.kuwo.cn/fe/34ad47f8-da7f-43e4-abdc-e6c995666368yyb.png"
+  res.data.svipIcon = "https://image.kuwo.cn/fe/13e4f930-f8bc-4b86-8def-43cbc3c7d86c7.png"
+  res.data.vipmExpire = "4077187200315"
+  res.data.vipExpires = 4077187200315,
+  res.data.luxuryIcon = "https://image.kuwo.cn/fe/2fae68ff-de2d-4473-bf28-8efc29e44968vip.png"
+  res.data.luxAutoPayUser = "0"
+  res.data.vipExpire = "4077187200315"
+  $done({body:JSON.stringify(res)})
+}
+
 
