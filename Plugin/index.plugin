@@ -7,6 +7,6 @@
 #!tag = 阿旺の库
 
 [Script]
-http-request ^https?:\/\/api\.wsgw-rewrite\.com\/electricity\/bill\/all script-path = https://raw.githubusercontent.com/dompling/Script/master/wsgw/index.js, requires-body = true, timeout = 60, tag = 接口重写, img-url = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/guoshangguowang.png
+http-request ^https?:\/\/api\.wsgw-rewrite\.com\/electricity\/bill\/all script-path=https://raw.githubusercontent.com/dompling/Script/master/wsgw/index.js, requires-body=true, timeout=60, tag=接口重写, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/guoshangguowang.png
 [MITM]
 hostname = api.wsgw-rewrite.com
