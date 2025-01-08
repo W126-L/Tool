@@ -1,21 +1,31 @@
-let url = 'https://bad.news/tag/porn/sort-hot/page-' + Math.floor(Math.random() * 10)
+let type = {
+    "短视频":"tag/porn",
+    "长视频":"tag/long-porn",
+    "日本AV":"av",
+    "H动漫":"dm"
+}
+type = type[$argument.type] || type["短视频"];
+let url = 'https://bad.news/'+type+'/page-' + Math.floor(Math.random() * 10)
 async function loadCheerio() {
     return new Promise(async (resolve) => {
-        $.getScript(
-            'https://cdn.jsdelivr.net/gh/Yuheng0101/X@main/Utils/cheerio.js'
-        ).then((fn) => {
-            eval(fn)
+			$httpClient.get("https://cdn.jsdelivr.net/gh/Yuheng0101/X@main/Utils/cheerio.js", function(errormsg,response,data){
+				eval(data)
             const cheerio = createCheerio()
-            console.log(`✅ cheerio加载成功, 请继续`)
             resolve(cheerio)
-        })
+			})
     })
 }
 const cheerio = await loadCheerio()
-console.log(`✅ cheerio加载成功, 请继续`)
-
-var attach = {
-    "openUrl":"https://video.twimg.com/ext_tw_video/1876816664043667456/pu/pl/JBGogn26Zdi863kl.m3u8?tag=12",
-    "mediaUrl":"https://img.dnnmr.cn/short_image/7ec057d11d0c4f3cb389db976ea0b5e4.jpg"
+$httpClient.get(url, function(errormsg,response,data){
+  const $ = cheerio.load(data)
+	
+	const divs = $('div.cnt.show');
+	const randomIndex = Math.floor(Math.random() * divs.length);
+  const randomElement = divs[randomIndex];
+  const linkText = $(randomElement).find('h3 a').text().trim();
+	const videoUrl = $(randomElement).find('video.my-videos').attr('data-source')
+	var attach = {
+    "openUrl":videoUrl
 }
-$notification.post("title","subtitle","content",attach)
+$notification.post("bad.news","",linkText,attach)
+})
