@@ -1,0 +1,19 @@
+#!name = 91视频
+#!desc = 91视频
+#!author = Wuang备份 [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/91.plugin
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/91.png
+#!tag = 阿旺の库
+
+[Argument]
+type = select,"最新","推荐","排行",tag=类型
+arg1 = input,"0 20 * * *",tag=获取视频时间
+[Script]
+//图片解密
+http-response ^https:\/\/img.dnnmr.cn script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/91img.js, requires-body=true, binary-body-mode=true, timeout=60, tag=91, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/91.png
+//定时获取随机视频推送
+cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/91.js, timeout=60, tag=91, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/91.png, argument=[{type}]
+
+[MITM]
+hostname = img.dnnmr.cn
