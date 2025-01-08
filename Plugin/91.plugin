@@ -11,11 +11,11 @@ type = select,"最新","推荐","排行",tag=类型
 arg1 = input,"0 20 * * *",tag=定时
 [Script]
 //图片解密
-http-response ^https:\/\/img.dnnmr.cn script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/91img.js, requires-body=true, binary-body-mode=true, timeout=60, tag=91, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/91.png
+http-response ^https:\/\/img.dnnmr.cn script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/91img.js, requires-body=true, binary-body-mode=true, timeout=60, tag=91图片解密, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/91.png
 //视频附带协议头
-http-request ^https:\/\/play.cdnmicrosoft.com script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/91sp.js, timeout=60, tag=91, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/91.png
+http-request ^https:\/\/play.cdnmicrosoft.com script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/91sp.js, timeout=60, tag=91视频, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/91.png
 //定时获取随机视频推送
-cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/91.js, timeout=60, tag=91, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/91.png, argument=[{type}]
+cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/91.js, timeout=60, tag=91推送, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/91.png, argument=[{type}]
 
 [MITM]
 hostname = img.dnnmr.cn, play.cdnmicrosoft.com
