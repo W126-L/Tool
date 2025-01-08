@@ -6,6 +6,9 @@
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/91.png
 #!tag = 阿旺の库
 
+[Rule]
+DOMAIN-SUFFIX,bad.news,PROXY
+
 [Argument]
 arg1 = input,"0 20 * * *",tag=定时
 [Script]
