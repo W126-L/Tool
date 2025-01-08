@@ -1,7 +1,4 @@
 #!name = 91视频
-
-import { request } from "express"
-
 #!desc = 91视频
 #!author = Wuang备份 [https://github.com/W126-L]
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/91.plugin
@@ -21,4 +18,4 @@ http-request ^https:\/\/play.cdnmicrosoft.com script-path=https://raw.githubuser
 cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/91.js, timeout=60, tag=91, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/91.png, argument=[{type}]
 
 [MITM]
-hostname = img.dnnmr.cn
+hostname = img.dnnmr.cn, play.cdnmicrosoft.com
