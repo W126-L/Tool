@@ -1,4 +1,3 @@
-@js:
 var CryptoJS=CryptoJS||(function(Math,undefined){var crypto;if(typeof window!=='undefined'&&window.crypto){crypto=window.crypto}
 if(typeof self!=='undefined'&&self.crypto){crypto=self.crypto}
 if(typeof globalThis!=='undefined'&&globalThis.crypto){crypto=globalThis.crypto}
