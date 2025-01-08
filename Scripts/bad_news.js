@@ -4,6 +4,11 @@ let type = {
     "日本AV":"av",
     "H动漫":"dm"
 }
+let app = {
+	"Safari":"",
+	"zFuse":"splive://",
+	"nPlayer":"nplayer-"
+}
 type = type[$argument.type] || type["短视频"];
 let url = 'https://bad.news/'+type+'/page-' + Math.floor(Math.random() * 10)
 async function loadCheerio() {
@@ -25,7 +30,7 @@ $httpClient.get(url, function(errormsg,response,data){
   const linkText = $(randomElement).find('h3 a').text().trim();
 	const videoUrl = $(randomElement).find('video.my-videos').attr('data-source')
 	var attach = {
-    "openUrl":videoUrl
+    "openUrl":app[$argument.app]videoUrl
 }
 $notification.post("bad.news","",linkText,attach)
 })
