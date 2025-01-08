@@ -30,7 +30,7 @@ $httpClient.get(url, function(errormsg,response,data){
   const linkText = $(randomElement).find('h3 a').text().trim();
 	const videoUrl = $(randomElement).find('video.my-videos').attr('data-source')
 	var attach = {
-    "openUrl":app[$argument.app]videoUrl
+    "openUrl":app[$argument.app]+videoUrl
 }
 $notification.post("bad.news","",linkText,attach)
 })
