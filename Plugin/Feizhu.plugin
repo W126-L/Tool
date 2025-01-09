@@ -1,6 +1,6 @@
 #!name = 飞猪去广告
 #!desc = 飞猪APP去开屏广告，小tips：如无效，清除App缓存数据，或卸载APP重新安装
-#!author = Wuang备份 [https://github.com/W126-L]
+#!author = Wuang备份-原作者@墨 [https://github.com/W126-L]
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Feizhu.plugin
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Feizhu.png
