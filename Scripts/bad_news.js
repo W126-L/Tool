@@ -1,5 +1,5 @@
 let type = {
-    "短视频":"tag/porn",
+    "短视频":"tag/porn/sort-hot",
     "长视频":"tag/long-porn",
     "日本AV":"av",
     "H动漫":"dm"
