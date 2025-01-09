@@ -1,6 +1,6 @@
 #!name = bad.news
-#!desc = bad.news
-#!author = Wuang备份 [https://github.com/W126-L]
+#!desc = bad.news定时获取推送视频
+#!author = Wuang备份-原作者@墨 [https://github.com/W126-L]
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/bad_news.plugin
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/bad_news.png
