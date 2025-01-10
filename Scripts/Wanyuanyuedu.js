@@ -1,7 +1,7 @@
 /******************************
 > 原作者：叮当猫（@ios151-Baby）
 [rewrite_local]
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wanyuanyuedu.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Wanyuanyuedu.js
 
 [mitm] 
 hostname = buy.itunes.apple.com
