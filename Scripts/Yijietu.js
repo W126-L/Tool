@@ -19,7 +19,7 @@
 [rewrite_local]
   
 # > 易截图2☆去除水印（2023-08-02）@ddgksf2013
-^https?:\/\/.*jietu.*com/apiv\d/user url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/yijietu2.js
+^https?:\/\/.*jietu.*com/apiv\d/user url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Yijietu.js
 
 
 [mitm] 
