@@ -14,7 +14,7 @@
 使用方法：
 
 1、QX > 右下角风车 > 重写 > 规则资源 > 引用以下脚本 > 打开资源解析器
-https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/weibovip.js
+https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Weibo-VIP.js
 
 2、解锁位置：
 微博 > 我 > 右上角设置 > 会员专属设置 > 个性图标/微博来源
@@ -28,8 +28,8 @@ https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/weibovip.js
 hostname = new.vip.weibo.cn,api.weibo.cn,weibointl.api.weibo.cn
 
 [rewrite_local]
-https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js
-https:\/\/api\.weibo\.cn\/device\/get url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js
-https:\/\/weibointl\.api\.weibo\.cn\/portal\.php url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/wb.js
+https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Wb.js
+https:\/\/api\.weibo\.cn\/device\/get url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Wb.js
+https:\/\/weibointl\.api\.weibo\.cn\/portal\.php url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Wb.js
 
 ********************************/
