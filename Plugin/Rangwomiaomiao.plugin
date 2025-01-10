@@ -1,0 +1,13 @@
+#!name = 让我喵喵
+#!desc = 看个漫画而已，别让广告扫兴！解锁兑换会员,畅快看漫画。
+#!author = Wuang备份-原作者@Yu9191 [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Rangwomiaomiao.plugin
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Rangwomiaomiao.png
+#!tag = 阿旺の库
+
+[Script]
+http-response https://www.pdreamer.com/aymyProd/api/getUserInfo script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Rangwomiaomiao.js, requires-body=true, timeout=60, tag=让我喵喵, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Rangwomiaomiao.png
+
+[MITM]
+hostname = www.pdreamer.com
