@@ -13,7 +13,7 @@
 
 使用方法：
 
-1、QX > 右下角风车 > 重写 > 规则资源 > 引用以下脚本 > 打开资源解析器
+1、添加重写或插件：
 https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Weibo-VIP.js
 
 2、解锁位置：
