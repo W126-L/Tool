@@ -1,0 +1,13 @@
+#!name = 京东比价
+#!desc = 点击商品页面详情，价格弹窗通知显示
+#!author = Wuang备份提取-原作者@mw418 [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/JD_price.plugin
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/JD.png
+#!tag = 阿旺の库
+
+[Script]
+http-request ^https:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/JD_price.js, timeout=60, tag=京东比价, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/JD.png
+
+[MITM]
+hostname = in.m.jd.com
