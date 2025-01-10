@@ -13,7 +13,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.(yuchenglw|honghufly|privacypolicie|osupdate|jnruiying)\.(net|com) url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/seseshipin.js
+^https?:\/\/.*\.(yuchenglw|honghufly|privacypolicie|osupdate|jnruiying)\.(net|com) url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/SeseVideo.js
 
 [mitm]
 hostname = *.yuchenglw.com, *.honghufly.com, *.privacypolicie.net, *.osupdate.net, *.jnruiying.com
