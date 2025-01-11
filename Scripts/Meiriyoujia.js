@@ -8,8 +8,6 @@ let env = $.getEnv()
 if($.isLoon()){
   if($argument.arg1=="自定义选择地区"){
     addr = $argument.arg2
-  }{
-    addr = $argument.arg3
   }else{
     addr = dataJson[$argument.arg1];
   }
