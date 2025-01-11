@@ -6,7 +6,7 @@ let dataJson = {"北京油价":"/beijing","上海油价":"/shanghai","天津油�
 let addr = "";
 let env = $.getEnv()
 if($.isLoon()){
-  if($argument.arg1=="自定义地区"){
+  if($argument.arg1=="自定义选择地区"){
     addr = $argument.arg2
   }else{
     addr = dataJson[$argument.arg1];
