@@ -1,14 +1,14 @@
 #!name = 每日油价-Wuang-山西版
-#!desc = 定时获取山西地区油价
+#!desc = 定时获取指定地区油价
 #!author = 墨-@wuang [https://github.com/W126-L]
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Youjia.png
-#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Daily-oil.plugin
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Daily-oil-Wuang.plugin
 #!tag = 阿旺の库
 
 [Argument]
-arg1 = select,"自定义地区", "大同汽油价格", "朔州汽油价格", "忻州汽油价格", "太原汽油价格", "晋中汽油价格", "阳泉汽油价格", "吕梁汽油价格", "长治汽油价格", "临汾汽油价格", "晋城汽油价格", "运城汽油价格", tag=地区(推荐), desc=这是一个选择类型的参数说明
-arg2 = input,"",tag=地区拼音, desc=地区选择自定义时生效
+arg1 = select,"山西地区自选", "大同汽油价格", "朔州汽油价格", "忻州汽油价格", "太原汽油价格", "晋中汽油价格", "阳泉汽油价格", "吕梁汽油价格", "长治汽油价格", "临汾汽油价格", "晋城汽油价格", "运城汽油价格", tag=地区(推荐), desc=这是一个选择类型的参数说明
+arg2 = input,"",tag=地区拼音(自定义其他省份-省份/市区), desc=地区选择自定义时生效
 arg3 = input,"0 8 * * *", tag=获取油价任务时间
 
 [script]
