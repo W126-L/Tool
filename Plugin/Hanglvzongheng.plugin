@@ -7,7 +7,7 @@
 #!tag = 阿旺の库
 
 [Rewrite]
-^^https:\/\/oss.umetrip.com\/fs\/advert\/polit reject
+^http.*:\/\/oss.umetrip.com\/fs\/advert\/polit reject
 
 [Mitm]
 hostname = oss.umetrip.com
