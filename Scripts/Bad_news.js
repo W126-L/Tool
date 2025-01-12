@@ -33,4 +33,5 @@ $httpClient.get(url, function(errormsg,response,data){
     "openUrl":app[$argument.app]+videoUrl
 }
 $notification.post("bad.news","",linkText,attach)
+$done()
 })
