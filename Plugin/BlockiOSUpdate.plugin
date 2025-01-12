@@ -1,4 +1,4 @@
-#!name = iOS屏蔽系统更新
+#!name = iOS阻止系统更新
 #!desc = 阻止偷偷自动更新iOS系统，域名分流拦截
 #!author = Wuang [https://github.com/W126-L]
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/BlockiOSUpdate.plugin
@@ -7,7 +7,7 @@
 #!tag = 阿旺の库
 
 [Rule]
-# Block iOS Update阻止iOS更新
+# 阻止iOS更新
 DOMAIN,mesu.apple.com,REJECT
 DOMAIN,gdmf.apple.com,REJECT
 DOMAIN,updates-http.cdn-apple.com,REJECT
