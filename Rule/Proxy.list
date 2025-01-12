@@ -1,0 +1,37 @@
+# NAME: Proxy
+# AUTHOR: Mo
+# REPO: https://github.com/W126-L/Tool/tree/master/Rule
+DOMAIN-SUFFIX,51-cg.com
+DOMAIN-SUFFIX,stripchat.com
+DOMAIN,cdn.uaa.com
+DOMAIN-SUFFIX,cavporn.com
+DOMAIN-SUFFIX,cjcloud.cc
+URL-REGEX,".*?uaa\d+.com"
+DOMAIN-SUFFIX,69shuba.cx
+DOMAIN-SUFFIX,manwa.me
+DOMAIN-SUFFIX,91porn.com
+DOMAIN-SUFFIX,timotxt.com
+DOMAIN-SUFFIX,novel543.com
+DOMAIN-SUFFIX,volccdn.com,拦截模式
+DOMAIN-SUFFIX,madou.club
+DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,hanime1.me
+DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,pornlulu.com
+DOMAIN-SUFFIX,jiuse.icu
+DOMAIN-SUFFIX,xszav2.com
+DOMAIN-SUFFIX,bad.news
+DOMAIN-SUFFIX,yydscomic.com
+DOMAIN-SUFFIX,m.manhuagui.com
+DOMAIN-SUFFIX,wnacg.com
+DOMAIN-SUFFIX,hanmanmianfei.net
+DOMAIN-SUFFIX,nhentai.net
+DOMAIN-SUFFIX,69story.com
+DOMAIN-SUFFIX,powanjuan.cc
+DOMAIN-SUFFIX,funs.me
+DOMAIN-SUFFIX,bookbl.com
+DOMAIN-SUFFIX,hongxiuzhao.org
+DOMAIN-SUFFIX,hongxiux.com
+DOMAIN-SUFFIX,piaotian.com
+DOMAIN-SUFFIX,ptwxz.com
+DOMAIN-SUFFIX,czbooks.net

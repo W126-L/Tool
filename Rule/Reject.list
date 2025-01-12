@@ -1,0 +1,21 @@
+# NAME: Reject
+# AUTHOR: Mo
+# REPO: https://github.com/W126-L/Tool/tree/master/Rule
+DOMAIN-KEYWORD,pangolin
+DOMAIN-SUFFIX,volccdn.com
+DOMAIN,adservice.google.com
+DOMAIN,www.googleadservices.com
+DOMAIN,pagead2.googlesyndication.com
+DOMAIN,pubads.g.doubleclick.net
+DOMAIN,googleads.g.doubleclick.net
+DOMAIN,googleads.g.doubleclick-cn.net
+DOMAIN,adservice.google.com
+DOMAIN-KEYWORD,pglstatp
+DOMAIN-KEYWORD,adview
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN,admusicpic.music.126.net
+DOMAIN,iadmat.nosdn.127.net
+DOMAIN,iadmusicmat.music.126.net
+DOMAIN,iadmusicmatvideo.music.126.net
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,applvn.com
