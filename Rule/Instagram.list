@@ -1,0 +1,7 @@
+# NAME: Instagram
+# AUTHOR: Mo
+# REPO: https://github.com/W126-L/Tool/tree/master/Rule
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-KEYWORD,instagram
