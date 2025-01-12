@@ -1,5 +1,5 @@
 #!name = 每日油价
-#!desc = 定时获取指定地区油价
+#!desc = 定时获取指定地区油价，*tips*:*注意*:山西地区(shanxi/市区)，陕西地区(shanxi-3/市区)，参数优先级自上而下
 #!author = 墨-@wuang [https://github.com/W126-L]
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Youjia.png
