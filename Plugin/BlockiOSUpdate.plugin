@@ -7,7 +7,7 @@
 #!tag = 阿旺の库
 
 [Rule]
-# Block iOS Update
+# Block iOS Update阻止iOS更新
 DOMAIN,mesu.apple.com,REJECT
 DOMAIN,gdmf.apple.com,REJECT
 DOMAIN,updates-http.cdn-apple.com,REJECT
