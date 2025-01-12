@@ -7,9 +7,13 @@ let addr = "";
 let env = $.getEnv()
 if($.isLoon()){
   if($argument.arg1=="自定义选择地区"){
-    addr = $argument.arg2
+    if($argument.arg2=="自定义选择直辖市"){
+        addr = $argument.arg3
+      }else{
+        addr = dataJson[$argument.arg2]
+    }
   }else{
-    addr = dataJson[$argument.arg1];
+    addr = dataJson[$argument.arg1]
   }
 }
 if($.isQuanX()){
