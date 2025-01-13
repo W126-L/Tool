@@ -1,7 +1,7 @@
 #!name = 黑料网去广告
 #!desc = 去除部分广告，优先使用海外永久入口，其次使用国内入口(会变动)，走代理
 #!author = Wuang留存-原作者@fishdown [https://github.com/W126-L]
-#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Hlw.plugin
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/HLW.plugin
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Heiliaowang.png
 #!tag = 阿旺の库
