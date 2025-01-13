@@ -26,7 +26,7 @@ $httpClient.get(url, function (errormsg, response, data) {
 	const divs = $('div.cnt.show');
 	const randomIndex = Math.floor(Math.random() * divs.length);
 	const randomElement = divs[randomIndex];
-	const linkText = $(randomElement).find('h3 a').text().replace(/\s+/g, '');
+	const linkText = $(randomElement).find('h3 a').first().text().replace(/\s+/g, '');
 	const videoUrl = $(randomElement).find('video.my-videos').attr('data-source')
 	const imgUrl = $(randomElement).find('video.my-videos').attr('poster')
 	var attach = {
