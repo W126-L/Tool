@@ -1,5 +1,5 @@
-#!name = 菜谱大全、烘焙小屋、香哈菜谱
-#!desc = 菜谱大全、烘焙小屋、香哈菜谱解锁菜谱
+#!name = 菜谱大全、烘焙小屋、香哈菜谱（通用）
+#!desc = 菜谱大全、烘焙小屋、香哈菜谱（通用）解锁VIP，菜谱视频在线观看
 #!author = Wuang [https://github.com/W126-L]
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/CaiPu-3.plugin
 #!homepage = https://github.com/W126-L
@@ -7,7 +7,7 @@
 #!tag = 阿旺の库
 
 [Script]
-http-response ^https?:\/\/api.*\.xiangha\.com\/.+\/([Uu]ser\/(getUserData|info)|pay\/home|dish|home\/getUser|school) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/CaiPu-3.js, requires-body=true, timeout=60, tag=菜谱大全、烘焙小屋、香哈菜谱, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/CaiPu.png
+http-response ^https?:\/\/api.*\.xiangha\.com\/.+\/([Uu]ser\/(getUserData|info)|pay\/home|dish|home\/getUser|school) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/CaiPu-3.js, requires-body=true, timeout=60, tag=菜谱大全、烘焙小屋、香哈菜谱（通用）, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/CaiPu.png
 
 [mitm]
 hostname = *.xiangha.com
