@@ -1,0 +1,13 @@
+#!name = 菜谱大全、烘焙小屋、香哈菜谱
+#!desc = 菜谱大全、烘焙小屋、香哈菜谱解锁菜谱
+#!author = Wuang [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/CaiPu-3.plugin
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/CaiPu.png
+#!tag = 阿旺の库
+
+[rewrite_local]
+^https?:\/\/api.*\.xiangha\.com\/.+\/([Uu]ser\/(getUserData|info)|pay\/home|dish|home\/getUser|school) url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/CaiPu-3.js, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/CaiPu.png
+
+[mitm]
+hostname = *.xiangha.com
