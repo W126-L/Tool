@@ -6,8 +6,8 @@
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/CaiPu.png
 #!tag = 阿旺の库
 
-[rewrite_local]
-^https?:\/\/api.*\.xiangha\.com\/.+\/([Uu]ser\/(getUserData|info)|pay\/home|dish|home\/getUser|school) url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/CaiPu-3.js, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/CaiPu.png
+[Script]
+http-response ^https?:\/\/api.*\.xiangha\.com\/.+\/([Uu]ser\/(getUserData|info)|pay\/home|dish|home\/getUser|school) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/CaiPu-3.js, requires-body=true, timeout=60, tag=菜谱大全、烘焙小屋、香哈菜谱, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/CaiPu.png
 
 [mitm]
 hostname = *.xiangha.com
