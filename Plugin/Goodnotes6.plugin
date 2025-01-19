@@ -1,0 +1,13 @@
+#!name = Goodnotes6
+#!desc = 解锁订阅（非永久解锁，需保持脚本运行状态）
+#!author = Wuang备份-原作者@Baby [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Goodnotes6.plugin
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Goodnotes6.png
+#!tag = 阿旺の库
+
+[Rewrite]
+^https:\/\/isi\.csan\.goodnotes\.com\/v1\/subscribers\/[a-f0-9\-]{36}$ header https://goodenotes6.lovebabyforever.workers.dev/
+
+[MITM]
+hostname = isi.csan.goodnotes.com
