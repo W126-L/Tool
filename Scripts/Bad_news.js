@@ -15,7 +15,7 @@ let app = {
     "zFuse": "splive://",
     "nPlayer": "nplayer-"
 }
-type = type[$argument.type] || type["短视频"];
+type = type[$argument.type]
 if(type=="tag/pron/"){
     type = type + sort[$argument.sort]
 }
