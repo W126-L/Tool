@@ -20,7 +20,7 @@ if($argument.type=="短视频"){
     type = type + sort[$argument.sort]
 }
 let url = 'https://bad.news/' + type + '/page-' + Math.floor(Math.random() * 400)
-$.log(url)
+console.log(url)
     async function loadCheerio() {
     return new Promise(async(resolve) => {
         $httpClient.get("https://cdn.jsdelivr.net/gh/Yuheng0101/X@main/Utils/cheerio.js", function (errormsg, response, data) {
