@@ -20,7 +20,7 @@ if($argument.type=="短视频"){
     type = type + sort[$argument.sort]
 }
 let url = 'https://bad.news/' + type + '/page-' + Math.floor(Math.random() * 400)
-console.log(url)
+    console.log(url)
     async function loadCheerio() {
     return new Promise(async(resolve) => {
         $httpClient.get("https://cdn.jsdelivr.net/gh/Yuheng0101/X@main/Utils/cheerio.js", function (errormsg, response, data) {
@@ -39,6 +39,8 @@ $httpClient.get(url, function (errormsg, response, data) {
 	const linkText = $(randomElement).find('h3 a').first().text().replace(/\s+/g, '');
 	const videoUrl = $(randomElement).find('video.my-videos').attr('data-source')
 	const imgUrl = $(randomElement).find('video.my-videos').attr('poster')
+    console.log(imgUrl)
+    console.log(videoUrl)
 	var attach = {
 		"mediaUrl":imgUrl,
 		"openUrl": app[$argument.app] + videoUrl
