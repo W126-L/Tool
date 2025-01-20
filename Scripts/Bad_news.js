@@ -16,7 +16,7 @@ let app = {
     "nPlayer": "nplayer-"
 }
 type = type[$argument.type]
-if(type=="tag/pron/"){
+if($argument.type=="短视频"){
     type = type + sort[$argument.sort]
 }
 let url = 'https://bad.news/' + type + '/page-' + Math.floor(Math.random() * 400)
