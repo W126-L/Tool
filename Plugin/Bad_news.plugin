@@ -11,9 +11,10 @@ DOMAIN-SUFFIX,bad.news,PROXY
 
 [Argument]
 type = select,"短视频","长视频","日本AV","H动漫",tag=视频分类
+sort = select,"最热","最新","最高分","精选",tag=视频排序
 arg1 = input,"0 20 * * *",tag=定时推送
 app = select,"Safari","zFuse","nPlayer",tag=打开方式
 
 [Script]
 //定时获取随机视频推送
-cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Bad_news.js, timeout=60, tag=Bad.news推送, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Bad_news.png, argument=[{type},{app}]
+cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Bad_news.js, timeout=60, tag=Bad.news推送, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Bad_news.png, argument=[{type},{app},{sort}]
