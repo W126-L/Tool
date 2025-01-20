@@ -19,7 +19,7 @@ type = type[$argument.type]
 if(type=="tag/pron/"){
     type = type + sort[$argument.sort]
 }
-let url = 'https://bad.news/' + type + '/page-' + Math.floor(Math.random() * 10)
+let url = 'https://bad.news/' + type + '/page-' + Math.floor(Math.random() * 400)
 $.log(url)
     async function loadCheerio() {
     return new Promise(async(resolve) => {
