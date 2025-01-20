@@ -1,8 +1,14 @@
 let type = {
-    "短视频": "tag/porn/sort-hot",
+    "短视频": "tag/porn/",
     "长视频": "tag/long-porn",
     "日本AV": "av",
     "H动漫": "dm"
+}
+let sort = {
+    "最热":"sort-hot",
+    "最新":"sort-new",
+    "最高分":"sort-scor",
+    "精选":"sort-better"
 }
 let app = {
     "Safari": "",
@@ -10,6 +16,9 @@ let app = {
     "nPlayer": "nplayer-"
 }
 type = type[$argument.type] || type["短视频"];
+if(type=="tag/pron/"){
+    type = type + sort[$argument.sort]
+}
 let url = 'https://bad.news/' + type + '/page-' + Math.floor(Math.random() * 10)
     async function loadCheerio() {
     return new Promise(async(resolve) => {
