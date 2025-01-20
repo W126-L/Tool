@@ -8,5 +8,8 @@
 
 [Script]
 http-request ^https?:\/\/api\.wsgw-rewrite\.com\/electricity\/bill\/all script-path=https://raw.githubusercontent.com/dompling/Script/master/wsgw/index.js, requires-body=true, timeout=60, tag=接口重写, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Guoshangguowang.png
+
+cron "0 21 * * *" script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/95598.js, timeout=60, tag=网上国网定时任务, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Guoshangguowang.png
+
 [MITM]
 hostname = api.wsgw-rewrite.com
