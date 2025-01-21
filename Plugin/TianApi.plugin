@@ -3,7 +3,7 @@
 #!author = Wuang备份-原作者@墨 [https://github.com/W126-L]
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/TianApi.plugin
 #!homepage = https://github.com/W126-L
-#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/07/b9/1607b9c2-fc13-6dcd-1b2c-2bfcf3e80c31/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Yan.png
 #!tag = 阿旺の库
 
 [Argument]
@@ -11,4 +11,4 @@ api = select,"土情话","朋友圈文案","互删句子","早安心语","晚安
 arg1 = input,"0 20 * * *",tag=定时推送
 
 [Script]
-cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/TianApi.js, timeout=60, tag=语录, img-url=https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/07/b9/1607b9c2-fc13-6dcd-1b2c-2bfcf3e80c31/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp, argument=[{api}]
+cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/TianApi.js, timeout=60, tag=语录, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Yan.png, argument=[{api}]
