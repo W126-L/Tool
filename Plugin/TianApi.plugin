@@ -11,4 +11,4 @@ api = select,"土情话","朋友圈文案","互删句子","早安心语","晚安
 arg1 = input,"0 20 * * *",tag=定时推送
 
 [Script]
-cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/TianApi.js, timeout=60, tag=Bad.news推送, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/TianApi.png, argument=[{api}]
+cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/TianApi.js, timeout=60, tag=语录, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/TianApi.png, argument=[{api}]
