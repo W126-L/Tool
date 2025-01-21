@@ -1,5 +1,5 @@
 #!name = 网上国网
-#!desc = 国上国网获取Boxjs，Scriptable小组件数据，BoxJs订阅地址:https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/boxjs.json
+#!desc = 国上国网获取Boxjs，Scriptable小组件数据，并进行定时任务。BoxJs订阅地址:https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/boxjs.json
 #!author = Wuang备份-原作者@小白脸|𝐎𝐍𝐙𝟑𝐕 [https://github.com/W126-L]
 #!homepage = https://raw.githubusercontent.com/dompling/Script/master/wsgw/index.js
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/95598.plugin
@@ -11,9 +11,9 @@
 arg1 = input,"0 20 * * *",tag=cron
 
 [Script]
-http-request ^https?:\/\/api\.wsgw-rewrite\.com\/electricity\/bill\/all script-path=https://raw.githubusercontent.com/dompling/Script/master/wsgw/index.js, requires-body=true, timeout=60, tag=接口重写, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Guoshangguowang.png
+http-request ^https?:\/\/api\.wsgw-rewrite\.com\/electricity\/bill\/all script-path=https://raw.githubusercontent.com/dompling/Script/master/wsgw/index.js, requires-body=true, timeout=60, tag=网上国网小组件-数据更新の接口, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Guoshangguowang.png
 
-cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/95598.js, timeout=60, tag=网上国网定时任务, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Guoshangguowang.png
+cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/95598.js, timeout=60, tag=网上国网-定时任务, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Guoshangguowang.png
 
 [MITM]
 hostname = api.wsgw-rewrite.com
