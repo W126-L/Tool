@@ -22,7 +22,8 @@ async function get(api,key){
 }
 let content = await get(api[$argument.api],$.key)
 var attach = {
-		"mediaUrl":""
+		"mediaUrl":"https://api.suyanw.cn/api/meizi.php",
+		"openUrl":"http://tucdn.wpon.cn/api-girl/index.php"
 	}
 	$notification.post($argument.api, "", content, attach)
 $done()
