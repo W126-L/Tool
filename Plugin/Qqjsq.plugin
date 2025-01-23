@@ -7,7 +7,7 @@
 #!tag = 阿旺の库
 
 [Script]
-http-response ^http:\/\/chenghu\.kuaixuanwo\.com\/user\/info script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Qqjsq.js, requires-body=true, timeout=60, tag=亲戚计算器
+http-response ^http:\/\/chenghu\.kuaixuanwo\.com\/user\/info script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Qqjsq.js, requires-body=true, timeout=60, tag=亲戚计算器,img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Qinqijisuanqi.png
 
 [MITM]
 hostname = chenghu.kuaixuanwo.com
