@@ -7,8 +7,8 @@ const folderPath = path.join(__dirname, 'IconSet');
 // 定义图片文件的基础 URL
 const baseURL = 'https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/';
 const jsonData = {
-    "name": "Mo",
-    "description": "By zyzdai",
+    "name": "墨 & Wuang",
+    "description": "此图标库图标由Wuang大偷特偷，由墨倾情制作而成，桀桀桀，遇到两个相同图标，可选择搜索108px or 120px，选择对应的即可",
     "icons": []
 }
 fs.writeFileSync('pics.json', JSON.stringify(jsonData, null, 2)); 
