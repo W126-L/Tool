@@ -1,5 +1,214 @@
 {
-  "name": "Mo",
+  "name": "Color+",
   "description": "By zyzdai",
-  "icons": []
+  "icons": [
+    {
+      "name": "91",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/91.png"
+    },
+    {
+      "name": "AppStore",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/AppStore.png"
+    },
+    {
+      "name": "Bad_news",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Bad_news.png"
+    },
+    {
+      "name": "Bahamut",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Bahamut.png"
+    },
+    {
+      "name": "Budayang",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Budayang.png"
+    },
+    {
+      "name": "CaiPu",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/CaiPu.png"
+    },
+    {
+      "name": "CamScanner",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/CamScanner.png"
+    },
+    {
+      "name": "China-Broadnet",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/China-Broadnet.png"
+    },
+    {
+      "name": "China-Operator",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/China-Operator.png"
+    },
+    {
+      "name": "Douyin",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Douyin.png"
+    },
+    {
+      "name": "Earth",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Earth.png"
+    },
+    {
+      "name": "FanQie",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/FanQie.png"
+    },
+    {
+      "name": "Feizhu",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Feizhu.png"
+    },
+    {
+      "name": "FreeVideo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/FreeVideo.png"
+    },
+    {
+      "name": "Goodnotes6",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Goodnotes6.png"
+    },
+    {
+      "name": "Guoshangguowang",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Guoshangguowang.png"
+    },
+    {
+      "name": "Hanglvzongheng-108px",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Hanglvzongheng-108px.png"
+    },
+    {
+      "name": "Hanglvzongheng-120px",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Hanglvzongheng-120px.png"
+    },
+    {
+      "name": "Heiliao",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Heiliao.png"
+    },
+    {
+      "name": "Heiliaowang",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Heiliaowang.png"
+    },
+    {
+      "name": "HuiLv",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/HuiLv.png"
+    },
+    {
+      "name": "JD-108px",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/JD-108px.png"
+    },
+    {
+      "name": "JD-120px",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/JD-120px.png"
+    },
+    {
+      "name": "JavDB",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/JavDB.png"
+    },
+    {
+      "name": "KuwoMusic-Pro",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/KuwoMusic-Pro.png"
+    },
+    {
+      "name": "KuwoMusic",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/KuwoMusic.png"
+    },
+    {
+      "name": "Lenovo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Lenovo.png"
+    },
+    {
+      "name": "ManYa",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/ManYa.png"
+    },
+    {
+      "name": "Miaomiao",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Miaomiao.png"
+    },
+    {
+      "name": "Moyu",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Moyu.png"
+    },
+    {
+      "name": "NoUpdate",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/NoUpdate.png"
+    },
+    {
+      "name": "Pornhub",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Pornhub.png"
+    },
+    {
+      "name": "QQMusic",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/QQMusic.png"
+    },
+    {
+      "name": "Qinqijisuanqi",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Qinqijisuanqi.png"
+    },
+    {
+      "name": "QutingMusic",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/QutingMusic.png"
+    },
+    {
+      "name": "Read",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Read.png"
+    },
+    {
+      "name": "SeseVideo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/SeseVideo.png"
+    },
+    {
+      "name": "ShuaiKa",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/ShuaiKa.png"
+    },
+    {
+      "name": "Thunder",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Thunder.png"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Twitter.png"
+    },
+    {
+      "name": "WPS",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/WPS.png"
+    },
+    {
+      "name": "WeChat",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/WeChat.png"
+    },
+    {
+      "name": "Weibo-108px",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Weibo-108px.png"
+    },
+    {
+      "name": "Weibo-120px",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Weibo-120px.png"
+    },
+    {
+      "name": "Yan",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Yan.png"
+    },
+    {
+      "name": "Yase",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Yase.png"
+    },
+    {
+      "name": "YiRanDeLe",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/YiRanDeLe.png"
+    },
+    {
+      "name": "Yijietu",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Yijietu.png"
+    },
+    {
+      "name": "Youjia",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/Youjia.png"
+    },
+    {
+      "name": "i4",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/i4.png"
+    },
+    {
+      "name": "iFreeTime-Fang",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/iFreeTime-Fang.png"
+    },
+    {
+      "name": "iFreeTime-Yuan",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/iFreeTime-Yuan.png"
+    }
+  ]
 }
