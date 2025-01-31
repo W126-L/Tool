@@ -21,10 +21,6 @@ jobs:
       with:
         node-version: '16'  # 设置 Node.js 版本
 
-    - name: Install dependencies
-      run: |
-        npm install  # 如果需要，可以添加依赖项安装步骤
-
     - name: Run script to generate pics.json
       run: |
         node generatePicsJson.js  # 执行生成 JSON 文件的脚本
