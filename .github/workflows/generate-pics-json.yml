@@ -1,0 +1,40 @@
+name: Generate Pics JSON
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  generate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3  # 检出仓库代码
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'  # 设置 Node.js 版本
+
+    - name: Install dependencies
+      run: |
+        npm install  # 如果需要，可以添加依赖项安装步骤
+
+    - name: Run script to generate pics.json
+      run: |
+        node generatePicsJson.js  # 执行生成 JSON 文件的脚本
+
+    - name: Commit and push generated pics.json
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add pics.json
+        git commit -m "Update pics.json"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的 token 来推送更改
