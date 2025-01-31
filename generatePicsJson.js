@@ -6,6 +6,14 @@ const folderPath = path.join(__dirname, 'setIcons');
 
 // 定义图片文件的基础 URL
 const baseURL = 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/';
+const data = {
+    "name": "Mo",
+    "description": "By zyzdai",
+    "icons": []
+}
+fs.writeFileSync('pics.json', JSON.stringify(data, null, 2)); 
+
+
 
 // 获取文件夹中的所有文件
 fs.readdir(folderPath, (err, files) => {
