@@ -6,12 +6,12 @@ const folderPath = path.join(__dirname, 'IconSet');
 
 // 定义图片文件的基础 URL
 const baseURL = 'https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/';
-const data = {
+const jsonData = {
     "name": "Mo",
     "description": "By zyzdai",
     "icons": []
 }
-fs.writeFileSync('pics.json', JSON.stringify(data, null, 2)); 
+fs.writeFileSync('pics.json', JSON.stringify(jsonData, null, 2)); 
 
 
 
@@ -32,11 +32,7 @@ fs.readdir(folderPath, (err, files) => {
     }));
 
     // 构建最终的 JSON 数据
-    const jsonData = {
-        name: "Color+",
-        description: "By zyzdai",
-        icons: icons
-    };
+    jsonData.icons = icons;
 
     // 将结果写入 pics.json 文件
     const outputFilePath = path.join(__dirname, 'pics.json');
