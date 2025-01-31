@@ -2,10 +2,10 @@ const fs = require('fs');
 const path = require('path');
 
 // 定义文件夹路径
-const folderPath = path.join(__dirname, 'setIcons');
+const folderPath = path.join(__dirname, 'IconSet');
 
 // 定义图片文件的基础 URL
-const baseURL = 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/';
+const baseURL = 'https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/';
 const data = {
     "name": "Mo",
     "description": "By zyzdai",
