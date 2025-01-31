@@ -5,7 +5,7 @@ const path = require('path');
 const folderPath = path.join(__dirname, 'IconSet');
 
 // 定义图片文件的基础 URL
-const baseURL = 'https://raw.githubusercontent.com/W126-L/Tool/mini/master/IconSet/';
+const baseURL = 'https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/';
 const jsonData = {
     "name": "Mo",
     "description": "By zyzdai",
