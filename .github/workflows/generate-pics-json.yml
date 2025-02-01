@@ -1,51 +1,64 @@
-name: Generate Pics JSON
+name: Generate and Commit JSON & Image Files
 
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - main  # 触发 Actions 的分支（例如 main 分支）
 
 jobs:
-  generate-json:
-    runs-on: ubuntu-latest
-
+  generate_and_commit:
+    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 运行环境
+    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3  # 检出仓库代码
+    - name: Checkout the repository
+      uses: actions/checkout@v3  # 克隆当前的 GitHub 仓库
 
     - name: Set up Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v3  # 设置 Node.js 环境
       with:
-        node-version: '20'  # 设置 Node.js 版本
+        node-version: '20'  # 你可以根据需要设置 Node.js 版本
 
     - name: Install dependencies
-      run: |
-        npm install  # 安装依赖
+      run: npm install  # 如果你有依赖项，需要先安装它们
 
-    - name: Run script to generate 120px.json and 108px.json
-      run: |
-        node generatePicsJson.js  # 执行生成 JSON 文件的脚本
-      continue-on-error: false  # 如果脚本执行失败，则终止工作流
+    - name: Run generatePicsJson.js to generate files
+      run: node generatePicsJson.js  # 执行你的脚本生成文件
 
-    - name: Commit and push generated pics.json
+    - name: Find and commit generated JSON and image files
       run: |
-        # 确保生成的 JSON 文件存在
-        if [[ -f 120px.json || -f 108px.json ]]; then
+        # 查找根目录下所有的 .json 文件
+        GENERATED_JSON_FILES=$(find . -maxdepth 1 -type f -name "*.json")
+        
+        # 查找 IconSet/108px/ 目录下所有的 .png 文件
+        GENERATED_IMAGE_FILES_108=$(find IconSet/108px/ -type f -name "*.png")
+
+        # 查找 IconSet/120px/ 目录下所有的 .png 文件
+        GENERATED_IMAGE_FILES_120=$(find IconSet/120px/ -type f -name "*.png")
+
+        # 合并所有生成的文件
+        GENERATED_IMAGE_FILES="$GENERATED_IMAGE_FILES_108 $GENERATED_IMAGE_FILES_120"
+
+        # 检查是否有生成的文件
+        if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_IMAGE_FILES" ]; then
+          echo "The following files are changed:"
+          echo "$GENERATED_JSON_FILES"
+          echo "$GENERATED_IMAGE_FILES"
+
+          # 设置 Git 配置信息
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add 120px.json 108px.json
-          # 检查文件是否有更改
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update generated JSON files"
-            git push
-          fi
+
+          # 添加生成的文件到 Git 暂存区
+          git add $GENERATED_JSON_FILES
+          git add $GENERATED_IMAGE_FILES
+
+          # 提交更改
+          git commit -m "Update generated JSON and image files"
+
+          # 推送更改到 GitHub
+          git push
         else
-          echo "No JSON files to commit"
+          echo "No JSON or image files to commit"
         fi
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的 token 来推送更改
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动通过 GitHub token 进行身份验证
