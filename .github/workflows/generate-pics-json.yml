@@ -36,6 +36,10 @@ jobs:
         if [ -n "$picsIndir" ]; then
           echo "Deleting the following files: $picsIndir"
           rm -f $picsIndir  # 删除所有文件
+          # 仅提交删除的文件
+          git add -u  # 只将删除或修改过的文件添加到 Git 暂存区
+          git commit -m "Delete files in picsIndir"  # 提交删除操作
+          git push
         else
           echo "No files found to delete in picsIndir"
         fi
