@@ -27,7 +27,7 @@ jobs:
     - name: Find all files in IconSet directory
       run: |
         # 查找 IconSet 目录下的所有文件
-        PICSINDIR=$(find IconSet -maxdepth 1 -type f -name "*.*")
+        PICSINDIR=$(find ./IconSet/ -maxdepth 1 -type f)
         echo "Found files in IconSet: $PICSINDIR"
 
     - name: Delete all files in PICSINDIR
