@@ -24,14 +24,20 @@ jobs:
     - name: Run generatePicsJson.js to generate files
       run: node generatePicsJson.js  # 执行你的脚本生成文件
 
+    - name: Find all files in IconSet directory
+      run: |
+        # 查找 IconSet 目录下的所有文件
+        picsIndir=$(find IconSet -maxdepth 1 -type f)
+        echo "Found files in IconSet: $picsIndir"
+
     - name: Delete all files in picsIndir
       run: |
-        # 删除 picsIndir 目录下的所有文件
-        if [ -d "picsIndir" ]; then
-          rm -rf picsIndir/*
-          echo "Deleted all files in picsIndir"
+        # 删除 picsIndir 中列出的所有文件
+        if [ -n "$picsIndir" ]; then
+          echo "Deleting the following files: $picsIndir"
+          rm -f $picsIndir  # 删除所有文件
         else
-          echo "picsIndir directory does not exist"
+          echo "No files found to delete in picsIndir"
         fi
 
     - name: Find and commit generated JSON and image files
