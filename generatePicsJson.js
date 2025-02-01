@@ -217,8 +217,8 @@ function picsIndir(){
     })
 }
 function main(){
-    // picsIndir()
-    // tongbu()
+    picsIndir()
+    tongbu()
     go()
 }
 main()
