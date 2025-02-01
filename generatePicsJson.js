@@ -165,14 +165,14 @@ function picsIndir(){
                         } else {
                             console.log('转换图片成功:', newPath);
                             //删除原图
-                            // console.log('删除原图:', file);
-                            // fs.unlink(file, (err) => {
-                            //     if (err) {
-                            //         console.error('删除文件失败:', err);
-                            //     } else {
-                            //         console.log('删除文件成功');
-                            //     }
-                            // })
+                            console.log('删除原图:', file);
+                            fs.unlink(file, (err) => {
+                                if (err) {
+                                    console.error('删除文件失败:', err);
+                                } else {
+                                    console.log('删除文件成功');
+                                }
+                            })
                         }
                     });
                 }else{
@@ -194,24 +194,24 @@ function picsIndir(){
                             } else {
                                 console.log('转换成功');
                                 //删除原文件
-                                // fs.unlink(file, (err) => {
-                                //     if (err) {
-                                //         console.error('删除文件失败:', err);
-                                //     } else {
-                                //         console.log('删除文件成功');
-                                //     }
-                                // })
+                                fs.unlink(file, (err) => {
+                                    if (err) {
+                                        console.error('删除文件失败:', err);
+                                    } else {
+                                        console.log('删除文件成功');
+                                    }
+                                })
                             }
                         })
                 }
             }else{
-                // fs.unlink(file, (err) => {
-                //     if (err) {
-                //         console.error('删除文件失败:', err);
-                //     } else {
-                //         console.log('图片尺寸小于120px，不符合要求,已删除');
-                //     }
-                // })
+                fs.unlink(file, (err) => {
+                    if (err) {
+                        console.error('删除文件失败:', err);
+                    } else {
+                        console.log('图片尺寸小于120px，不符合要求,已删除');
+                    }
+                })
             }
         })
     })
