@@ -75,10 +75,6 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Hanglvzongheng-108px.png"
     },
     {
-      "name": "Hanglvzongheng-120px",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Hanglvzongheng-120px.png"
-    },
-    {
       "name": "Heiliao",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Heiliao.png"
     },
@@ -87,20 +83,12 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Heiliaowang.png"
     },
     {
-      "name": "Huawei",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Huawei.png"
-    },
-    {
       "name": "HuiLv",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/HuiLv.png"
     },
     {
       "name": "JD-108px",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/JD-108px.png"
-    },
-    {
-      "name": "JD-120px",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/JD-120px.png"
     },
     {
       "name": "JavDB",
@@ -155,10 +143,6 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Read.png"
     },
     {
-      "name": "Reqable",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Reqable.png"
-    },
-    {
       "name": "SeseVideo",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/SeseVideo.png"
     },
@@ -187,10 +171,6 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Weibo-108px.png"
     },
     {
-      "name": "Weibo-120px",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Weibo-120px.png"
-    },
-    {
       "name": "Yan",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Yan.png"
     },
@@ -199,16 +179,8 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Yase.png"
     },
     {
-      "name": "Yijietu",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Yijietu.png"
-    },
-    {
       "name": "Youjia",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Youjia.png"
-    },
-    {
-      "name": "ceshi",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ceshi.png"
     },
     {
       "name": "i4",
@@ -221,14 +193,6 @@
     {
       "name": "iFreeTime-Yuan",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iFreeTime-Yuan.png"
-    },
-    {
-      "name": "qq",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/qq.png"
-    },
-    {
-      "name": "qq1",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/qq1.png"
     }
   ]
 }
