@@ -3,67 +3,66 @@ name: Generate and Commit JSON & Image Files
 on:
   push:
     branches:
-      - main  # Trigger on push to main branch
+      - main  # 触发 Actions 的分支（例如 main 分支）
 
 jobs:
   generate_and_commit:
-    runs-on: ubuntu-latest  # Use the latest Ubuntu environment
+    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 运行环境
     
     steps:
     - name: Checkout the repository
-      uses: actions/checkout@v3  # Checkout the repository
+      uses: actions/checkout@v3  # 克隆当前的 GitHub 仓库
 
     - name: Set up Node.js
-      uses: actions/setup-node@v3  # Set up Node.js environment
+      uses: actions/setup-node@v3  # 设置 Node.js 环境
       with:
-        node-version: '20'  # Set the Node.js version as needed
+        node-version: '20'  # 你可以根据需要设置 Node.js 版本
 
     - name: Install dependencies
-      run: npm install  # Install dependencies if needed
+      run: npm install  # 如果你有依赖项，需要先安装它们
 
     - name: Run generatePicsJson.js to generate files
-      run: node generatePicsJson.js  # Run your script to generate files
+      run: node generatePicsJson.js  # 执行你的脚本生成文件
 
     - name: Find and commit generated JSON and image files
       run: |
-        # Find all .json files in the root directory excluding package files
+        # 查找根目录下所有的 .json 文件
         GENERATED_JSON_FILES=$(find . -maxdepth 1 -type f -name "*.json" ! -name "package.json" ! -name "package-lock.json")
         
-        # Find all .png files in IconSet/108px/ directory
+        # 查找 IconSet/108px/ 目录下所有的 .png 文件
         GENERATED_IMAGE_FILES_108=$(find IconSet/108px/ -type f -name "*.png")
 
-        # Find all .png files in IconSet/120px/ directory
+        # 查找 IconSet/120px/ 目录下所有的 .png 文件
         GENERATED_IMAGE_FILES_120=$(find IconSet/120px/ -type f -name "*.png")
 
-        # Merge both image file lists
+        # 合并所有生成的文件
         GENERATED_IMAGE_FILES="$GENERATED_IMAGE_FILES_108 $GENERATED_IMAGE_FILES_120"
 
-        # Check if any files are found
+        # 检查是否有生成的文件
         if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_IMAGE_FILES" ]; then
           echo "The following files are changed:"
           echo "$GENERATED_JSON_FILES"
           echo "$GENERATED_IMAGE_FILES"
 
-          # Set Git user details for commit
+          # 设置 Git 配置信息
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-          # Add files to Git staging area (ensure proper handling of file names with spaces)
-          git add "$GENERATED_JSON_FILES"
-          git add "$GENERATED_IMAGE_FILES"
+          # 添加生成的文件到 Git 暂存区
+          git add $GENERATED_JSON_FILES
+          git add $GENERATED_IMAGE_FILES
 
-          # Commit the changes
+          # 提交更改
           git commit -m "Update generated JSON and image files"
 
-          # Push changes to GitHub
+          # 推送更改到 GitHub
           git push
         else
           echo "No JSON or image files to commit"
         fi
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token for authentication
-
-    - name: Clean up files in IconSet directory, keeping subdirectory files
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动通过 GitHub token 进行身份验证
+      
+    - name: Find and commit generated JSON and image files
       run: |
-        # Delete files in IconSet directory but keep files in subdirectories
-        find IconSet -maxdepth 1 -type f -exec rm -f {} \;
+          find IconSet -maxdepth 1 -type f -exec rm -f {} \;
