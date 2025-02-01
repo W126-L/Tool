@@ -151,7 +151,7 @@ function picsIndir(){
                 if(metadata.format != 'png'){
                     console.log('图片格式为'+metadata.format+'需要转换:', file);
                     let newPath = file.replace('IconSet', 'IconSet/120px').replace(path.extname(file),".png")
-                    sharp(file).resize(120).png().toFile(newPath, function(err) {
+                    sharp(file).resize(120,120).png().toFile(newPath, function(err) {
                         if (err) {
                             console.error('转换图片失败:', err);
                         } else {
@@ -159,7 +159,7 @@ function picsIndir(){
                         }
                     });
                     newPath = file.replace('IconSet', 'IconSet/108px').replace(path.extname(file),".png")
-                    sharp(file).resize(108).png().toFile(newPath, function(err) {
+                    sharp(file).resize(108,108).png().toFile(newPath, function(err) {
                         if (err) {
                             console.error('转换图片失败:', err);
                         } else {
