@@ -3,6 +3,382 @@
   "description": "此图标库图标由Wuang大偷特偷，由墨倾情制作而成，图片尺寸为all",
   "icons": [
     {
+      "name": "Apple_Safari",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Apple_Safari.png"
+    },
+    {
+      "name": "Apple_SpringLoaded",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Apple_SpringLoaded.png"
+    },
+    {
+      "name": "Apple_TV",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Apple_TV.png"
+    },
+    {
+      "name": "Apple_TV_Plus",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Apple_TV_Plus.png"
+    },
+    {
+      "name": "Apple_Update",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Apple_Update.png"
+    },
+    {
+      "name": "Apple_Wallet",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Apple_Wallet.png"
+    },
+    {
+      "name": "Apple_Weather",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Apple_Weather.png"
+    },
+    {
+      "name": "Apple_iCloud",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Apple_iCloud.png"
+    },
+    {
+      "name": "Apple_iTunesStore",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Apple_iTunesStore.png"
+    },
+    {
+      "name": "China_Map",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/China_Map.png"
+    },
+    {
+      "name": "Christmas_Island",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Christmas_Island.png"
+    },
+    {
+      "name": "Cisco",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cisco.png"
+    },
+    {
+      "name": "Classmates",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Classmates.png"
+    },
+    {
+      "name": "Claude",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Claude.png"
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cloudflare.png"
+    },
+    {
+      "name": "Clubhouse",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Clubhouse.png"
+    },
+    {
+      "name": "Clubhouse_1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Clubhouse_1.png"
+    },
+    {
+      "name": "Clubhouse_2",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Clubhouse_2.png"
+    },
+    {
+      "name": "Cm",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cm.png"
+    },
+    {
+      "name": "CoCo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/CoCo.png"
+    },
+    {
+      "name": "Cocos_Island",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cocos_Island.png"
+    },
+    {
+      "name": "Coffee1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Coffee1.png"
+    },
+    {
+      "name": "Coffee2",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Coffee2.png"
+    },
+    {
+      "name": "Cola",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cola.png"
+    },
+    {
+      "name": "Colombia",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Colombia.png"
+    },
+    {
+      "name": "Colosseum",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Colosseum.png"
+    },
+    {
+      "name": "Comoros",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Comoros.png"
+    },
+    {
+      "name": "Cook_Islands",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cook_Islands.png"
+    },
+    {
+      "name": "Copilot",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Copilot.png"
+    },
+    {
+      "name": "Cord",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cord.png"
+    },
+    {
+      "name": "Corsica",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Corsica.png"
+    },
+    {
+      "name": "Costa_Rica",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Costa_Rica.png"
+    },
+    {
+      "name": "Cream2",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cream2.png"
+    },
+    {
+      "name": "CreamData",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/CreamData.png"
+    },
+    {
+      "name": "Crimson",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Crimson.png"
+    },
+    {
+      "name": "Croatia",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Croatia.png"
+    },
+    {
+      "name": "Crocodile_with_glasses",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Crocodile_with_glasses.png"
+    },
+    {
+      "name": "CrossGreatWall",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/CrossGreatWall.png"
+    },
+    {
+      "name": "Cryptocurrency",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cryptocurrency.png"
+    },
+    {
+      "name": "Cryptocurrency_1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cryptocurrency_1.png"
+    },
+    {
+      "name": "Cryptocurrency_2",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cryptocurrency_2.png"
+    },
+    {
+      "name": "Cryptocurrency_3",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cryptocurrency_3.png"
+    },
+    {
+      "name": "Csn",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Csn.png"
+    },
+    {
+      "name": "Csn1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Csn1.png"
+    },
+    {
+      "name": "Csn2",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Csn2.png"
+    },
+    {
+      "name": "Cuba",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cuba.png"
+    },
+    {
+      "name": "Curacao",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Curacao.png"
+    },
+    {
+      "name": "CurlyMouse",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/CurlyMouse.png"
+    },
+    {
+      "name": "CurlyMouse1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/CurlyMouse1.png"
+    },
+    {
+      "name": "Cydia",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cydia.png"
+    },
+    {
+      "name": "Cylink",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cylink.png"
+    },
+    {
+      "name": "Cyprus",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Cyprus.png"
+    },
+    {
+      "name": "Czech_Republic",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Czech_Republic.png"
+    },
+    {
+      "name": "DAZN",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DAZN.png"
+    },
+    {
+      "name": "DAZN_1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DAZN_1.png"
+    },
+    {
+      "name": "DAZN_2",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DAZN_2.png"
+    },
+    {
+      "name": "DE",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DE.png"
+    },
+    {
+      "name": "DIA",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DIA.png"
+    },
+    {
+      "name": "DJ",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DJ.png"
+    },
+    {
+      "name": "DLK",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DLK.png"
+    },
+    {
+      "name": "DaHangHai",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DaHangHai.png"
+    },
+    {
+      "name": "Daily",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Daily.png"
+    },
+    {
+      "name": "Daily_Motion",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Daily_Motion.png"
+    },
+    {
+      "name": "DarkGoldenRod",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DarkGoldenRod.png"
+    },
+    {
+      "name": "DarkOliveGreen",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DarkOliveGreen.png"
+    },
+    {
+      "name": "DarkSlateBlue",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DarkSlateBlue.png"
+    },
+    {
+      "name": "DegYax_01",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DegYax_01.png"
+    },
+    {
+      "name": "DegYax_02",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DegYax_02.png"
+    },
+    {
+      "name": "DegYax_03",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DegYax_03.png"
+    },
+    {
+      "name": "DegYax_04",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DegYax_04.png"
+    },
+    {
+      "name": "Delicious",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Delicious.png"
+    },
+    {
+      "name": "Democratic_Republic_Of_Congo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Democratic_Republic_Of_Congo.png"
+    },
+    {
+      "name": "Denmark",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Denmark.png"
+    },
+    {
+      "name": "Des",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Des.png"
+    },
+    {
+      "name": "Des1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Des1.png"
+    },
+    {
+      "name": "Dianliang",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Dianliang.png"
+    },
+    {
+      "name": "Diaspora",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Diaspora.png"
+    },
+    {
+      "name": "Didiemby",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Didiemby.png"
+    },
+    {
+      "name": "Dingdangamo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Dingdangamo.png"
+    },
+    {
+      "name": "Dinosaur",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Dinosaur.png"
+    },
+    {
+      "name": "Direct",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Direct.png"
+    },
+    {
+      "name": "Discord",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Discord.png"
+    },
+    {
+      "name": "Disney+",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Disney+.png"
+    },
+    {
+      "name": "Disney+_1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Disney+_1.png"
+    },
+    {
+      "name": "Disney+_2",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Disney+_2.png"
+    },
+    {
+      "name": "Disney",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Disney.png"
+    },
+    {
+      "name": "DisneyPlus",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DisneyPlus.png"
+    },
+    {
+      "name": "Djibouti",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Djibouti.png"
+    },
+    {
+      "name": "Dler",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Dler.png"
+    },
+    {
+      "name": "Docs",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Docs.png"
+    },
+    {
+      "name": "Domestic",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Domestic.png"
+    },
+    {
+      "name": "DomesticMedia",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/DomesticMedia.png"
+    },
+    {
+      "name": "Dominica",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Dominica.png"
+    },
+    {
+      "name": "Dominican_Republic",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Dominican_Republic.png"
+    },
+    {
       "name": "Dots",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Dots.png"
     },
@@ -399,6 +775,18 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Froghub.png"
     },
     {
+      "name": "GIA",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/GIA.png"
+    },
+    {
+      "name": "GLaDOS",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/GLaDOS.png"
+    },
+    {
+      "name": "GMedia",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/GMedia.png"
+    },
+    {
       "name": "GaCloud",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/GaCloud.png"
     },
@@ -459,8 +847,20 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Ghana.png"
     },
     {
+      "name": "Gibraltar",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Gibraltar.png"
+    },
+    {
+      "name": "GiffGaff",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/GiffGaff.png"
+    },
+    {
       "name": "GitHub",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/GitHub.png"
+    },
+    {
+      "name": "GitHub_Letter",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/GitHub_Letter.png"
     },
     {
       "name": "Global",
