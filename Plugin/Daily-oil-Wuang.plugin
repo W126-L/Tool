@@ -1,8 +1,8 @@
 #!name = 每日油价-Wuang°-山西版
 #!desc = 定时获取指定地区油价，*tips*:*注意*:山西地区(shanxi/市区)，陕西地区(shanxi-3/市区)，参数优先级自上而下
 #!author = 墨-@wuang [https://github.com/W126-L]
-#!homepage = https://github.com/W126-L
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Daily-oil-Wuang.plugin
+#!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Youjia.png
 #!tag = 阿旺の库
 
