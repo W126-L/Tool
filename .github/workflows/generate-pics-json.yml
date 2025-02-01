@@ -35,14 +35,19 @@ jobs:
         # 查找 IconSet/120px/ 目录下所有的 .png 文件
         GENERATED_IMAGE_FILES_120=$(find IconSet/120px/ -type f -name "*.png")
 
+        # 查找 IconSet目录下所有文件，不包含目录
+        picsIndir=$(find IconSet -maxdepth 1 -type f)
+
+
         # 合并所有生成的文件
         GENERATED_IMAGE_FILES="$GENERATED_IMAGE_FILES_108 $GENERATED_IMAGE_FILES_120"
 
         # 检查是否有生成的文件
-        if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_IMAGE_FILES" ]; then
+        if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_IMAGE_FILES" ] || [ -n "$picsIndir" ]; then
           echo "The following files are changed:"
           echo "$GENERATED_JSON_FILES"
           echo "$GENERATED_IMAGE_FILES"
+          echo "$picsIndir"
 
           # 设置 Git 配置信息
           git config --global user.name "GitHub Actions"
@@ -51,6 +56,7 @@ jobs:
           # 添加生成的文件到 Git 暂存区
           git add $GENERATED_JSON_FILES
           git add $GENERATED_IMAGE_FILES
+          git rm $picsIndir
 
           # 提交更改
           git commit -m "Update generated JSON and image files"
@@ -62,20 +68,3 @@ jobs:
         fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动通过 GitHub token 进行身份验证
-      
-    - name: Clean up files in IconSet directory, keeping subdirectory files
-      run: |
-        echo "Cleaning up files in IconSet directory..."
-        
-        # 删除 IconSet 目录下的文件，但保留子目录
-        find IconSet -maxdepth 1 -type f -exec rm -f {} \;
-        
-        # 确保 Git 识别并提交删除的文件
-        find IconSet -maxdepth 1 -type f -exec git rm {} \;
-    
-        # 清理所有未跟踪的文件（如 node_modules）
-        git clean -fd
-    
-        # 提交删除操作
-        git commit -m "Delete files in IconSet directory"  # 提交删除操作
-        git push  # 推送到 GitHub 仓库
