@@ -13,4 +13,4 @@ arg3 = input, "省份/市区-拼音形式", tag=(自定义地区), desc=地区�
 arg4 = input, "0 1 0 * * *", tag=获取油价任务时间
 
 [script]
-cron {arg4} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Meiriyoujia.js, timeout=120, tag=每日油价, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Youjia.png, argument=[{arg1},{arg2},{arg3}]
+cron {arg4} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Meiriyoujia.js, timeout=120, tag=每日油价, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Youjia.png, argument=[{arg1},{arg2},{arg3}]
