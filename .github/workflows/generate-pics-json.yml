@@ -67,9 +67,15 @@ jobs:
       run: |
         echo "Cleaning up files in IconSet directory..."
         
+        # 删除 IconSet 目录下的文件，但保留子目录
+        find IconSet -maxdepth 1 -type f -exec rm -f {} \;
+        
         # 确保 Git 识别并提交删除的文件
         find IconSet -maxdepth 1 -type f -exec git rm {} \;
     
+        # 清理所有未跟踪的文件（如 node_modules）
+        git clean -fd
+    
+        # 提交删除操作
         git commit -m "Delete files in IconSet directory"  # 提交删除操作
         git push  # 推送到 GitHub 仓库
-
