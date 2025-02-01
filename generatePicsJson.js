@@ -45,7 +45,7 @@ function generatePicsJson(dir) {
 //同步文件夹
 
 function tongbu(){
-        //同步108px和120px目录中的文件
+    //同步108px和120px目录中的文件
     const folderPath108 = path.join(__dirname, 'IconSet/108px');
     const folderPath120 = path.join(__dirname, 'IconSet/120px');
     const files108 = fs.readdirSync(folderPath108).filter(file => !file.startsWith('.')).map(file => path.join(folderPath108, file));
@@ -107,7 +107,10 @@ function tongbu(){
 }
 function go(){
     const rootPath = path.join(__dirname, 'IconSet');
-    const dirs = fs.readdirSync(rootPath).filter(file => !file.startsWith('.')).map(file => path.join(rootPath, file));
+    const dirs = fs.readdirSync(rootPath)
+    .filter(file => !file.startsWith('.'))  // 忽略以 . 开头的文件或目录
+    .map(file => path.join(rootPath, file)) // 获取完整路径
+    .filter(filePath => fs.statSync(filePath).isDirectory()); // 只保留目录
     dirs.forEach(dir => {
         generatePicsJson(dir)
     })
@@ -145,51 +148,77 @@ function picsIndir(){
                 })
             }else if(metadata.width > 120){
                 console.log('图片尺寸大于120px,需要转换:', file);
-                //转换尺寸120px保存到120px文件夹下
-                sharp(file)
-                    .png()
-                    .resize(120, 120)
-                    .toFile(file.replace('IconSet', 'IconSet/120px'), (err) => {
+                if(metadata.format != 'png'){
+                    console.log('图片格式为'+metadata.format+'需要转换:', file);
+                    let newPath = file.replace('IconSet', 'IconSet/120px').replace(path.extname(file),".png")
+                    sharp(file).resize(120).png().toFile(newPath, function(err) {
                         if (err) {
-                            console.error(err);
+                            console.error('转换图片失败:', err);
                         } else {
-                            console.log('转换成功');
+                            console.log('转换图片成功:', newPath);
                         }
-                    })
-                sharp(file)
-                    .png()
-                    .resize(108, 108)
-                    .toFile(file.replace('IconSet', 'IconSet/108px'), (err) => {
+                    });
+                    newPath = file.replace('IconSet', 'IconSet/108px').replace(path.extname(file),".png")
+                    sharp(file).resize(108).png().toFile(newPath, function(err) {
                         if (err) {
-                            console.error(err);
+                            console.error('转换图片失败:', err);
                         } else {
-                            console.log('转换成功');
+                            console.log('转换图片成功:', newPath);
+                            //删除原图
+                            console.log('删除原图:', file);
+                            fs.unlink(file, (err) => {
+                                if (err) {
+                                    console.error('删除文件失败:', err);
+                                } else {
+                                    console.log('删除文件成功');
+                                }
+                            })
                         }
-                    })
-                //删除原文件
-                fs.unlink(file, (err) => {
-                    if (err) {
-                        console.error('删除文件失败:', err);
-                    } else {
-                        console.log('删除文件成功');
-                    }
-                })
+                    });
+                }else{
+                    //转换尺寸120px保存到120px文件夹下
+                    sharp(file)
+                        .resize(120, 120)
+                        .toFile(file.replace('IconSet', 'IconSet/120px'), (err) => {
+                            if (err) {
+                                console.error(err);
+                            } else {
+                                console.log('转换成功');
+                            }
+                        })
+                    sharp(file)
+                        .resize(108, 108)
+                        .toFile(file.replace('IconSet', 'IconSet/108px'), (err) => {
+                            if (err) {
+                                console.error(err);
+                            } else {
+                                console.log('转换成功');
+                                //删除原文件
+                                fs.unlink(file, (err) => {
+                                    if (err) {
+                                        console.error('删除文件失败:', err);
+                                    } else {
+                                        console.log('删除文件成功');
+                                    }
+                                })
+                            }
+                        })
+                }
             }else{
                 fs.unlink(file, (err) => {
                     if (err) {
                         console.error('删除文件失败:', err);
                     } else {
-                        console.log('删除文件成功');
+                        console.log('图片尺寸小于120px，不符合要求,已删除');
                     }
                 })
-                console.log('图片尺寸小于120px，不符合要求,已删除');
             }
         })
     })
 }
 function main(){
-    picsIndir()
-    tongbu()
+    // picsIndir()
+    // tongbu()
     go()
 }
 main()
