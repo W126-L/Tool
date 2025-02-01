@@ -3,6 +3,314 @@
   "description": "此图标库图标由Wuang大偷特偷，由墨倾情制作而成，图片尺寸为all",
   "icons": [
     {
+      "name": "Sticker_1227",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1227.png"
+    },
+    {
+      "name": "Sticker_1228",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1228.png"
+    },
+    {
+      "name": "Sticker_1229",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1229.png"
+    },
+    {
+      "name": "Sticker_1230",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1230.png"
+    },
+    {
+      "name": "Sticker_1231",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1231.png"
+    },
+    {
+      "name": "Sticker_1232",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1232.png"
+    },
+    {
+      "name": "Sticker_1233",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1233.png"
+    },
+    {
+      "name": "Sticker_1234",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1234.png"
+    },
+    {
+      "name": "Sticker_1235",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1235.png"
+    },
+    {
+      "name": "Sticker_1236",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1236.png"
+    },
+    {
+      "name": "Sticker_1237",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1237.png"
+    },
+    {
+      "name": "Sticker_1238",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1238.png"
+    },
+    {
+      "name": "Sticker_1239",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1239.png"
+    },
+    {
+      "name": "Sticker_1240",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1240.png"
+    },
+    {
+      "name": "Sticker_1241",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1241.png"
+    },
+    {
+      "name": "Sticker_1242",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1242.png"
+    },
+    {
+      "name": "Sticker_1243",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1243.png"
+    },
+    {
+      "name": "Sticker_1244",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1244.png"
+    },
+    {
+      "name": "Sticker_1245",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1245.png"
+    },
+    {
+      "name": "Sticker_1246",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1246.png"
+    },
+    {
+      "name": "Sticker_1247",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1247.png"
+    },
+    {
+      "name": "Sticker_1248",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1248.png"
+    },
+    {
+      "name": "Sticker_1249",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1249.png"
+    },
+    {
+      "name": "Sticker_1250",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1250.png"
+    },
+    {
+      "name": "Sticker_1251",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1251.png"
+    },
+    {
+      "name": "Sticker_1252",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1252.png"
+    },
+    {
+      "name": "Sticker_1253",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1253.png"
+    },
+    {
+      "name": "Sticker_1254",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1254.png"
+    },
+    {
+      "name": "Sticker_1255",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1255.png"
+    },
+    {
+      "name": "Sticker_1256",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1256.png"
+    },
+    {
+      "name": "Sticker_1257",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1257.png"
+    },
+    {
+      "name": "Sticker_1258",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1258.png"
+    },
+    {
+      "name": "Sticker_1259",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1259.png"
+    },
+    {
+      "name": "Sticker_1260",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1260.png"
+    },
+    {
+      "name": "Sticker_1261",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1261.png"
+    },
+    {
+      "name": "Sticker_1262",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1262.png"
+    },
+    {
+      "name": "Sticker_1263",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1263.png"
+    },
+    {
+      "name": "Sticker_1264",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1264.png"
+    },
+    {
+      "name": "Sticker_1265",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1265.png"
+    },
+    {
+      "name": "Sticker_1266",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1266.png"
+    },
+    {
+      "name": "Sticker_1267",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1267.png"
+    },
+    {
+      "name": "Sticker_1268",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1268.png"
+    },
+    {
+      "name": "Sticker_1269",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1269.png"
+    },
+    {
+      "name": "Sticker_1270",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1270.png"
+    },
+    {
+      "name": "Sticker_1271",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1271.png"
+    },
+    {
+      "name": "Sticker_1272",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1272.png"
+    },
+    {
+      "name": "Sticker_1273",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1273.png"
+    },
+    {
+      "name": "Sticker_1274",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1274.png"
+    },
+    {
+      "name": "Sticker_1275",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1275.png"
+    },
+    {
+      "name": "Sticker_1276",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1276.png"
+    },
+    {
+      "name": "Sticker_1277",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1277.png"
+    },
+    {
+      "name": "Sticker_1278",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1278.png"
+    },
+    {
+      "name": "Sticker_1279",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1279.png"
+    },
+    {
+      "name": "Sticker_1280",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1280.png"
+    },
+    {
+      "name": "Sticker_1281",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1281.png"
+    },
+    {
+      "name": "Sticker_1282",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1282.png"
+    },
+    {
+      "name": "Sticker_1283",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1283.png"
+    },
+    {
+      "name": "Sticker_1284",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1284.png"
+    },
+    {
+      "name": "Sticker_1285",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1285.png"
+    },
+    {
+      "name": "Sticker_1286",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1286.png"
+    },
+    {
+      "name": "Sticker_1287",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1287.png"
+    },
+    {
+      "name": "Sticker_1288",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1288.png"
+    },
+    {
+      "name": "Sticker_1289",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1289.png"
+    },
+    {
+      "name": "Sticker_1290",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1290.png"
+    },
+    {
+      "name": "Sticker_1291",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1291.png"
+    },
+    {
+      "name": "Sticker_1292",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1292.png"
+    },
+    {
+      "name": "Sticker_1293",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1293.png"
+    },
+    {
+      "name": "Sticker_1294",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1294.png"
+    },
+    {
+      "name": "Sticker_1295",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1295.png"
+    },
+    {
+      "name": "Sticker_1296",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1296.png"
+    },
+    {
+      "name": "Sticker_1297",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1297.png"
+    },
+    {
+      "name": "Sticker_1298",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1298.png"
+    },
+    {
+      "name": "Sticker_1299",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1299.png"
+    },
+    {
+      "name": "Sticker_1300",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1300.png"
+    },
+    {
+      "name": "Sticker_1301",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1301.png"
+    },
+    {
+      "name": "Sticker_1302",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1302.png"
+    },
+    {
+      "name": "Sticker_1303",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Sticker_1303.png"
+    },
+    {
       "name": "TW",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/TW.png"
     },
@@ -403,6 +711,10 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/WE.png"
     },
     {
+      "name": "WYY",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/WYY.png"
+    },
+    {
       "name": "Walalala",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Walalala.png"
     },
@@ -433,6 +745,14 @@
     {
       "name": "WeChat",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/WeChat.png"
+    },
+    {
+      "name": "WeTV",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/WeTV.png"
+    },
+    {
+      "name": "WeTV_Letter",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/WeTV_Letter.png"
     },
     {
       "name": "We_Heart_It",
@@ -607,8 +927,44 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/WeiboTalk.png"
     },
     {
+      "name": "WestData",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/WestData.png"
+    },
+    {
+      "name": "WhatsApp",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/WhatsApp.png"
+    },
+    {
+      "name": "White",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/White.png"
+    },
+    {
+      "name": "WiFi",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/WiFi.png"
+    },
+    {
+      "name": "Windows",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Windows.png"
+    },
+    {
+      "name": "Windows_11",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Windows_11.png"
+    },
+    {
+      "name": "Windy1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/Windy1.png"
+    },
+    {
+      "name": "World_Map",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/World_Map.png"
+    },
+    {
       "name": "X",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/X.png"
+    },
+    {
+      "name": "X001",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/X001.png"
     },
     {
       "name": "X002",
