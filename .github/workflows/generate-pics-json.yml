@@ -24,26 +24,6 @@ jobs:
     - name: Run generatePicsJson.js to generate files
       run: node generatePicsJson.js  # 执行你的脚本生成文件
 
-    - name: Find all files in IconSet directory
-      run: |
-        # 查找 IconSet 目录下的所有文件
-        PICSINDIR=$(find IconSet -maxdepth 1)
-        echo "Found files in IconSet: $PICSINDIR"
-
-    # - name: Delete all files in PICSINDIR
-    #   run: |
-    #     # 删除 PICSINDIR 中列出的所有文件
-    #     if [ -n "$PICSINDIR" ]; then
-    #       echo "Deleting the following files: $PICSINDIR"
-    #       rm -f $PICSINDIR  # 删除所有文件
-    #       # 仅提交删除的文件
-    #       git add -u  # 只将删除或修改过的文件添加到 Git 暂存区
-    #       git commit -m "Delete files in PICSINDIR"  # 提交删除操作
-    #       git push
-    #     else
-    #       echo "No files found to delete in PICSINDIR"
-    #     fi
-
     - name: Find and commit generated JSON and image files
       run: |
         # 查找根目录下所有的 .json 文件
@@ -76,7 +56,9 @@ jobs:
           for file in $GENERATED_IMAGE_FILES; do
             git add "$file"
           done
-
+          
+          git add -u
+          
           # 提交更改
           git commit -m "Update generated JSON and image files"
 
