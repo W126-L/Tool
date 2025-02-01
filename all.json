@@ -3,6 +3,10 @@
   "description": "此图标库图标由Wuang大偷特偷，由墨倾情制作而成，图片尺寸为all",
   "icons": [
     {
+      "name": "104",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/104.png"
+    },
+    {
       "name": "1111",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/1111.png"
     },
@@ -21,10 +25,6 @@
     {
       "name": "23Studio",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/23Studio.png"
-    },
-    {
-      "name": "404",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/404.png"
     },
     {
       "name": "5iTV",
