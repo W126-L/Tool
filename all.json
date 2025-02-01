@@ -1,0 +1,406 @@
+{
+  "name": "墨 & Wuang",
+  "description": "此图标库图标由Wuang大偷特偷，由墨倾情制作而成，图片尺寸为all",
+  "icons": [
+    {
+      "name": "ad(2)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/ad(2).png"
+    },
+    {
+      "name": "ad(3)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/ad(3).png"
+    },
+    {
+      "name": "ad(4)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/ad(4).png"
+    },
+    {
+      "name": "ad(5)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/ad(5).png"
+    },
+    {
+      "name": "ad(6)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/ad(6).png"
+    },
+    {
+      "name": "ad(7)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/ad(7).png"
+    },
+    {
+      "name": "ad",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/ad.png"
+    },
+    {
+      "name": "apple(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/apple(1).png"
+    },
+    {
+      "name": "bigbus",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/bigbus.png"
+    },
+    {
+      "name": "myTV_SUPER",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/myTV_SUPER.png"
+    },
+    {
+      "name": "nanhe",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/nanhe.png"
+    },
+    {
+      "name": "netflix(old)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/netflix(old).png"
+    },
+    {
+      "name": "netflix(red)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/netflix(red).png"
+    },
+    {
+      "name": "nex",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/nex.png"
+    },
+    {
+      "name": "nfpro",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/nfpro.png"
+    },
+    {
+      "name": "nftwon",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/nftwon.png"
+    },
+    {
+      "name": "nfxiaopu",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/nfxiaopu.png"
+    },
+    {
+      "name": "niconico",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/niconico.png"
+    },
+    {
+      "name": "niconico_1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/niconico_1.png"
+    },
+    {
+      "name": "niconico_2",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/niconico_2.png"
+    },
+    {
+      "name": "nowe",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/nowe.png"
+    },
+    {
+      "name": "oil",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/oil.png"
+    },
+    {
+      "name": "oracle",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/oracle.png"
+    },
+    {
+      "name": "paypal(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/paypal(1).png"
+    },
+    {
+      "name": "pinduoduo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/pinduoduo.png"
+    },
+    {
+      "name": "play(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/play(1).png"
+    },
+    {
+      "name": "play(2)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/play(2).png"
+    },
+    {
+      "name": "play",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/play.png"
+    },
+    {
+      "name": "ql",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/ql.png"
+    },
+    {
+      "name": "ql_logo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/ql_logo.png"
+    },
+    {
+      "name": "quanqiu(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/quanqiu(1).png"
+    },
+    {
+      "name": "quanqiu(2)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/quanqiu(2).png"
+    },
+    {
+      "name": "quanqiu(3)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/quanqiu(3).png"
+    },
+    {
+      "name": "quanqiu",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/quanqiu.png"
+    },
+    {
+      "name": "relay",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/relay.png"
+    },
+    {
+      "name": "rocket(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/rocket(1).png"
+    },
+    {
+      "name": "rocket(2)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/rocket(2).png"
+    },
+    {
+      "name": "rocket(3)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/rocket(3).png"
+    },
+    {
+      "name": "scrssr",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/scrssr.png"
+    },
+    {
+      "name": "shadowrocket-01",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/shadowrocket-01.png"
+    },
+    {
+      "name": "shadowrocket",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/shadowrocket.png"
+    },
+    {
+      "name": "sheep",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/sheep.png"
+    },
+    {
+      "name": "shutiao",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/shutiao.png"
+    },
+    {
+      "name": "singapore(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/singapore(1).png"
+    },
+    {
+      "name": "singapore(2)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/singapore(2).png"
+    },
+    {
+      "name": "skylines",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/skylines.png"
+    },
+    {
+      "name": "smbc",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/smbc.png"
+    },
+    {
+      "name": "smzdm",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/smzdm.png"
+    },
+    {
+      "name": "social-paypal",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/social-paypal.png"
+    },
+    {
+      "name": "ssLinks",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/ssLinks.png"
+    },
+    {
+      "name": "stash1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/stash1.png"
+    },
+    {
+      "name": "stash2",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/stash2.png"
+    },
+    {
+      "name": "steam(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/steam(1).png"
+    },
+    {
+      "name": "switch",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/switch.png"
+    },
+    {
+      "name": "taipei101",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/taipei101.png"
+    },
+    {
+      "name": "taiwan(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/taiwan(1).png"
+    },
+    {
+      "name": "taiwan(2)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/taiwan(2).png"
+    },
+    {
+      "name": "tajmahal",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/tajmahal.png"
+    },
+    {
+      "name": "telegram(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/telegram(1).png"
+    },
+    {
+      "name": "telegram(blue1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/telegram(blue1).png"
+    },
+    {
+      "name": "tencentcloud",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/tencentcloud.png"
+    },
+    {
+      "name": "texon",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/texon.png"
+    },
+    {
+      "name": "texonhead",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/texonhead.png"
+    },
+    {
+      "name": "texonslab",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/texonslab.png"
+    },
+    {
+      "name": "texontv",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/texontv.png"
+    },
+    {
+      "name": "tiktok(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/tiktok(1).png"
+    },
+    {
+      "name": "tiktok(2)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/tiktok(2).png"
+    },
+    {
+      "name": "torii",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/torii.png"
+    },
+    {
+      "name": "tuhuyangche",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/tuhuyangche.png"
+    },
+    {
+      "name": "twitter(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/twitter(1).png"
+    },
+    {
+      "name": "wangzherongyao",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/wangzherongyao.png"
+    },
+    {
+      "name": "warp",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/warp.png"
+    },
+    {
+      "name": "warpcomet",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/warpcomet.png"
+    },
+    {
+      "name": "weibo_01",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/weibo_01.png"
+    },
+    {
+      "name": "whatsapp(2)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/whatsapp(2).png"
+    },
+    {
+      "name": "whatsinstash",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/whatsinstash.png"
+    },
+    {
+      "name": "wireguard",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/wireguard.png"
+    },
+    {
+      "name": "xfss1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/xfss1.png"
+    },
+    {
+      "name": "xianyu",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/xianyu.png"
+    },
+    {
+      "name": "ximalaya",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/ximalaya.png"
+    },
+    {
+      "name": "xqcloud",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/xqcloud.png"
+    },
+    {
+      "name": "xs",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/xs.png"
+    },
+    {
+      "name": "xxyx",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/xxyx.png"
+    },
+    {
+      "name": "xxyx_01",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/xxyx_01.png"
+    },
+    {
+      "name": "youtube(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/youtube(1).png"
+    },
+    {
+      "name": "youtube(2)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/youtube(2).png"
+    },
+    {
+      "name": "youtube(3)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/youtube(3).png"
+    },
+    {
+      "name": "yukimo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/yukimo.png"
+    },
+    {
+      "name": "yy1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/yy1.png"
+    },
+    {
+      "name": "zhangjun",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/zhangjun.png"
+    },
+    {
+      "name": "zhihu",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/zhihu.png"
+    },
+    {
+      "name": "zl-icon-jp-flag",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/zl-icon-jp-flag.png"
+    },
+    {
+      "name": "哆啦A梦",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/哆啦A梦.png"
+    },
+    {
+      "name": "小红书",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/小红书.png"
+    },
+    {
+      "name": "少数派",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/少数派.png"
+    },
+    {
+      "name": "溜冰猫",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/溜冰猫.png"
+    },
+    {
+      "name": "火星联盟",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/火星联盟.png"
+    },
+    {
+      "name": "白月光",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/白月光.png"
+    },
+    {
+      "name": "腾讯视频",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/腾讯视频.png"
+    },
+    {
+      "name": "花云",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/花云.png"
+    }
+  ]
+}
