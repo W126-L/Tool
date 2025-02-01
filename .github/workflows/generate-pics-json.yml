@@ -65,4 +65,9 @@ jobs:
       
     - name: Clean up files in IconSet directory, keeping subdirectory files
       run: |
-          find IconSet -maxdepth 1 -type f -exec rm -f {} \;
+        echo "Cleaning up files in IconSet directory..."
+        find IconSet -maxdepth 1 -type f -exec rm -f {} \;
+        # 确保 Git 识别并提交删除的文件
+        git add -A  # 添加所有更改（包括删除的文件）
+        git commit -m "Delete files in IconSet directory"  # 提交删除操作
+        git push  # 推送到 GitHub 仓库
