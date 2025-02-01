@@ -3359,6 +3359,10 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/huacloud.png"
     },
     {
+      "name": "huayun",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/huayun.png"
+    },
+    {
       "name": "huoxinglianmeng",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/huoxinglianmeng.png"
     },
@@ -3833,10 +3837,6 @@
     {
       "name": "zl-icon-jp-flag",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/zl-icon-jp-flag.png"
-    },
-    {
-      "name": "花云",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/all/花云.png"
     }
   ]
 }
