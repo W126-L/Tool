@@ -75,6 +75,10 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Hanglvzongheng-108px.png"
     },
     {
+      "name": "Hanglvzongheng-120px",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Hanglvzongheng-120px.png"
+    },
+    {
       "name": "Heiliao",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Heiliao.png"
     },
@@ -89,6 +93,10 @@
     {
       "name": "JD-108px",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/JD-108px.png"
+    },
+    {
+      "name": "JD-120px",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/JD-120px.png"
     },
     {
       "name": "JavDB",
@@ -171,12 +179,20 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Weibo-108px.png"
     },
     {
+      "name": "Weibo-120px",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Weibo-120px.png"
+    },
+    {
       "name": "Yan",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Yan.png"
     },
     {
       "name": "Yase",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Yase.png"
+    },
+    {
+      "name": "Yijietu",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Yijietu.png"
     },
     {
       "name": "Youjia",
