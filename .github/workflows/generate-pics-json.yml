@@ -63,6 +63,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动通过 GitHub token 进行身份验证
       
-    - name: Find and commit generated JSON and image files
+    - name: Clean up files in IconSet directory, keeping subdirectory files
       run: |
           find IconSet -maxdepth 1 -type f -exec rm -f {} \;
