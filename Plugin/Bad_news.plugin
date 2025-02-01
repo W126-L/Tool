@@ -3,7 +3,7 @@
 #!author = Wuang备份-原作者@墨 [https://github.com/W126-L]
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Bad_news.plugin
 #!homepage = https://github.com/W126-L
-#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Bad_news.png
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Bad_news.png
 #!tag = 阿旺の库
 
 [Rule]
@@ -17,4 +17,4 @@ app = select,"Safari","zFuse","nPlayer",tag=打开方式
 
 [Script]
 //定时获取随机视频推送
-cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Bad_news.js, timeout=60, tag=Bad.news推送, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/Bad_news.png, argument=[{type},{app},{sort}]
+cron {arg1} script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Bad_news.js, timeout=60, tag=Bad.news推送, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Bad_news.png, argument=[{type},{app},{sort}]
