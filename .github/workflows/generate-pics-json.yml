@@ -32,17 +32,11 @@ jobs:
         # 查找 IconSet/108px/ 目录下所有的 .png 文件
         GENERATED_IMAGE_FILES_108=$(find IconSet/108px/ -type f -name "*.png")
 
-        # 查找 IconSet/120px/ 目录下所有的 .png 文件
-        GENERATED_IMAGE_FILES_120=$(find IconSet/120px/ -type f -name "*.png")
-
-        # 合并所有生成的文件
-        GENERATED_IMAGE_FILES="$GENERATED_IMAGE_FILES_108 $GENERATED_IMAGE_FILES_120"
-
         # 检查是否有生成的文件
-        if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_IMAGE_FILES" ]; then
+        if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_IMAGE_FILES_108" ]; then
           echo "The following files are changed:"
           echo "$GENERATED_JSON_FILES"
-          echo "$GENERATED_IMAGE_FILES"
+          echo "$GENERATED_IMAGE_FILES_108"
 
           # 设置 Git 配置信息
           git config --global user.name "GitHub Actions"
@@ -53,7 +47,7 @@ jobs:
             git add -f "$file"
           done
           
-          for file in $GENERATED_IMAGE_FILES; do
+          for file in $GENERATED_IMAGE_FILES_108; do
             git add "$file"
           done
           
