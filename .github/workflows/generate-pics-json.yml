@@ -70,7 +70,7 @@ jobs:
 
           # 遍历文件并逐个添加到 Git 暂存区
           for file in $GENERATED_JSON_FILES; do
-            git add "$file"
+            git add -f "$file"
           done
           
           for file in $GENERATED_IMAGE_FILES; do
