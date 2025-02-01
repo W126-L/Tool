@@ -62,3 +62,7 @@ jobs:
         fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动通过 GitHub token 进行身份验证
+    - name: Clean up files in IconSet directory, keeping subdirectory files
+        run: |
+          # 删除 IconSet 目录下的文件，但保留子目录中的文件
+          find IconSet -maxdepth 1 -type f -exec rm -f {} \;
