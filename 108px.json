@@ -11,6 +11,14 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/91.png"
     },
     {
+      "name": "ASN",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ASN.png"
+    },
+    {
+      "name": "AliYunDrive",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AliYunDrive.png"
+    },
+    {
       "name": "AppStore",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AppStore.png"
     },
@@ -21,6 +29,10 @@
     {
       "name": "Bahamut",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Bahamut.png"
+    },
+    {
+      "name": "BiliBili",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/BiliBili.png"
     },
     {
       "name": "Budayang",
@@ -59,12 +71,28 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Feizhu.png"
     },
     {
+      "name": "Final",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Final.png"
+    },
+    {
       "name": "FreeVideo",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/FreeVideo.png"
     },
     {
+      "name": "GLaDOS",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/GLaDOS.png"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/GitHub.png"
+    },
+    {
       "name": "Goodnotes6",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Goodnotes6.png"
+    },
+    {
+      "name": "Google_Search",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Google_Search.png"
     },
     {
       "name": "Guoshangguowang",
@@ -123,8 +151,16 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/NoUpdate.png"
     },
     {
+      "name": "OpenAI",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/OpenAI.png"
+    },
+    {
       "name": "Pornhub",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Pornhub.png"
+    },
+    {
+      "name": "Proxy",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Proxy.png"
     },
     {
       "name": "QQMusic",
@@ -143,6 +179,14 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Read.png"
     },
     {
+      "name": "Reject",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Reject.png"
+    },
+    {
+      "name": "Renzhe",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Renzhe.png"
+    },
+    {
       "name": "SeseVideo",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/SeseVideo.png"
     },
@@ -151,12 +195,20 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ShuaiKa.png"
     },
     {
+      "name": "Telegram",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Telegram.png"
+    },
+    {
       "name": "Thunder",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Thunder.png"
     },
     {
       "name": "Twitter",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Twitter.png"
+    },
+    {
+      "name": "VIP",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/VIP.png"
     },
     {
       "name": "WPS",
@@ -183,6 +235,10 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Yijietu.png"
     },
     {
+      "name": "YouTube",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/YouTube.png"
+    },
+    {
       "name": "Youjia",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Youjia.png"
     },
@@ -197,6 +253,10 @@
     {
       "name": "iFreeTime-Yuan",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iFreeTime-Yuan.png"
+    },
+    {
+      "name": "telegram(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/telegram(1).png"
     }
   ]
 }
