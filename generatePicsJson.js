@@ -64,7 +64,6 @@ function tongbu(){
                         }
                     });
             }else{
-                console.log('120px图片已存在:', newPath);
                 //移动到120px文件夹下
                 const newPath = file.replace('108px', '120px');
                 fs.rename(file, newPath, (err) => {
