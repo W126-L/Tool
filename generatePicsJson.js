@@ -218,7 +218,11 @@ function picsIndir(){
 }
 function main(){
     picsIndir()
-    tongbu()
-    go()
+    setInterval(()=>{
+        tongbu()
+    },5000)
+    setInterval(()=>{
+        go()
+    },5000)
 }
 main()
