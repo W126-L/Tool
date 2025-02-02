@@ -1,0 +1,406 @@
+{
+  "name": "墨 & Wuang",
+  "description": "此图标库图标由Wuang大偷特偷，由墨倾情制作而成，图片尺寸为0",
+  "icons": [
+    {
+      "name": "18",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/18.png"
+    },
+    {
+      "name": "AAEX",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AAEX.png"
+    },
+    {
+      "name": "AEX",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AEX.png"
+    },
+    {
+      "name": "AI",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AI.png"
+    },
+    {
+      "name": "AL",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AL.png"
+    },
+    {
+      "name": "ALiYun",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/ALiYun.png"
+    },
+    {
+      "name": "AR",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AR.png"
+    },
+    {
+      "name": "ASN",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/ASN.png"
+    },
+    {
+      "name": "AcEmby",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AcEmby.png"
+    },
+    {
+      "name": "AcEmby1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AcEmby1.png"
+    },
+    {
+      "name": "Acg",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Acg.png"
+    },
+    {
+      "name": "AdBlack",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AdBlack.png"
+    },
+    {
+      "name": "AdBlock",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AdBlock.png"
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AdGuard.png"
+    },
+    {
+      "name": "AdWhite",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AdWhite.png"
+    },
+    {
+      "name": "AdblockPlus",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AdblockPlus.png"
+    },
+    {
+      "name": "Admin",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Admin.png"
+    },
+    {
+      "name": "Ads",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Ads.png"
+    },
+    {
+      "name": "Advertising",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Advertising.png"
+    },
+    {
+      "name": "Adwords",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Adwords.png"
+    },
+    {
+      "name": "AfreecaTV",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AfreecaTV.png"
+    },
+    {
+      "name": "Aiqiyi",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Aiqiyi.png"
+    },
+    {
+      "name": "Air_Bnb",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Air_Bnb.png"
+    },
+    {
+      "name": "Airport",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Airport.png"
+    },
+    {
+      "name": "Alibaba",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Alibaba.png"
+    },
+    {
+      "name": "Alink",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Alink.png"
+    },
+    {
+      "name": "Alist",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Alist.png"
+    },
+    {
+      "name": "All4",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/All4.png"
+    },
+    {
+      "name": "Amazon",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Amazon.png"
+    },
+    {
+      "name": "Amy",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Amy.png"
+    },
+    {
+      "name": "AmyTelecom",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AmyTelecom.png"
+    },
+    {
+      "name": "AmyTelecom_1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AmyTelecom_1.png"
+    },
+    {
+      "name": "Anyland",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Anyland.png"
+    },
+    {
+      "name": "Apeach",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apeach.png"
+    },
+    {
+      "name": "AppStore",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AppStore.png"
+    },
+    {
+      "name": "Apple",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple.png"
+    },
+    {
+      "name": "AppleMusic",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AppleMusic.png"
+    },
+    {
+      "name": "AppleNews",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/AppleNews.png"
+    },
+    {
+      "name": "Apple_1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_1.png"
+    },
+    {
+      "name": "Apple_2",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_2.png"
+    },
+    {
+      "name": "Apple_AppleStore",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_AppleStore.png"
+    },
+    {
+      "name": "Apple_Arcade",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Arcade.png"
+    },
+    {
+      "name": "Apple_Books",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Books.png"
+    },
+    {
+      "name": "Apple_Classic",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Classic.png"
+    },
+    {
+      "name": "Apple_FaceTime",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_FaceTime.png"
+    },
+    {
+      "name": "Apple_Fitness+",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Fitness+.png"
+    },
+    {
+      "name": "Apple_Fitness",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Fitness.png"
+    },
+    {
+      "name": "Apple_GameCenter",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_GameCenter.png"
+    },
+    {
+      "name": "Apple_Home",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Home.png"
+    },
+    {
+      "name": "Apple_Mail",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Mail.png"
+    },
+    {
+      "name": "Apple_Messages",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Messages.png"
+    },
+    {
+      "name": "Apple_Music",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Music.png"
+    },
+    {
+      "name": "Apple_News",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_News.png"
+    },
+    {
+      "name": "Apple_Safari",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Safari.png"
+    },
+    {
+      "name": "Apple_SpringLoaded",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_SpringLoaded.png"
+    },
+    {
+      "name": "Apple_TV",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_TV.png"
+    },
+    {
+      "name": "Apple_TV_Plus",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_TV_Plus.png"
+    },
+    {
+      "name": "Apple_Update",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Update.png"
+    },
+    {
+      "name": "Apple_Wallet",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Wallet.png"
+    },
+    {
+      "name": "Apple_Weather",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_Weather.png"
+    },
+    {
+      "name": "Apple_iCloud",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_iCloud.png"
+    },
+    {
+      "name": "Apple_iTunesStore",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Apple_iTunesStore.png"
+    },
+    {
+      "name": "Area",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Area.png"
+    },
+    {
+      "name": "Argentina",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Argentina.png"
+    },
+    {
+      "name": "Ark",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Ark.png"
+    },
+    {
+      "name": "Armenia",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Armenia.png"
+    },
+    {
+      "name": "Aruba",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Aruba.png"
+    },
+    {
+      "name": "Atvii",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Atvii.png"
+    },
+    {
+      "name": "Auto",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Auto.png"
+    },
+    {
+      "name": "Auto_Speed",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Auto_Speed.png"
+    },
+    {
+      "name": "Available",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Available.png"
+    },
+    {
+      "name": "Available_1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Available_1.png"
+    },
+    {
+      "name": "Aws",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Aws.png"
+    },
+    {
+      "name": "Azure",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Azure.png"
+    },
+    {
+      "name": "BBC_iPlayer",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/BBC_iPlayer.png"
+    },
+    {
+      "name": "BBC_iPlayer_1",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/BBC_iPlayer_1.png"
+    },
+    {
+      "name": "BBbus",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/BBbus.png"
+    },
+    {
+      "name": "Baby",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Baby.png"
+    },
+    {
+      "name": "Back",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Back.png"
+    },
+    {
+      "name": "Badoo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Badoo.png"
+    },
+    {
+      "name": "Bahamas",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Bahamas.png"
+    },
+    {
+      "name": "Bahamut",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Bahamut.png"
+    },
+    {
+      "name": "Bahrain",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Bahrain.png"
+    },
+    {
+      "name": "BaiDuYun",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/BaiDuYun.png"
+    },
+    {
+      "name": "BaiPiaoWang",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/BaiPiaoWang.png"
+    },
+    {
+      "name": "Baidu",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Baidu.png"
+    },
+    {
+      "name": "Bailanyun",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Bailanyun.png"
+    },
+    {
+      "name": "Bajie",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Bajie.png"
+    },
+    {
+      "name": "Bamboo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Bamboo.png"
+    },
+    {
+      "name": "Bangladesh",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Bangladesh.png"
+    },
+    {
+      "name": "Barbados",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/Barbados.png"
+    },
+    {
+      "name": "ad(2)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/ad(2).png"
+    },
+    {
+      "name": "ad(3)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/ad(3).png"
+    },
+    {
+      "name": "ad(4)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/ad(4).png"
+    },
+    {
+      "name": "ad(5)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/ad(5).png"
+    },
+    {
+      "name": "ad(6)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/ad(6).png"
+    },
+    {
+      "name": "ad(7)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/ad(7).png"
+    },
+    {
+      "name": "ad",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/ad.png"
+    },
+    {
+      "name": "apple(1)",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/apple(1).png"
+    },
+    {
+      "name": "baiyueguang",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/0/baiyueguang.png"
+    }
+  ]
+}
