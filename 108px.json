@@ -3,6 +3,10 @@
   "description": "此图标库图标由Wuang大偷特偷，由墨倾情制作而成，图片尺寸为108px",
   "icons": [
     {
+      "name": "0-Mo",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/0-Mo.png"
+    },
+    {
       "name": "0-YiRanDeLe",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/0-YiRanDeLe.png"
     },
