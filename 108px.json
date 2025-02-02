@@ -199,6 +199,10 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ShuaiKa.png"
     },
     {
+      "name": "Telegram-2",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Telegram-2.png"
+    },
+    {
       "name": "Telegram",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Telegram.png"
     },
@@ -269,10 +273,6 @@
     {
       "name": "iFreeTime-Yuan",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iFreeTime-Yuan.png"
-    },
-    {
-      "name": "telegram-2",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/telegram-2.png"
     }
   ]
 }
