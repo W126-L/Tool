@@ -5,13 +5,15 @@ function go(){
     const Plugin_path = path.join(__dirname, 'Plugin');
     const plugins = fs.readdirSync(Plugin_path);
     let resHtml = `# Loon 插件列表
+    <div>
     <table>
     <tr><th> 图标 </th> <th> 插件名称 </th> <th> 插件功能 </th> </tr >
     <tr>
 		$content
     </tr>
-    </table>`
-    let tmp = '<div><tr ><td ><img src="$icon" alt="$alt" width="20" height="20" style="border: 1px solid #000;border-radius: 10%;" loading="lazy"></td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr></div>'
+    </table>
+    </div>`
+    let tmp = '<tr ><td ><img src="$icon" alt="$alt" width="20" height="20" style="border: 1px solid #000;border-radius: 10%;" loading="lazy"></td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>'
     let content = ''
     plugins.forEach(plugin => {
         let pluginContent = fs.readFileSync(path.join(Plugin_path, plugin), 'utf8')
