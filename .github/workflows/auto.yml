@@ -1,4 +1,4 @@
-name: 自动生成 README.md
+name: master_auto_js
 
 on:
   push:
