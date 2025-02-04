@@ -7,14 +7,14 @@ function go(){
     let resHtml = `# Loon 插件列表
 
 <table>
-<tr><th> 图  标 </th> <th> 插 件 名 称 </th> <th> 插 件 功 能 </th> </tr >
+<tr><th style="width: 100px;> 图  标 </th> <th> 插 件 名 称 </th> <th> 插 件 功 能 </th> </tr >
 $content
 </table>`
 
 
 
-    let tmp = `<tr><td style="width:100%">
-  <img src="$icon" width="32" height="32">
+    let tmp = `<tr><td>
+  <img src="$icon" width="32px" height="32px">
 </td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>`
     let content = ''
     plugins.forEach(plugin => {
