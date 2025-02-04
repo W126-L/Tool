@@ -13,7 +13,7 @@ $content
 
 
 
-    let tmp = `<tr><td><img src="$icon" style="width: 100%; height: 100%; object-fit: contain;"></td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>`
+    let tmp = `<tr><td><img src="$icon" style="width: 32px; height: 32px; object-fit: contain;"></td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>`
     let content = ''
     plugins.forEach(plugin => {
         let pluginContent = fs.readFileSync(path.join(Plugin_path, plugin), 'utf8')
