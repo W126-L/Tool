@@ -1,4 +1,4 @@
-name: Generate and Commit JSON & Image Files
+name: 自动生成 list.json 和 README.md
 
 on:
   push:
@@ -29,14 +29,14 @@ jobs:
         # 查找根目录下所有的 .json 文件
         GENERATED_JSON_FILES=$(find . -maxdepth 1 -type f -name "*.json" ! -name "package.json" ! -name "package-lock.json")
         
+        # 查询README.md文件是否存在
+        GENERATED_README=$(find . -maxdepth 1 -type f -name "README.md")
+        
         # 查找 IconSet/108px/ 目录下所有的 .png 文件
         GENERATED_IMAGE_FILES_108=$(find IconSet/108px/ -type f -name "*.png")
 
         # 检查是否有生成的文件
         if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_IMAGE_FILES_108" ]; then
-          echo "The following files are changed:"
-          echo "$GENERATED_JSON_FILES"
-          echo "$GENERATED_IMAGE_FILES_108"
 
           # 设置 Git 配置信息
           git config --global user.name "GitHub Actions"
@@ -50,11 +50,15 @@ jobs:
           for file in $GENERATED_IMAGE_FILES_108; do
             git add "$file"
           done
+
+          for file in $GENERATED_README_FILES; do
+            git add "$file"
+          done
           
           git add -u
           
           # 提交更改
-          git commit -m "Update generated JSON and image files"
+          git commit -m "自动生成 list.json 和 README.md"
 
           # 推送更改到 GitHub
           git push
