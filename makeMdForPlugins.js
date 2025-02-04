@@ -7,7 +7,7 @@ function go(){
     let resHtml = `# Loon 插件列表
 
 <table>
-<tr><th>图标</th><th>插件名称</th><th>插件功能</th></tr>
+<tr><th>插件图标</th><th>插件名称</th><th>插件功能</th></tr>
 $content
 </table>`
 
