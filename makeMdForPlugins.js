@@ -5,7 +5,7 @@ function go(){
     const Plugin_path = path.join(__dirname, 'Plugin');
     const plugins = fs.readdirSync(Plugin_path);
     let resHtml = `<table>
-    <tr><th>     </th> <th> 插件名称 </th> <th> 插件功能 </th> </tr >
+    <tr><th> 图标 </th> <th> 插件名称 </th> <th> 插件功能 </th> </tr >
     <tr>
 		$content
     </tr>
