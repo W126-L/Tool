@@ -10,7 +10,7 @@ function go(){
 		$content
     </tr>
     </table>`
-    let tmp = '<tr ><td ><img src="$src" alt="$alt" width="32" height="32" style="border: 1px solid #000;border-radius: 10%;" loading="lazy"><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>'
+    let tmp = '<tr ><td ><img src="$icon" alt="$alt" width="32" height="32" style="border: 1px solid #000;border-radius: 10%;" loading="lazy"><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>'
     let content = ''
     plugins.forEach(plugin => {
         let pluginContent = fs.readFileSync(path.join(Plugin_path, plugin), 'utf8')
