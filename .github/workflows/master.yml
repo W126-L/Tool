@@ -43,7 +43,7 @@ jobs:
           git commit -m "自动生成 README.md"
 
           # 推送更改到 GitHub
-          git push
+          git push origin master
         else
           echo "No README.md files to commit"
         fi
