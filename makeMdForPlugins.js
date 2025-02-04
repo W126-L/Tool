@@ -7,13 +7,10 @@ function go(){
     let resHtml = `# Loon 插件列表
 
 <table>
-<tr><th style="max-width: 100%; object-fit: contain;"><p style="width: 100px;">图标</p></th><th>插件名称</th><th>插件功能</th></tr>
+<tr><th>图标</th><th>插件名称</th><th>插件功能</th></tr>
 $content
 </table>`
-
-
-
-    let tmp = `<tr><td style="width: 48px; height: 48px;"><img src="$icon" style="max-width: 100%; max-height: 100%; object-fit: contain;"></td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>`
+    let tmp = `<tr><td><img src="$icon" style="object-fit: contain;"></td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>`
     let content = ''
     plugins.forEach(plugin => {
         let pluginContent = fs.readFileSync(path.join(Plugin_path, plugin), 'utf8')
