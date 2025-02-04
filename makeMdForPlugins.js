@@ -8,9 +8,7 @@ function go(){
 
 <table>
 <tr><th> 图  标 </th> <th> 插 件 名 称 </th> <th> 插 件 功 能 </th> </tr >
-<tr>
 $content
-</tr>
 </table>`
     let tmp = '<tr ><td > <img src="$icon" width="32" height="32" loading="lazy"> </td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>'
     let content = ''
