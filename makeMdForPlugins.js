@@ -10,7 +10,7 @@ function go(){
 		$content
     </tr>
     </table>`
-    let tmp = '<tr ><td ><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>'
+    let tmp = '<tr ><td ><img src="$src" alt="$alt" width="32" height="32" style="border: 1px solid #000;border-radius: 10%;" loading="lazy"><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>'
     let content = ''
     plugins.forEach(plugin => {
         let pluginContent = fs.readFileSync(path.join(Plugin_path, plugin), 'utf8')
@@ -20,8 +20,10 @@ function go(){
         let desc = m ? m[0].split('=').pop() : ""
         m = pluginContent.match(/\#\!openUrl.*/g)
         let openUrl = m ? m[0].split('=').pop() : ""
+        m = pluginContent.match(/\#\!icon.*/g)
+        let icon = m ? m[0].split('=').pop() : ""
         if(name && desc && openUrl){
-            content += tmp.replace('$name', name.trim()).replace('$desc', desc.trim()).replace('$url', openUrl.trim())
+            content += tmp.replace('$name', name.trim()).replace('$desc', desc.trim()).replace('$url', openUrl.trim()).replace('$icon', icon.trim())
         }
     })
     resHtml = resHtml.replace('$content', content)
