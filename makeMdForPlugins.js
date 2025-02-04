@@ -14,7 +14,7 @@ $content
 
 
     let tmp = `<tr><td>
-        <img src="$icon">
+        <img src="$icon">图标
     </td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>`
     let content = ''
     plugins.forEach(plugin => {
