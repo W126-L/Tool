@@ -1,7 +1,7 @@
 # Loon 插件列表
 
 <table>
-<tr><th> 图  标 </th> <th> 插 件 名 称 </th> <th> 插 件 功 能 </th> </tr >
+<tr><th style="padding: 0; text-align: center;"> 图  标 </th> <th> 插 件 名 称 </th> <th> 插 件 功 能 </th> </tr >
 <tr><td style="padding: 0; text-align: center;">
   <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Guoshangguowang.png" width="32" height="32">
 </td><td><a href="https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/95598.plugin"><em>网上国网</em></a></td><td>国上国网获取Boxjs，Scriptable小组件数据，并进行定时任务の推送。BoxJs订阅地址:https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/boxjs.json</td></tr><tr><td style="padding: 0; text-align: center;">
