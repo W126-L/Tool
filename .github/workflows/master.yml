@@ -21,8 +21,8 @@ jobs:
     - name: Install dependencies
       run: npm install  # 如果你有依赖项，需要先安装它们
 
-    - name: Run makeMdForPulgins.js to generate files
-      run: node makeMdForPulgins.js  # 执行你的脚本生成文件
+    - name: Run makeMdForPlugins.js to generate files
+      run: node makeMdForPlugins.js  # 执行你的脚本生成文件
 
     - name: Find and commit README.md
       run: |
