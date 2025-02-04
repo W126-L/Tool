@@ -1,6 +1,33 @@
 const fs = require('fs');
 const sharp = require('sharp');
 const path = require('path');
+
+function makeMD(dirs){
+    const mdContent = `# 图标库
+此图标库图标由Wuang大偷特偷，由墨倾情制作而成，桀桀桀。
+# 图标预览
+`   
+    let resHtml = ''
+    const mdFilePath = path.join(__dirname, 'README.md');
+    let imgHtml = `<img src="$src" alt="$alt" width="51" height="51" style="border: 1px solid #000;">`
+    for(dir of dirs){
+        const px = dir.split('/').pop()
+        const baseURL = 'https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/'+px+'/';
+        const files = fs.readdirSync(dir);
+        const images = files.filter(file => path.extname(file).toLowerCase() === '.png');
+        const imgsHtml = images.map(file => {
+            return imgHtml.replace('$src', baseURL + file).replace('$alt', path.basename(file, '.png'))
+        })
+        resHtml = resHtml + px+ "\n\n" + `<div style="display: flex; flex-wrap: wrap; gap: 10px;">` + imgsHtml.join('\n') + "</div>\n\n"
+    }
+    fs.writeFile(mdFilePath, mdContent+resHtml, (err) => {
+        if (err) {
+            console.error('写入 README.md 文件失败:', err);
+        } else {
+            console.log('成功写入 README.md 文件!');
+        }
+    })
+}
 function generatePicsJson(dir) {
     const px = dir.split('/').pop()
     // 定义图片文件的基础 URL
@@ -21,7 +48,6 @@ function generatePicsJson(dir) {
 
         // 筛选出所有图片文件（假设是 .png 格式）
         const images = files.filter(file => path.extname(file).toLowerCase() === '.png');
-
         // 生成 icons 数组
         const icons = images.map(file => ({
             name: path.basename(file, '.png'),  // 提取文件名，去掉扩展名
@@ -52,6 +78,7 @@ function go(){
     dirs.forEach(dir => {
         generatePicsJson(dir)
     })
+    makeMD(dirs)
 }
 //把IconSet下的图片移动到108px文件夹下
 function picsIndir(){
@@ -125,6 +152,9 @@ function picsIndir(){
         })
     })
 }
+
+
+
 function main(){
     picsIndir()
     setTimeout(()=>{
