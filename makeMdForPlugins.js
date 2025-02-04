@@ -7,12 +7,12 @@ function go(){
     let resHtml = `# Loon 插件列表
 
 <table>
-<tr><th> 图标 </th> <th> 插件名称 </th> <th> 插件功能 </th> </tr >
+<tr><th> 图  标 </th> <th> 插 件 名 称 </th> <th> 插 件 功 能 </th> </tr >
 <tr>
 $content
 </tr>
 </table>`
-    let tmp = '<tr ><td ><img src="$icon" width="32" height="32" style="border-radius: 10%;" loading="lazy"></td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>'
+    let tmp = '<tr ><td > <img src="$icon" width="32" height="32" style="border-radius: 10%;" loading="lazy"> </td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>'
     let content = ''
     plugins.forEach(plugin => {
         let pluginContent = fs.readFileSync(path.join(Plugin_path, plugin), 'utf8')
@@ -25,7 +25,7 @@ $content
         m = pluginContent.match(/\#\!icon.*/g)
         let icon = m ? m[0].split('=').pop() : ""
         if(name && desc && openUrl){
-            content += tmp.replace('$name', name.trim()).replace('$desc', desc.trim()).replace('$url', "loon://import?plugin="+openUrl.trim()).replace('$icon', icon.trim())
+            content += tmp.replace('$name', name.trim()).replace('$desc', desc.trim()).replace('$url',openUrl.trim()).replace('$icon', icon.trim())
         }
     })
     resHtml = resHtml.replace('$content', content)
