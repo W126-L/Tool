@@ -1,0 +1,51 @@
+name: 自动生成 README.md
+
+on:
+  push:
+    branches:
+      - master  # 触发 Actions 的分支（例如 main 分支）
+
+jobs:
+  generate_and_commit:
+    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 运行环境
+    
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v3  # 克隆当前的 GitHub 仓库
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3  # 设置 Node.js 环境
+      with:
+        node-version: '20'  # 你可以根据需要设置 Node.js 版本
+
+    - name: Install dependencies
+      run: npm install  # 如果你有依赖项，需要先安装它们
+
+    - name: Run makeMdForPulgins.js to generate files
+      run: node makeMdForPulgins.js  # 执行你的脚本生成文件
+
+    - name: Find and commit README.md
+      run: |
+        # 查询README.md文件是否存在
+        GENERATED_README_FILES=$(find . -maxdepth 1 -type f -name "README.md")
+        # 检查是否有生成的文件
+        if [ -n "$GENERATED_README_FILES" ]; then
+          # 设置 Git 配置信息
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          # 遍历文件并逐个添加到 Git 暂存区
+          for file in $GENERATED_README_FILES; do
+            git add "$file"
+          done
+          
+          git add -u
+          # 提交更改
+          git commit -m "自动生成 README.md"
+
+          # 推送更改到 GitHub
+          git push
+        else
+          echo "No README.md files to commit"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动通过 GitHub token 进行身份验证
