@@ -21,7 +21,7 @@ function go(){
         m = pluginContent.match(/\#\!openUrl.*/g)
         let openUrl = m ? m[0].split('=').pop() : ""
         if(name && desc && openUrl){
-            content += tmp.replace('$name', name).replace('$desc', desc).replace('$url', openUrl)
+            content += tmp.replace('$name', name.trim()).replace('$desc', desc.trim()).replace('$url', openUrl.trim())
         }
     })
     resHtml = resHtml.replace('$content', content)
