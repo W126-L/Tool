@@ -7,16 +7,14 @@ function go(){
     let resHtml = `# Loon 插件列表
 
 <table>
-<tr><th style="width: 100px;">图标</th><th>插件名称</th><th>插件功能</th></tr>
+<tr><th>图标</th><th>插件名称</th><th>插件功能</th></tr>
 $content
 </table>`
 
 
 
-    let tmp = `<tr><td style="padding: 0; text-align: center;">
-      <div style="display: flex; flex-direction: row; gap: 10px;">
-        <img src="$icon" style="width: 32px; height: 32px; object-fit: contain;">
-      </div>
+    let tmp = `<tr><td>
+        <img src="$icon">
     </td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>`
     let content = ''
     plugins.forEach(plugin => {
