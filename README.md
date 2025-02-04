@@ -55,6 +55,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/NoUpdate.png" alt="NoUpdate" width="51" height="51" style="border: 1px solid #000; border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/NordVPN.png" alt="NordVPN" width="51" height="51" style="border: 1px solid #000; border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/OpenAI.png" alt="OpenAI" width="51" height="51" style="border: 1px solid #000; border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Ping.png" alt="Ping" width="51" height="51" style="border: 1px solid #000; border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Pornhub.png" alt="Pornhub" width="51" height="51" style="border: 1px solid #000; border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Power.png" alt="Power" width="51" height="51" style="border: 1px solid #000; border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Proxy.png" alt="Proxy" width="51" height="51" style="border: 1px solid #000; border-radius: 10px;" loading="lazy">
