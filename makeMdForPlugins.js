@@ -12,7 +12,7 @@ function go(){
 $content
 </tr>
 </table>`
-    let tmp = '<tr ><td ><img src="$icon" alt="$alt" width="20" height="20" style="border: 1px solid #000;border-radius: 10%;" loading="lazy"></td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>'
+    let tmp = '<tr ><td ><img src="$icon" alt="$alt" width="20" height="20" style="border-radius: 10%;" loading="lazy"></td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>'
     let content = ''
     plugins.forEach(plugin => {
         let pluginContent = fs.readFileSync(path.join(Plugin_path, plugin), 'utf8')
@@ -25,7 +25,7 @@ $content
         m = pluginContent.match(/\#\!icon.*/g)
         let icon = m ? m[0].split('=').pop() : ""
         if(name && desc && openUrl){
-            content += tmp.replace('$name', name.trim()).replace('$desc', desc.trim()).replace('$url', "loon://import?plugin="+encodeURI(openUrl.trim())).replace('$icon', icon.trim())
+            content += tmp.replace('$name', name.trim()).replace('$desc', desc.trim()).replace('$url', "loon://import?plugin="+encodeURIComponent(openUrl.trim())).replace('$icon', icon.trim())
         }
     })
     resHtml = resHtml.replace('$content', content)
