@@ -4,15 +4,7 @@ const path = require('path');
 function go(){
     const Plugin_path = path.join(__dirname, 'Plugin');
     const plugins = fs.readdirSync(Plugin_path);
-    let resHtml = `# Loon 插件列表
-
-<table>
-<tr><th>图标</th><th>插件名称</th><th>插件功能</th></tr>
-$content
-</table>`
-
-
-
+    let resHtml = `<table><caption>Loon 插件列表</caption><tr><th>图标</th><th>插件名称</th><th>插件功能</th></tr>$content</table>`
     let tmp = `<tr><td><img src="$icon"></td><td><a href="$url">$name</a></td><td>$desc</td></tr>`
     let content = ''
     plugins.forEach(plugin => {
