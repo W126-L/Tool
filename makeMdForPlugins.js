@@ -13,9 +13,9 @@ $content
 
 
 
-    let tmp = '<tr><td style="padding: 0; text-align: center;">
+    let tmp = `<tr><td style="padding: 0; text-align: center;">
   <img src="$icon" width="32" height="32">
-</td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>'
+</td><td><a href="$url"><em>$name</em></a></td><td>$desc</td></tr>`
     let content = ''
     plugins.forEach(plugin => {
         let pluginContent = fs.readFileSync(path.join(Plugin_path, plugin), 'utf8')
