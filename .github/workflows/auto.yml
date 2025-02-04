@@ -1,4 +1,4 @@
-name: 自动生成 list.json 和 README.md
+name: main_auto_js
 
 on:
   push:
