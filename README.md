@@ -4,3 +4,5 @@
 # 图标预览
 
 [![0-Mo.png](https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/0-Mo.png)](https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/0-Mo.png)
+
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/0-Mo.png" alt="Star History Chart" width="51" height="51" align="center">
