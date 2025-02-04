@@ -24,7 +24,7 @@ function go(){
         m = pluginContent.match(/\#\!icon.*/g)
         let icon = m ? m[0].split('=').pop() : ""
         if(name && desc && openUrl){
-            content += tmp.replace('$name', name.trim()).replace('$desc', desc.trim()).replace('$url', "oon://import?plugin="+encodeURI(openUrl.trim())).replace('$icon', icon.trim())
+            content += tmp.replace('$name', name.trim()).replace('$desc', desc.trim()).replace('$url', "loon://import?plugin="+encodeURI(openUrl.trim())).replace('$icon', icon.trim())
         }
     })
     resHtml = resHtml.replace('$content', content)
