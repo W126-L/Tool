@@ -9,7 +9,7 @@ function makeMD(dirs){
 `   
     let resHtml = ''
     const mdFilePath = path.join(__dirname, 'README.md');
-    let imgHtml = `<img src="$src" alt="$alt" width="40" height="40" style="border: 1px solid #000; border-radius: 10px;" loading="lazy">`
+    let imgHtml = `<img src="$src" alt="$alt" width="36" height="36" style="border: 1px solid #000;" loading="lazy">`
     for(dir of dirs){
         const px = dir.split('/').pop()
         const baseURL = 'https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/'+px+'/';
