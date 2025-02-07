@@ -12,6 +12,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AppStore.png" alt="AppStore" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Bad_news.png" alt="Bad_news" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Bahamut.png" alt="Bahamut" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/BeFriend.png" alt="BeFriend" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/BiliBili.png" alt="BiliBili" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Bilibili.png" alt="Bilibili" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Budayang.png" alt="Budayang" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
@@ -55,6 +56,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/NASA.png" alt="NASA" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/NoUpdate.png" alt="NoUpdate" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/NordVPN.png" alt="NordVPN" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/OneDrive.png" alt="OneDrive" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/OpenAI.png" alt="OpenAI" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Ping.png" alt="Ping" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Pornhub.png" alt="Pornhub" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
@@ -81,6 +83,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Twitter.png" alt="Twitter" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/UnTrap.png" alt="UnTrap" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/VIP.png" alt="VIP" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/VPNFast.png" alt="VPNFast" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Virus.png" alt="Virus" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/WPS.png" alt="WPS" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Wangzheyingdi.png" alt="Wangzheyingdi" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
@@ -100,6 +103,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/YouTube.png" alt="YouTube" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Youjia.png" alt="Youjia" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Zhixiaobao.png" alt="Zhixiaobao" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/eBirdie.png" alt="eBirdie" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/elm.png" alt="elm" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/i4.png" alt="i4" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iConnectHue.png" alt="iConnectHue" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
@@ -1099,4 +1103,67 @@ All-Icon
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/All-Icon/youtube(3).png" alt="youtube(3)" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/All-Icon/yukimo.png" alt="yukimo" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/All-Icon/zhihu.png" alt="zhihu" width="36" height="36" style="border: 1px solid #000;" loading="lazy"></div>
+
+miniColor
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;"><img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/AU.png" alt="AU" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Adblock.png" alt="Adblock" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Apple.png" alt="Apple" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/AppleTV.png" alt="AppleTV" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Available.png" alt="Available" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Bahamut.png" alt="Bahamut" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Bilibili.png" alt="Bilibili" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/CA.png" alt="CA" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/CN.png" alt="CN" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/China.png" alt="China" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Clubhouse.png" alt="Clubhouse" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/DE.png" alt="DE" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Discovery+.png" alt="Discovery+" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Disney+.png" alt="Disney+" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Emby.png" alt="Emby" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/FR.png" alt="FR" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Final.png" alt="Final" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/GAME.png" alt="GAME" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Global.png" alt="Global" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Google.png" alt="Google" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/GoogleDrive.png" alt="GoogleDrive" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/HBO.png" alt="HBO" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/HK.png" alt="HK" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Hulu.png" alt="Hulu" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Instagram.png" alt="Instagram" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/JP.png" alt="JP" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/KR.png" alt="KR" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/LineTV.png" alt="LineTV" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/MO.png" alt="MO" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Microsoft.png" alt="Microsoft" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/NeteaseMusic.png" alt="NeteaseMusic" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Netflix.png" alt="Netflix" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/PLUS.png" alt="PLUS" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Paramount.png" alt="Paramount" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Paypal.png" alt="Paypal" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Pornhub.png" alt="Pornhub" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/PrimeVideo.png" alt="PrimeVideo" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/RU.png" alt="RU" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Roundrobin.png" alt="Roundrobin" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/SG.png" alt="SG" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/SSID.png" alt="SSID" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Speedtest.png" alt="Speedtest" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Spotify.png" alt="Spotify" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Static.png" alt="Static" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Streaming.png" alt="Streaming" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/StreamingCN.png" alt="StreamingCN" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/StreamingSE.png" alt="StreamingSE" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/TH.png" alt="TH" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/TR.png" alt="TR" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/TW.png" alt="TW" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Telegram.png" alt="Telegram" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/TikTok.png" alt="TikTok" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Twitter.png" alt="Twitter" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/UK.png" alt="UK" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/UN.png" alt="UN" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/US.png" alt="US" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/Urltest.png" alt="Urltest" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/VN.png" alt="VN" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/XD.png" alt="XD" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/miniColor/YouTube.png" alt="YouTube" width="36" height="36" style="border: 1px solid #000;" loading="lazy"></div>
 
