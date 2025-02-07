@@ -1,0 +1,7 @@
+txt
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略其他常见的开发文件
+.DS_Store
+*.log
