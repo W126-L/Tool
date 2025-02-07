@@ -7,18 +7,17 @@ on:
     paths:
       - 'IconSet/**'  # 当 IconSet 目录中的文件发生变化时触发工作流
       - 'PendJSONs/**'  # 当 PendJSONs 目录中的文件发生变化时触发工作流
-  pull_request:
-    branches:
-      - main
-    paths:
-      - 'IconSet/**'  # 当 PR 中涉及 IconSet 目录的变动时触发工作流
-      - 'PendJSONs/**'  # 当 PR 中涉及 PendJSONs 目录的变动时触发工作流
 
 jobs:
   job_iconset:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' && contains(github.event.head_commit.modified, 'IconSet/') }}
     steps:
+    - name: Debug event
+      run: |
+        echo "Event name: ${{ github.event_name }}"
+        echo "Modified files: ${{ github.event.head_commit.modified }}"
+
     - name: Checkout the repository
       uses: actions/checkout@v3  # 克隆当前的 GitHub 仓库
 
@@ -81,6 +80,11 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' && contains(github.event.head_commit.modified, 'PendJSONs/') }}
     steps:
+    - name: Debug event
+      run: |
+        echo "Event name: ${{ github.event_name }}"
+        echo "Modified files: ${{ github.event.head_commit.modified }}"
+        
     - name: Checkout the repository
       uses: actions/checkout@v3  # 克隆当前的 GitHub 仓库
 
