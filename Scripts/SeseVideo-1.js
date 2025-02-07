@@ -13,7 +13,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/(30719|files\.honghufly)\.(net|com) url script-response-body https://raw.githubusercontent.com/chxm1023/Advertising/main/sssp.js
+^https?:\/\/(30719|files\.honghufly)\.(net|com) url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/SeseVideo-1.js
 
 [mitm]
 hostname = 30719.net, files.honghufly.com
