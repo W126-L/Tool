@@ -8,6 +8,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/91.png" alt="91" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ASN.png" alt="ASN" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AliYunDrive.png" alt="AliYunDrive" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Anxin.png" alt="Anxin" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AppStore.png" alt="AppStore" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Bad_news.png" alt="Bad_news" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Bahamut.png" alt="Bahamut" width="36" height="36" style="border: 1px solid #000;" loading="lazy">
