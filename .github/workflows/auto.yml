@@ -9,62 +9,63 @@ on:
       - 'PendJSONs/**'  # 当 PendJSONs 目录中的文件发生变化时触发工作流
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-  - name: Checkout the repository
-    uses: actions/checkout@v3  # 克隆当前的 GitHub 仓库
+  job_iconset:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v3  # 克隆当前的 GitHub 仓库
 
-  - name: Set up Node.js
-    uses: actions/setup-node@v3  # 设置 Node.js 环境
-    with:
-      node-version: '20'  # 你可以根据需要设置 Node.js 版本
+    - name: Set up Node.js
+      uses: actions/setup-node@v3  # 设置 Node.js 环境
+      with:
+        node-version: '20'  # 你可以根据需要设置 Node.js 版本
 
-  - name: Install dependencies
-    run: npm install  # 如果你有依赖项，需要先安装它们
+    - name: Install dependencies
+      run: npm install  # 如果你有依赖项，需要先安装它们
 
-  - name: Run generatePicsJson.js to generate files
-    run: node generatePicsJson.js  # 执行你的脚本生成文件
+    - name: Run generatePicsJson.js to generate files
+      run: node generatePicsJson.js  # 执行你的脚本生成文件
 
-  - name: Find and commit generated JSON and image files
-    run: |
-      # 查找根目录下所有的 .json 文件
-      GENERATED_JSON_FILES=$(find . -maxdepth 1 -type f -name "*.json" ! -name "package.json" ! -name "package-lock.json")
-      
-      # 查询README.md文件是否存在
-      GENERATED_README_FILES=$(find . -maxdepth 1 -type f -name "README.md")
-      
-      # 查找 IconSet/ 目录下所有文件
-      GENERATED_Icons_FILES=$(find IconSet/)
-
-      # 检查是否有生成的文件
-      if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_IMAGE_FILES_108" ]; then
-
-        # 设置 Git 配置信息
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-
-        # 遍历文件并逐个添加到 Git 暂存区
-        for file in $GENERATED_JSON_FILES; do
-          git add -f "$file"
-        done
+    - name: Find and commit generated JSON and image files
+      run: |
+        # 查找根目录下所有的 .json 文件
+        GENERATED_JSON_FILES=$(find . -maxdepth 1 -type f -name "*.json" ! -name "package.json" ! -name "package-lock.json")
         
-        for file in $GENERATED_Icons_FILES; do
-          git add "$file"
-        done
-
-        for file in $GENERATED_README_FILES; do
-          git add "$file"
-        done
+        # 查询README.md文件是否存在
+        GENERATED_README_FILES=$(find . -maxdepth 1 -type f -name "README.md")
         
-        git add -u
-        
-        # 提交更改
-        git commit -m "自动生成 list.json 和 README.md"
+        # 查找 IconSet/ 目录下所有文件
+        GENERATED_Icons_FILES=$(find IconSet/)
 
-        # 推送更改到 GitHub
-        git push
-      else
-        echo "No JSON or image files to commit"
-      fi
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动通过 GitHub token 进行身份验证
+        # 检查是否有生成的文件
+        if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_IMAGE_FILES_108" ]; then
+
+          # 设置 Git 配置信息
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+          # 遍历文件并逐个添加到 Git 暂存区
+          for file in $GENERATED_JSON_FILES; do
+            git add -f "$file"
+          done
+          
+          for file in $GENERATED_Icons_FILES; do
+            git add "$file"
+          done
+
+          for file in $GENERATED_README_FILES; do
+            git add "$file"
+          done
+          
+          git add -u
+          
+          # 提交更改
+          git commit -m "自动生成 list.json 和 README.md"
+
+          # 推送更改到 GitHub
+          git push
+        else
+          echo "No JSON or image files to commit"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动通过 GitHub token 进行身份验证
