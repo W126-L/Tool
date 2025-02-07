@@ -2,8 +2,8 @@ name: main_auto_js
 
 on:
   push:
-    branches:
-      - main  # 触发 Actions 的分支（例如 main 分支）
+    paths:
+      - 'IconSet/**'
 
 jobs:
   generate_and_commit:
