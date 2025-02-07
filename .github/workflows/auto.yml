@@ -7,26 +7,19 @@ on:
     paths:
       - 'IconSet/**'  # 当 IconSet 目录中的文件发生变化时触发工作流
       - 'PendJSONs/**'  # 当 PendJSONs 目录中的文件发生变化时触发工作流
-    
-  pull_request:
-    branches:
-      - main
-    paths:
-      - 'IconSet/**'  # 当 PR 中涉及 IconSet 目录的变动时触发工作流
-      - 'PendJSONs/**'  # 当 PR 中涉及 PendJSONs 目录的变动时触发工作流
 
 jobs:
   job_debug:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && (contains(github.event.head_commit.modified, 'IconSet/') || contains(github.event.head_commit.added, 'IconSet/')) }}
     steps:
     - name: Debug event
       run: |
         echo "Event name: ${{ github.event_name }}"
-        echo "All modified files: ${{ github.event.commits[0].modified}}"
 
   job_iconset:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && contains(github.event.head_commit.modified, 'IconSet/') }}
+    if: ${{ github.event_name == 'push' && (contains(github.event.head_commit.modified, 'IconSet/') || contains(github.event.head_commit.added, 'IconSet/')) }}
     steps:
     - name: Debug event
       run: |
@@ -93,7 +86,7 @@ jobs:
 
   job_pendjsons:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && contains(github.event.head_commit.modified, 'PendJSONs/') }}
+    if: ${{ github.event_name == 'push' && (contains(github.event.head_commit.modified, 'PendJSONs/') || contains(github.event.head_commit.added, 'PendJSONs/')) }}
     steps:
     - name: Debug event
       run: |
