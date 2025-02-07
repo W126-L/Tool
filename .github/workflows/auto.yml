@@ -29,7 +29,7 @@ jobs:
     - name: Debug generated files
       run: |
         ls -l
-        find . -name "*.json" -o -name "*.md" -o -name "*.png"
+        find . -name "*.json" -o -name "*.md" -o -name "*.png" -not -path "./node_modules/*"
 
     - name: Find and commit generated JSON and image files
       run: |
