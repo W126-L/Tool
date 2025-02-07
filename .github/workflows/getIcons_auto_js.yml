@@ -1,0 +1,55 @@
+name: getIcons_auto_js
+
+on:
+  push:
+    paths:
+      - 'PendJSONs/**'
+
+jobs:
+  generate_and_commit:
+    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 运行环境
+    
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v3  # 克隆当前的 GitHub 仓库
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3  # 设置 Node.js 环境
+      with:
+        node-version: '20'  # 你可以根据需要设置 Node.js 版本
+
+    - name: Install dependencies
+      run: npm install  # 如果你有依赖项，需要先安装它们
+
+    - name: Run getIconsForJSON.js to generate files
+      run: node getIconsForJSON.js  # 执行你的脚本生成文件
+
+    - name: Find and commit Icons files
+      run: |
+        # 查找 IconSet/ 目录下所有的 .png 文件
+        GENERATED_Icons_FILES=$(find IconSet/)
+
+        # 检查是否有生成的文件
+        if [ -n "$GENERATED_Icons_FILES" ]; then
+
+          # 设置 Git 配置信息
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+          # 遍历文件并逐个添加到 Git 暂存区
+          for file in $GENERATED_Icons_FILES; do
+            git add -f "$file"
+          done
+          
+          git add -u
+          
+          # 提交更改
+          git commit -m "Generate Icons files"
+
+          # 推送更改到 GitHub
+          git push
+        else
+          echo "No JSON or image files to commit"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动通过 GitHub token 进行身份验证
