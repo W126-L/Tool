@@ -22,7 +22,7 @@ jobs:
     - name: Debug event
       run: |
         echo "Event name: ${{ github.event_name }}"
-        echo "Modified files: ${{ github.event.head_commit.modified }}"
+        echo "All modified files: ${{ github.event.commits}}"
 
   job_iconset:
     runs-on: ubuntu-latest
