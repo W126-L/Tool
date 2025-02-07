@@ -1,7 +1,7 @@
 const fs = require('fs');
 const sharp = require('sharp');
 const path = require('path');
-
+const axios = require('axios');
 function makeMD(dirs){
     const mdContent = `# 图标库
 此图标库图标由Wuang大偷特偷，由墨倾情制作而成，桀桀桀。
@@ -9,7 +9,7 @@ function makeMD(dirs){
 `   
     let resHtml = ''
     const mdFilePath = path.join(__dirname, 'README.md');
-    let imgHtml = `<img src="$src" alt="$alt" width="36" height="36" style="border: 1px solid #000;" loading="lazy">`
+    let imgHtml = `<img src="$src" alt="$alt" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">`
     for(dir of dirs){
         const px = dir.split('/').pop()
         const baseURL = 'https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/'+px+'/';
@@ -152,13 +152,34 @@ function picsIndir(){
         })
     })
 }
-
-
-
-function main(){
+async function getIconsForJSON() {
+    const rootPath = path.join(__dirname, 'PendJSONs');
+    const files = fs.readdirSync(rootPath)
+    .filter(file => !file.startsWith('.'))  // 忽略以 . 开头的文件或目录
+    .map(file => path.join(rootPath, file)) // 获取完整路径
+    for (let file of files) {
+        let dirName = path.join(__dirname, 'IconSet', path.basename(file).split('.')[0])
+        //创建目录
+        fs.mkdirSync(dirName, { recursive: true });
+        const data = fs.readFileSync(file, 'utf-8');
+        const jsonData = JSON.parse(data);
+        const icons = jsonData.icons;
+        for (let icon of icons) {
+            const name = (icon.name.indexOf(".png") == -1) ? icon.name + ".png" : icon.name;
+            const url = icon.url;
+            let response = await axios.get(url, { responseType: 'arraybuffer' })
+            const iconBuffer = Buffer.from(response.data, 'binary');
+            fs.writeFileSync(dirName + '/' + name, iconBuffer);
+        }
+    }
     picsIndir()
     setTimeout(()=>{
         go()
     },5000)
+}
+
+
+async function main(){
+    await getIconsForJSON()
 }
 main()
