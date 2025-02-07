@@ -28,6 +28,9 @@ jobs:
 
     - name: Find and commit generated JSON and image files
       run: |
+        # 设置 Git 配置信息
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
         git add -A
         git commit -m "自动生成 list.json 和 README.md"
         git push
