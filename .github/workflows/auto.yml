@@ -41,7 +41,7 @@ jobs:
         GENERATED_Icons_FILES=$(find IconSet/)
 
         # 检查是否有生成的文件
-        if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_Icons_FILES" ] || [ -n "$GENERATED_README_FILES" ] || [ -n "$GENERATED_PendJSONs_FILES; then
+        if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_Icons_FILES" ] || [ -n "$GENERATED_README_FILES" ] || [ -n "$GENERATED_PendJSONs_FILES"]; then
 
           # 设置 Git 配置信息
           git config --global user.name "GitHub Actions"
