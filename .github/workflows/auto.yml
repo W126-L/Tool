@@ -14,7 +14,7 @@ jobs:
     steps:
     - name: Debug event
       run: |
-        echo "Event name: ${{ toJson(github) }}"
+        echo "Event name: ${{ github.event.head_commit.added }}"
 
   job_iconset:
     runs-on: ubuntu-latest
