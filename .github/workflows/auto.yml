@@ -13,26 +13,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout the repository
-      uses: actions/checkout@v3  # 克隆当前的 GitHub 仓库
+      uses: actions/checkout@v3
 
     - name: Set up Node.js
-      uses: actions/setup-node@v3  # 设置 Node.js 环境
+      uses: actions/setup-node@v3
       with:
-        node-version: '20'  # 你可以根据需要设置 Node.js 版本
+        node-version: '20'
 
     - name: Install dependencies
-      run: npm install  # 如果你有依赖项，需要先安装它们
+      run: npm install
 
     - name: Run generatePicsJson.js to generate files
-      run: node generatePicsJson.js  # 执行你的脚本生成文件
+      run: node generatePicsJson.js || exit 1
+
+    - name: Debug generated files
+      run: |
+        ls -l
+        find . -name "*.json" -o -name "*.md" -o -name "*.png"
 
     - name: Find and commit generated JSON and image files
       run: |
-        # 设置 Git 配置信息
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add -A
-        git commit -m "自动生成 list.json 和 README.md"
-        git push
+        if git diff-index --quiet HEAD; then
+          echo "No changes to commit."
+        else
+          git commit -m "自动生成 list.json 和 README.md"
+          git push
+        fi
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动通过 GitHub token 进行身份验证
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
