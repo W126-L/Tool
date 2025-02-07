@@ -34,11 +34,14 @@ jobs:
         # 查询README.md文件是否存在
         GENERATED_README_FILES=$(find . -maxdepth 1 -type f -name "README.md")
         
+        # 查找 PendJSONs/ 目录下所有文件
+        GENERATED_PendJSONs_FILES=$(find PendJSONs/)
+
         # 查找 IconSet/ 目录下所有文件
         GENERATED_Icons_FILES=$(find IconSet/)
 
         # 检查是否有生成的文件
-        if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_IMAGE_FILES_108" ]; then
+        if [ -n "$GENERATED_JSON_FILES" ] || [ -n "$GENERATED_Icons_FILES" ] || [ -n "$GENERATED_README_FILES" ] || [ -n "$GENERATED_PendJSONs_FILES; then
 
           # 设置 Git 配置信息
           git config --global user.name "GitHub Actions"
@@ -57,8 +60,10 @@ jobs:
             git add "$file"
           done
           
-          git add -u
-          
+          for file in $GENERATED_PendJSONs_FILES; do
+            git add "$file"
+          done
+
           # 提交更改
           git commit -m "自动生成 list.json 和 README.md"
 
