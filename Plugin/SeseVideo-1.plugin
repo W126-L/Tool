@@ -1,13 +1,13 @@
-#!name = 涩涩视频
+#!name = 涩涩视频-New
 #!desc = 涩涩视频-净化页面弹窗广告
 #!author = Wuang备份-原作者@chxm1023 [https://github.com/W126-L]
-#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/SeseVideo-1.plugin
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/SeseVideo-New.plugin
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/SeseVideo.png
 #!tag = 阿旺の库
 
 [rewrite_local]
-^https?:\/\/(30719|files\.honghufly)\.(net|com) url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/SeseVideo-1.js, requires-body=true, timeout=60, tag=涩涩视频, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/SeseVideo.png
+^https?:\/\/(30719|files\.honghufly)\.(net|com) url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/SeseVideo-New.js, requires-body=true, timeout=60, tag=涩涩视频, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/SeseVideo.png
 
 [mitm]
 hostname = 30719.net, files.honghufly.com
