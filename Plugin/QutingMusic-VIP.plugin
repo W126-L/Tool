@@ -1,5 +1,5 @@
 #!name = 趣听音乐VIP
-#!desc = 趣听音乐解锁“半永久”VIP（该脚本属于一次性“半永久”解锁，解锁完即可关闭脚本，登录解锁后账号不要退出登录，否则需要再次解锁）
+#!desc = 趣听音乐解锁“半永久”VIP（该脚本属于一次性“半永久”解锁，解锁完即可关闭脚本，登录解锁后账号不要退出登录，否则需要退出后重新登录，再次解锁）
 #!author = Wuang[https://github.com/W126-L]
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/QutingMusic-VIP.plugin
 #!homepage = https://github.com/W126-L
