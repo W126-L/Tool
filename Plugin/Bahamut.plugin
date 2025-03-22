@@ -1,6 +1,6 @@
 #!name = 巴哈姆特（動畫瘋）
 #!desc = 動畫瘋（动画疯）屏蔽播放广告脚本 (无时间提醒，等待25～30S即可，黑屏完自动播放正片)
-#!author = wuang [https://github.com/W126-L]
+#!author = Wuang [https://github.com/W126-L]
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Bahamut.plugin
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Bahamut.png
