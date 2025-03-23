@@ -6,7 +6,7 @@
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Xiaohongshu.png
 #!tag = 阿旺の库
 
-[RULES]
+[Rewrite]
 # > 小红书
 # 惊喜弹窗
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(?:get_style|open|submit_action) reject-dict
