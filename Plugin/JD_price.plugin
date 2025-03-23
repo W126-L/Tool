@@ -1,5 +1,5 @@
-#!name = 京东比价
-#!desc = 点击商品页面详情，价格弹窗通知显示
+#!name = 京东比价（详情弹窗版）
+#!desc = 点击商品页面详情，价格弹窗通知显示！（与表格版二选一即可）
 #!author = Wuang备份提取-原作者@mw418 [https://github.com/W126-L]
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/JD_price.plugin
 #!homepage = https://github.com/W126-L
