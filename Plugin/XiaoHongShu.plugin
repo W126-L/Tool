@@ -6,7 +6,7 @@
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Xiaohongshu.png
 #!tag = 阿旺の库
 
-[Script]
+[RULES]
 # > 小红书
 # 惊喜弹窗
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(?:get_style|open|submit_action) reject-dict
@@ -18,6 +18,7 @@
 # 评论区图片水印 (实验功能可能无效)
 ^https?:\/\/ci\.xiaohongshu\.com\/system_config\/watermark reject-img
 
+[Script]
 # 搜索页
 http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/(banner|hot)_list script-path=https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js, requires-body=true, timeout=60, tag=小红书搜索页, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Xiaohongshu.png
 http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/(hint|trending)\? script-path=https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js, requires-body=true, timeout=60, tag=小红书搜索页, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Xiaohongshu.png
