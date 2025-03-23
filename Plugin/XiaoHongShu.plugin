@@ -6,6 +6,10 @@
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Xiaohongshu.png
 #!tag = 阿旺の库
 
+[Rule]
+# > 小红书
+AND, ((PROTOCOL, QUIC), (DOMAIN-SUFFIX, xiaohongshu.com)), REJECT
+
 [Rewrite]
 # > 小红书
 # 惊喜弹窗
@@ -35,7 +39,6 @@ http-response ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(v2\/note
 http-response ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(v4\/note\/videofeed|v10\/note\/video\/save)\? script-path=https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js, requires-body=true, timeout=60, tag=小红书图片视频水印, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Xiaohongshu.png
 http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/note\/comment\/list\? script-path=https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js, requires-body=true, timeout=60, tag=小红书评论区水印, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Xiaohongshu.png
 http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/interaction\/comment\/video\/download\? script-path=https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js, requires-body=true, timeout=60, tag=小红书评论区水印, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Xiaohongshu.png
-
 
 [MITM]
 hostname = edith.xiaohongshu.com, www.xiaohongshu.com, ci.xiaohongshu.com, rec.xiaohongshu.com
