@@ -18,7 +18,7 @@ hostname = payapp.weixin.qq.com
 [Script]
 http-response https:\/\/payapp\.weixin\.qq\.com\/(coupon-center-user\/home\/login|coupon-center-award\/award\/detail) tag=微付金币²,script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Wechat_pay_coupon.js,requires-body=1
 
-cron "30 9 * * *" script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Wechat_pay_coupon.js,tag=微付金币,enable=true
+cron "30 9 * * *" script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Wechat_pay_coupon.js,tag=集章,enable=true
  */
 
 const $ = new Env('微信支付有优惠');
