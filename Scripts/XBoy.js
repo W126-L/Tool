@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > Xboy,会员+付费
-^https?:\/\/(.*x-boy|.*xo2xo).live/api\/(movie\/DetailInfo|Account\/IndexDetail|movie\/watch|VersionIosNew).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xboy.js
+^https?:\/\/(.*x-boy|.*xo2xo).live/api\/(movie\/DetailInfo|Account\/IndexDetail|movie\/watch|VersionIosNew).*$ url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/XBoy.js
 
 [mitm] 
 hostname = *x-boy.*,*.xo2xo.live
