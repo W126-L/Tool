@@ -1,3 +1,4 @@
+let url = $request.url
 let res = JSON.parse($response.body);
 let m = url.match(/Account\/IndexDetail/)
 if(m){
