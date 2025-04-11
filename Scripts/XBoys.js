@@ -11,6 +11,7 @@ $done({body:JSON.stringify(res)});
 m = url.match(/api\/movie\/DetailInfo/)
 if(m){
 res.movie.isFree = true;
+res.movie.hadDownLoadItem = true;
 $done({body:JSON.stringify(res)});
 }
 $done({body:JSON.stringify(res)});
