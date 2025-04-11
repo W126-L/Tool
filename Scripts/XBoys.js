@@ -13,3 +13,4 @@ if(m){
 res.movie.isFree = true;
 $done({body:JSON.stringify(res)});
 }
+$done({body:JSON.stringify(res)});
