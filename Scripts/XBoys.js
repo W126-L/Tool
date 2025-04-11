@@ -14,4 +14,10 @@ res.movie.isFree = true;
 res.movie.hadDownLoadItem = true;
 $done({body:JSON.stringify(res)});
 }
+m = url.match(/api\/movie\/watch/)
+if(m){
+res.hadWatch = true;
+res.canWatch = true;
+$done({body:JSON.stringify(res)});
+}
 $done({body:JSON.stringify(res)});
