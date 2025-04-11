@@ -8,7 +8,7 @@
 
 [Script]
 # > Xboy,会员+付费
-http-response ^https?:\/\/(.*x-boy|.*xo2xo).live/api\/(movie\/DetailInfo|Account\/IndexDetail|movie\/watch|VersionIosNew).*$ script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/XBoy.js, requires-body=true, timeout=60, tag=XBoy破解会员, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/XBoy.png
+http-response ^https?:\/\/(.*x-boy|.*xo2xo).live/api\/(movie\/DetailInfo|Account\/IndexDetail|movie\/watch|VersionIosNew).*$ script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/XBoys.js, requires-body=true, timeout=60, tag=XBoy破解会员, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/XBoy.png
 
 [MITM]
 hostname = *x-boy.*, *.xo2xo.live
