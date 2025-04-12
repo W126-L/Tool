@@ -80,6 +80,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ShuaiKa.png" alt="ShuaiKa" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Starbucks.png" alt="Starbucks" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Taiji.png" alt="Taiji" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/TanHuaTV.png" alt="TanHuaTV" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Telegram-2.png" alt="Telegram-2" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Telegram.png" alt="Telegram" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/TestFlight.png" alt="TestFlight" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
