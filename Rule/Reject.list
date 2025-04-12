@@ -1,7 +1,6 @@
 # NAME: Reject
 # AUTHOR: Mo
 # REPO: https://github.com/W126-L/Tool/tree/master/Rule
-DOMAIN-KEYWORD,pangolin
 DOMAIN-SUFFIX,volccdn.com
 DOMAIN,adservice.google.com
 DOMAIN,www.googleadservices.com
