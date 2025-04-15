@@ -1,5 +1,0 @@
-# 该订阅仅适用于QuantumultX, 用于更新TestFlight App时, 提示"APP不可用"问题. 解除区域限制.
-
-hostname = testflight.apple.com
-
-^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ url script-request-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/TestFlight.js
