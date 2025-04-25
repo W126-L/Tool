@@ -118,6 +118,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iConnectHue.png" alt="iConnectHue" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iFreeTime-Fang.png" alt="iFreeTime-Fang" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iFreeTime-Yuan.png" alt="iFreeTime-Yuan" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iKuuu.png" alt="iKuuu" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/抖音精选-看视频.png" alt="抖音精选-看视频" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy"></div>
 
 All-Icon
