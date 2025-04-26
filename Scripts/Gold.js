@@ -106,32 +106,32 @@ Promise.all([gold1,gold2,gold3])
     if (result.length != 3) {
       returnText = returnText + "获取数据结果出错，请稍后再试～";
     } else {
-      let textIntelNation =
-        "🥇国际黄金行情[实时]" +
+      let textIntelNation = $argument.arg1 ?
+        ("🥇国际黄金行情[实时]" +
         "\n\n" +
         "[名称]" +
         "     [最新价]" +
         "   [涨跌]" +
         "   [涨跌幅]" +
         "   [昨收]" +
-        "\n\n";
-      let textShangHai =
-        "🎖上海黄金行情[实时]" +
+        "\n\n"):"";
+      let textShangHai = $argument.arg2 ?
+        ("🎖上海黄金行情[实时]" +
         "\n\n" +
         "[名称]" +
         "     [最新价]" +
         "   [涨跌]" +
         "   [涨跌幅]" +
         "   [昨收]" +
-        "\n\n";
-      let textInKind =
-        "🥇实物黄金行情[当天]" +
+        "\n\n"):"";
+      let textInKind = $argument.arg3 ?
+        ("🥇实物黄金行情[当天]" +
         "\n\n" +
         "[品牌]" +
         "   [产品]" +
         "         [价格]" +
         "     [涨跌]" +
-        "\n\n";
+        "\n\n") : "";
       result.forEach((item, index) => {
         switch (index) {
           case 0:
