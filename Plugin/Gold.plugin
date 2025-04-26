@@ -8,8 +8,8 @@
 
 [Argument]
 time = input,"01 8/20 * * *",tag=定时推送
-arg1 = switch,true,tag=上海金价
-arg2 = switch,true,tag=国际金价
+arg1 = switch,true,tag=国际金价
+arg2 = switch,true,tag=上海金价
 arg3 = switch,true,tag=实物金价
 
 [Script]
