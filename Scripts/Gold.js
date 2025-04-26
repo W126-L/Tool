@@ -206,7 +206,7 @@ Promise.all([gold1,gold2,gold3])
         "\n\n" +
         textInKind;
     }
-    $.notify("💰XiaoMao_今日金价", "数据获取成功，点击查看详情～", returnText);
+    $.notify("💰今日金价", "数据获取成功，点击查看详情～", returnText);
     $.log(returnText)
   })
   .catch((error) => {
