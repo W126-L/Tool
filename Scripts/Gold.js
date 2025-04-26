@@ -1,5 +1,4 @@
 const $ = new Env("Gold");
-
 let gold1 = new Promise((resolve, reject) => {
   let option1 = {
     url: encodeURI(
@@ -99,7 +98,8 @@ let gold3 = new Promise((resolve, reject) => {
     }
   });
 });
-Promise.all([gold1, gold2, gold3])
+
+Promise.all([gold1,gold2,gold3])
   .then((result) => {
     let returnText =
       "今日金价数据获取成功，数据更新时间：[" + getGoneDay(0) + "]" + "\n\n\n";
@@ -135,7 +135,10 @@ Promise.all([gold1, gold2, gold3])
       result.forEach((item, index) => {
         switch (index) {
           case 0:
-            item.forEach((el) => {
+            if(!$argument.arg1){
+              break;
+            }
+       item.forEach((el) => {
               textIntelNation =
                 textIntelNation +
                 el.name +
@@ -153,6 +156,9 @@ Promise.all([gold1, gold2, gold3])
             });
             break;
           case 1:
+            if(!$argument.arg2){
+              break;
+            }
             item.forEach((el) => {
               let re = /[\u4E00-\u9FA5]/g;
               textShangHai =
@@ -172,6 +178,9 @@ Promise.all([gold1, gold2, gold3])
             });
             break;
           case 2:
+            if(!$argument.arg3){
+              break;
+            }
             item.sort().forEach((el) => {
               textInKind =
                 textInKind +
