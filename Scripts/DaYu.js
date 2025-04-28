@@ -1,9 +1,9 @@
 const $ = new Env("DaYu");
-let m1 = new Promise((resolve, reject) => {
+let apis = ["https://dayu.qqsuu.cn/moyuribaoshipin/apis.php?type=json","https://dayu.qqsuu.cn/moyuribao/apis.php?type=json","https://dayu.qqsuu.cn/moyurili/apis.php?type=json","https://dayu.qqsuu.cn/mingxingbagua/apis.php?type=json","https://dayu.qqsuu.cn/neihanduanzi/apis.php?type=json","https://dayu.qqsuu.cn/weiyujianbao/apis.php?type=json","https://dayu.qqsuu.cn/qingganhuayuan/apis.php?type=json","https://dayu.qqsuu.cn/xingzuoyunshi/apis.php?type=json"];
+let ms = apis.map((api)=>{
+	return new Promise((resolve, reject) => {
   let option1 = {
-    url: encodeURI(
-      "https://dayu.qqsuu.cn/moyuribaoshipin/apis.php?type=json"
-    ),
+    url: encodeURI(api),
     method: "GET",
     headers: {
       Accept: "application/json, text/javascript, */*; q=0.01",
@@ -26,14 +26,50 @@ let m1 = new Promise((resolve, reject) => {
     }
   });
 });
-
-Promise.all([m1])
+});
+Promise.all(ms)
   .then((result) => {
       result.forEach((item, index) => {
         switch (index) {
           case 0:
-            $.log(item.data);
-            $.notify("DaYu","摸鱼视频","",item.data);
+					  if($argument.moyushipin){
+              $.notify("DaYu","摸鱼视频","",item.data);
+						}
+            break;
+					case 1:
+          if($argument.moyuribao){
+            $.notify("DaYu","摸鱼日报","",item.data);
+            }
+            break;
+					case 2:
+          if($argument.moyurili){
+            $.notify("DaYu","摸鱼日历","",item.data);
+            }
+            break;
+					case 3:
+          if($argument.mingxingbagua){
+            $.notify("DaYu","明星八卦","",item.data);
+            }
+            break;
+					case 4:
+          if($argument.neihanduanzi){
+            $.notify("DaYu","内涵段子","",item.data);
+            }
+            break;
+					case 5:
+          if($argument.xinwenjianbao){
+           $.notify("DaYu","新闻简报","",item.data);
+          }
+            break;
+					case 6:
+          if($argument.qingganhuayuan){
+            $.notify("DaYu","情感花园","",item.data);
+            }
+            break;
+					case 7:
+          if($argument.xingzuoyunshi){
+            $.notify("DaYu","星座运势","",item.data);
+            }
             break;
           default:
             break;
