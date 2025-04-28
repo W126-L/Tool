@@ -32,13 +32,12 @@ Promise.all([m1])
       result.forEach((item, index) => {
         switch (index) {
           case 0:
-            $.log(item)
+            $.notify("DaYu","摸鱼视频","",item.data);
             break;
           default:
             break;
         }
       });
-    $.notify("DaYu");
   })
   .catch((error) => {
     console.log(error);
