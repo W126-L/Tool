@@ -1,5 +1,5 @@
 #!name=Github-429
-#!desc=解除Github显示429的限制
+#!desc=解除Github速率限制返回显示429的问题
 #!author = Wuang备份-原作者@TG-mieqq [https://github.com/W126-L]
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Github429.plugin
 #!homepage = https://github.com/W126-L
@@ -7,7 +7,6 @@
 #!tag = 阿旺の库
 
 [Rewrite]
-# 解决github速率限制返回429问题
 ^https:\/\/(raw|gist)\.githubusercontent\.com\/ header-replace Accept-Language en-us
 ^https:\/\/github\.com\/ header-replace Accept-Language en-us
 
