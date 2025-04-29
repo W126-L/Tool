@@ -1,0 +1,11 @@
+#!name=Github429
+#!desc=解除Github429限制
+
+[Rewrite]
+# 解决github速率限制返回429问题
+^https:\/\/(raw|gist)\.githubusercontent\.com\/ header-replace Accept-Language en-us
+^https:\/\/github\.com\/ header-replace Accept-Language en-us
+
+[Mitm]
+hostname = raw.githubusercontent.com,gist.githubusercontent.com,github.com
+
