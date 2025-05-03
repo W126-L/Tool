@@ -14,4 +14,4 @@ mitm = input,"mwfimsvfast2.cc",tag=MITM
 http-response https://mwfimsvfast2.cc\/static\/upload* script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/ManWa.js, requires-body=true, binary-body-mode=true, timeout=60, tag=漫蛙图片解析, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ManWa.png
 
 [MITM]
-hostname = {mitm}
+hostname = "{mitm}"
