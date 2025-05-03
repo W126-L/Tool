@@ -1,0 +1,17 @@
+#!name = 漫蛙解析
+#!desc = 漫蛙图片解析
+#!author = Wuang备份-原作者@墨 [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/ManWa.plugin
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ManWa.png
+#!tag = 阿旺の库
+
+[Argument]
+mitm = input,"mwfimsvfast2.cc",tag=MITM
+
+
+[Script]
+http-response https://mwfimsvfast2.cc\/static\/upload* script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/ManWa.js, requires-body=true, binary-body-mode=true, timeout=60, tag=漫蛙图片解析, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ManWa.png
+
+[MITM]
+hostname = {mitm}
