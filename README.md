@@ -47,6 +47,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Huilvhuansuan.png" alt="Huilvhuansuan" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/JD.png" alt="JD" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/JavDB.png" alt="JavDB" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/JiaTeng.png" alt="JiaTeng" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KaoShiBao.png" alt="KaoShiBao" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuaiShouBanLv.png" alt="KuaiShouBanLv" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic-Pro.png" alt="KuwoMusic-Pro" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
