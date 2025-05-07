@@ -75,6 +75,10 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Canva.png"
     },
     {
+      "name": "Cherry",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Cherry.png"
+    },
+    {
       "name": "China-Broadnet",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/China-Broadnet.png"
     },
@@ -481,10 +485,6 @@
     {
       "name": "iKuuu",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iKuuu.png"
-    },
-    {
-      "name": "抖音精选-看视频",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/抖音精选-看视频.png"
     }
   ]
 }

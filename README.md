@@ -21,6 +21,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Cainiao.png" alt="Cainiao" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/CamScanner.png" alt="CamScanner" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Canva.png" alt="Canva" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Cherry.png" alt="Cherry" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/China-Broadnet.png" alt="China-Broadnet" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/China-Operator.png" alt="China-Operator" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/DaYu.png" alt="DaYu" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
@@ -122,8 +123,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iConnectHue.png" alt="iConnectHue" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iFreeTime-Fang.png" alt="iFreeTime-Fang" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iFreeTime-Yuan.png" alt="iFreeTime-Yuan" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
-<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iKuuu.png" alt="iKuuu" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
-<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/抖音精选-看视频.png" alt="抖音精选-看视频" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy"></div>
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iKuuu.png" alt="iKuuu" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy"></div>
 
 All-Icon
 
