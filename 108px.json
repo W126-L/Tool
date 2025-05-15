@@ -191,6 +191,10 @@
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KaoShiBao.png"
     },
     {
+      "name": "Kelee",
+      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Kelee.png"
+    },
+    {
       "name": "KuaiShouBanLv",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuaiShouBanLv.png"
     },
@@ -489,10 +493,6 @@
     {
       "name": "iKuuu",
       "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iKuuu.png"
-    },
-    {
-      "name": "kelee",
-      "url": "https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/kelee.png"
     }
   ]
 }

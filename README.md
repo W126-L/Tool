@@ -50,6 +50,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/JavDB.png" alt="JavDB" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/JiaTeng.png" alt="JiaTeng" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KaoShiBao.png" alt="KaoShiBao" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Kelee.png" alt="Kelee" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuaiShouBanLv.png" alt="KuaiShouBanLv" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic-Pro.png" alt="KuwoMusic-Pro" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png" alt="KuwoMusic" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
@@ -124,8 +125,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iConnectHue.png" alt="iConnectHue" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iFreeTime-Fang.png" alt="iFreeTime-Fang" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iFreeTime-Yuan.png" alt="iFreeTime-Yuan" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
-<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iKuuu.png" alt="iKuuu" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
-<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/kelee.png" alt="kelee" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy"></div>
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iKuuu.png" alt="iKuuu" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy"></div>
 
 All-Icon
 
