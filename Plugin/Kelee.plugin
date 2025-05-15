@@ -1,0 +1,13 @@
+#!name = 解除可莉链接屏蔽UA限制
+#!desc = 解除可莉链接屏蔽UA限制
+#!author = Wuang备份-原作者@墨 [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Kelee.plugin
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Kelee.png
+#!tag = 阿旺の库
+
+[Rewrite]
+^https://kelee.one* header-replace User-Agent Loon/853\x20CFNetwork/1496.0.7\x20Darwin/23.5.0
+
+[Mitm]
+hostname = kelee.one
