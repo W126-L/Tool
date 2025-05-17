@@ -19,9 +19,9 @@ var obj = status
     )
   : $response.body;
 if (/^https:\/\/api\.ankianki\.com\/user\/userInfo\/get?/.test(requestUrl)) {
-  obj.data.vip_expiration_time = "周思宇";
-  obj.data.yst_vip_expiration_time = "周思宇";
-  obj.data.expiration_time = "周思宇";
+  obj.data.vip_expiration_time = "2999-12-31 23:59:59";
+  obj.data.yst_vip_expiration_time = "2999-12-31 23:59:59";
+  obj.data.expiration_time = "2999-12-31 23:59:59";
   obj.data.status = "1";
   obj.data.yst_vip_type = "2";
   obj.data.user_type = "2";
@@ -59,7 +59,7 @@ if (/^https:\/\/api\.ankianki\.com\/user\/userInfo\/get?/.test(requestUrl)) {
 } else if (
   /^https:\/\/api\.ankianki\.com\/system\/setPassphrase?/.test(requestUrl)
 ) {
-  obj.data.expire_at = "周思宇";
+  obj.data.expire_at = "2999-12-31 23:59:59";
 } else if (
   /^https:\/\/api\.ankianki\.com\/help\/commonSwitch\/getConfig?/.test(
     requestUrl
