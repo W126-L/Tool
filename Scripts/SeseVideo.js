@@ -1,28 +1,5 @@
-/*************************************
-原脚本链接：https://raw.githubusercontent.com/chxm1023/Advertising/main/sssp.js
-项目名称：涩涩视频—去除所有广告
-下载地址：https://23581.net/
-在线观看：https://os.privacypolicie.net
-在线观看：https://kb403128.jnruiying.com
-获取地址：kuaiboshipin8568@gmail.com 发送任意内容邮件获取最新下载地址
-更新日期：2024-10-29
-脚本作者：chxm1023
-电报频道：https://t.me/chxm1023
-使用声明：⚠️仅供参考，🈲转载与售卖！
-
-**************************************
-
-[rewrite_local]
-^https?:\/\/.*\.(yuchenglw|honghufly|privacypolicie|osupdate|jnruiying)\.(net|com) url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/SeseVideo.js
-
-[mitm]
-hostname = *.yuchenglw.com, *.honghufly.com, *.privacypolicie.net, *.osupdate.net, *.jnruiying.com
-
-*************************************/
-
-
 var body = $response.body;
-$done({ body });
+$done({ body:body });
 var replacements = [
   { regex: /广告合作[\s\S]*?(<\/p>)/g, replaceWith: '$1' },  // 删除多余内容
   { regex: /<a class="" href="https:\/\/[^"]+" target="_blank" data-str="[^"]*">[^<]+<\/a>/g, replaceWith: '<!--  -->' },  // 删除特定广告链接按钮
