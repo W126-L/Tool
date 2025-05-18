@@ -1,5 +1,4 @@
 var body = $response.body;
-$done({ body:body });
 var replacements = [
   { regex: /广告合作[\s\S]*?(<\/p>)/g, replaceWith: '$1' },  // 删除多余内容
   { regex: /<a class="" href="https:\/\/[^"]+" target="_blank" data-str="[^"]*">[^<]+<\/a>/g, replaceWith: '<!--  -->' },  // 删除特定广告链接按钮
