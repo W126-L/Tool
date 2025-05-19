@@ -18,8 +18,6 @@ DOMAIN-SUFFIX, openai.com
 DOMAIN-SUFFIX, sora.com
 
 # Copilot
-DOMAIN, api.githubcopilot.com
-DOMAIN, copilot-proxy.githubusercontent.com
 DOMAIN, copilot.microsoft.com
 DOMAIN, sydney.bing.com
 DOMAIN, www.bing.com
@@ -74,8 +72,6 @@ DOMAIN-SUFFIX, grok.com
 # Trae AI
 DOMAIN, trae-api-sg.mchost.guru
 DOMAIN-SUFFIX, trae.ai
-
-DOMAIN,api.github.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 DOMAIN-SUFFIX,ai.com
