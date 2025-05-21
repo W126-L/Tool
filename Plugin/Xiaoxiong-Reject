@@ -1,0 +1,14 @@
+#!name = 小熊拦截
+#!desc = 小熊拦截3.1.0版去除强制更新弹窗，白嫖会员
+#!author = Wuang备份 [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Xiaoxiong-Reject.plugin
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Xiaoxiong-Reject.png
+#!tag = 阿旺の库
+
+[Rewrite]
+^https:\/\/spamblocker-api\.zeekstudio\.com\/profile url reject-dict
+^https:\/\/spamblocker-api\.zeekstudio\.com\/checkVersion url reject-dict
+
+[Mitm]
+hostname = spamblocker-api.zeekstudio.com
