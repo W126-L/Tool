@@ -3,7 +3,7 @@
 项目名称：JavDB-净化/VIP
 在线地址：https://javdb008.com
 下载地址：https://jav522.app
-更新日期：2023-12-03
+更新日期：2024-07-30
 脚本作者：chxm1023
 数据来源：@yqc_123
 电报频道：https://t.me/chxm1023
