@@ -1,0 +1,10 @@
+#!name = 探花TV网络模式切换
+#!desc = 探花TV网络分流模式切换
+#!author = Wuang [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/TanHuaTV.plugin
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/TanHuaTV.png
+#!tag = 阿旺の库
+
+[Rule]
+DOMAIN-SUFFIX,tanhuatv.site,PROXY
