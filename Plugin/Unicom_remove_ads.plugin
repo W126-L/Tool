@@ -1,7 +1,7 @@
 #!name = 中国联通去广告
 #!desc = 移除中国联通APP开屏广告、搜索框推广、主页浮窗和底部推广以及我的页面钱包模块，后续还将继续完善。[https://raw.githubusercontent.com/mist-whisper/Loon/master/Lpx/Unicom_remove_ads.lpx]
 #!author = Wuang备份-原作者@wish[https://github.com/mist-whisper]
-#!homepage = [https://raw.githubusercontent.com/mist-whisper/Loon/master/Lpx/Unicom_remove_ads.lpx] https://github.com/mist-whisper/Loon/blob/master/README.md
+#!homepage = https://github.com/mist-whisper/Loon/blob/master/README.md
 #!tag = 阿旺の库
 #!system = iOS/iPadOS
 #!system_version = iOS/iPadOS 15
