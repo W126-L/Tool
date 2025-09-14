@@ -1,6 +1,6 @@
 #!name = 中国联通去广告
 #!desc = 移除中国联通APP开屏广告、搜索框推广、主页浮窗和底部推广、我的页面钱包模块等。
-#!author = Wuang备份-原作者@wish[https://github.com/mist-whisper]
+#!author = Wuang备份-原作者@wish [https://github.com/mist-whisper]
 #!homepage = https://raw.githubusercontent.com/mist-whisper/Loon/master/Lpx/Unicom_remove_ads.lpx
 #!tag = 阿旺の库
 #!system = iOS/iPadOS
@@ -8,7 +8,7 @@
 #!loon_version = 3.2.9(837)
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Unicom_remove_ads.plugin
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Unicom.png
-#!date=2025-09-12 14:00:00
+#!date = 2025-09-12 14:00:00
 
 [Rule]
 # 开屏广告
