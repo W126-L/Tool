@@ -15,7 +15,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Beebialist-WebDAV.png" alt="Beebialist-WebDAV" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/BiliBili.png" alt="BiliBili" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Bilibili.png" alt="Bilibili" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
-<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/BoDianMusic-VIP.png" alt="BoDianMusic-VIP" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/BoDianMusic.png" alt="BoDianMusic" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Budayang.png" alt="Budayang" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/CCC.png" alt="CCC" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/CaiPu.png" alt="CaiPu" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
