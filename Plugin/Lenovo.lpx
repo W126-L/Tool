@@ -1,7 +1,7 @@
 #!name = 联想（Lenovo）
 #!desc = 联想APP去开屏广告，小tips：如无效，清除App缓存数据，或卸载APP重新安装
 #!author = Wuang [https://github.com/W126-L]
-#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Lenovo.plugin
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Lenovo.lpx
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Lenovo.png
 #!tag = 阿旺の库
