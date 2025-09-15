@@ -1,7 +1,7 @@
 #!name = iOS阻止系统更新
 #!desc = 阻止偷偷自动更新iOS系统，域名分流拦截
 #!author = Wuang [https://github.com/W126-L]
-#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/BlockiOSUpdate.plugin
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/BlockiOSUpdate.lpx
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/NoUpdate.png
 #!tag = 阿旺の库
