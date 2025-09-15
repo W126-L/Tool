@@ -1,7 +1,7 @@
 #!name = 爱思助手
 #!desc = 爱思助手去开屏广告，小tips：如无效，清除App缓存数据，或卸载APP重新安装
 #!author = Wuang
-#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/i4.plugin
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/i4.lpx
 #!homepage = https://github.com/W126-L
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/i4.png
 #!tag = 阿旺の库
