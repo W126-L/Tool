@@ -6,7 +6,7 @@
 #!system = iOS/iPadOS
 #!system_version = iOS/iPadOS 15
 #!loon_version = 3.2.9(837)
-#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Unicom_remove_ads.plugin
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Unicom_remove_ads.lpx
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Unicom.png
 #!date = 2025-09-12 14:00:00
 
