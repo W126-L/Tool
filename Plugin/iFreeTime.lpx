@@ -1,10 +1,10 @@
 #!name = 爱阅书香
 #!desc = 看个小说而已，别让广告扫兴！爱阅书香会员激励快速跳过
 #!author = Wuang备份-由@午时已到编译 [https://github.com/W126-L]
-#!openUrl=https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/iFreeTime.plugin
-#!homepage=https://github.com/W126-L
-#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iFreeTime-Fang.png
-#!tag=阿旺の库
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/iFreeTime.lpx
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iFreeTime-Fang.png
+#!tag = 阿旺の库
 
 [General]
 skip-proxy = api-access.pangolin-sdk-toutiao.com
