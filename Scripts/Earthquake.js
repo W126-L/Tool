@@ -1,7 +1,7 @@
 /*
 app：地址预警
 [rewrite_local]
-https://mobile-new.chinaeew.cn/v1/order/apple/vip url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/earthquake.js
+https://mobile-new.chinaeew.cn/v1/order/apple/vip url script-response-body https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Earthquake.js
 hostname = mobile-new.chinaeew.cn
 */
 let obj = JSON.parse($response.body);
