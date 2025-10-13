@@ -7,7 +7,7 @@
 #!tag = 阿旺の库
 
 [Script]
-http-response https://mobile-new.chinaeew.cn/v1/order/apple/vip script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/earthquake.js, requires-body=true, timeout=60, tag=地震预警, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Earthquake.png
+http-response https://mobile-new.chinaeew.cn/v1/order/apple/vip script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Earthquake.js, requires-body=true, timeout=60, tag=地震预警, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Earthquake.png
 
 [MITM]
 hostname = mobile-new.chinaeew.cn
