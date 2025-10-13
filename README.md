@@ -131,7 +131,6 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ZhiPianRen.png" alt="ZhiPianRen" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Zhixiaobao.png" alt="Zhixiaobao" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/eBirdie.png" alt="eBirdie" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
-<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/earthquake.png" alt="earthquake" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/elm.png" alt="elm" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/i4.png" alt="i4" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/iConnectHue.png" alt="iConnectHue" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
