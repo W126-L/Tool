@@ -1,0 +1,13 @@
+#!name = 知源经络
+#!desc = 知源经络SVIP
+#!author = Wuang [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Zhiyuan.lpx
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Zhiyuan.png
+#!tag = 阿旺の库
+
+[Script]
+http-response ^https://api.lighttcm.com/user/my_info* script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Zhiyuan.js, requires-body=true, timeout=60, tag=知源, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Zhiyuan.png
+
+[MITM]
+hostname = api.lighttcm.com
