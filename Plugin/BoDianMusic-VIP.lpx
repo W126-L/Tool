@@ -5,7 +5,7 @@
 #!tag = 阿旺の库
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/BoDianMusic-VIP.lpx
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/BoDianMusic.png
-#!date = 2025-09-15 22:05:00
+#!date = 2025-10-14
 
 [Rewrite]
 ^https?:\/\/h5s.kuwo.cn\/m\/bd_launch_popup\/index - reject
