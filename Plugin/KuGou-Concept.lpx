@@ -1,0 +1,14 @@
+
+
+
+
+[Script]
+cron "10 0 * * *" script-path=https://gist.githubusercontent.com/Alex0510/8b958bcf53ed1271e03bb5130b2206ec/raw/kugou_vip.js, tag=酷狗领取VIP
+
+http-request https://(gateway|gatewayretry|gateway3).kugou.com/youth/v1/activity/get_month_vip_record.* script-path=https://gist.githubusercontent.com/Alex0510/8b958bcf53ed1271e03bb5130b2206ec/raw/kugou_cookie.js, tag=酷狗数据
+
+http-response (https?:\/\/)?.*\.kugou\.com\/((v1\/(get_union_vip|vipuser_sub|get_res_privilege)|mobile\/vipinfo|kugouvip\/v[12]\/batch_union_vipinfo)|pendant/v2/(set_user_pendan|get_pendant_list)).* script-path=https://gist.githubusercontent.com/Alex0510/8b958bcf53ed1271e03bb5130b2206ec/raw/kugou_ad.js, requires-body=true, tag=酷狗去广告
+
+[MITM]
+hostname = *.kugou.com
+
