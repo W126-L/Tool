@@ -1,4 +1,11 @@
-
+#!name = 酷狗音乐概念版
+#!desc = 修复酷狗概念版解锁VIP功能，自动签到领取畅听vip，支持去广告，在线听歌及下载支持hi-res、无损音质，VIP头像挂件，感谢灰佬技术支持，每日凌晨0点10分自动领取VIP，第一使用打开酷狗概念版天天签到领VIP页面或浏览器登陆https://activity.kugou.com/getvips/v-4163b2d0/index.html?should_append_gdt_ua=1获取参数，提示获取成功即可
+#!author = Wuang备份-原作者@Alex0510
+#!homepage = https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Module/kugou.sgmodule
+#!tag = 阿旺の库
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/KuGou-Concept.lpx
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGou-Concept.png
+#!date = 2025-10-14
 
 
 
