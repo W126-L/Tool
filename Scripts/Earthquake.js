@@ -5,9 +5,10 @@ https://mobile-new.chinaeew.cn/v1/order/apple/vip url script-response-body https
 hostname = mobile-new.chinaeew.cn
 */
 let obj = JSON.parse($response.body);
+const timestamp = Date.now() + 24 * 60 * 60 * 1000;
 obj.data = {
   "productName" : "SVIP",
-  "endTime" : 4791705729000,
+  "endTime" : timestamp,
   "vipType" : "svip",
   "productId" : "earthquake_early_warning_SVIP",
   "upgradePrice" : 0
