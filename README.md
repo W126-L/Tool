@@ -7,6 +7,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/0-YiRanDeLe.png" alt="0-YiRanDeLe" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/91.png" alt="91" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ASN.png" alt="ASN" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AiDou-Black.png" alt="AiDou-Black" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AiDou-White.png" alt="AiDou-White" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AiWu.png" alt="AiWu" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AliYunDrive.png" alt="AliYunDrive" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
