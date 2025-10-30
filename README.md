@@ -7,6 +7,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/0-YiRanDeLe.png" alt="0-YiRanDeLe" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/91.png" alt="91" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/ASN.png" alt="ASN" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AiWu.png" alt="AiWu" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AliYunDrive.png" alt="AliYunDrive" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Anxin.png" alt="Anxin" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AppStore.png" alt="AppStore" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
