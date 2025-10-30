@@ -1,0 +1,10 @@
+#!name = 爱污传媒网络模式切换
+#!desc = 爱污传媒网络分流模式切换（你的益达需代理）
+#!author = Wuang [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/AiWu.lpx
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/AiWu.png
+#!tag = 阿旺の库
+
+[Rule]
+DOMAIN-SUFFIX,aiwucm.com,PROXY
