@@ -96,15 +96,36 @@ if(m){
     res.user = user
     $done({body:JSON.stringify(res)})
 }
+
+function safeGet(url, retry = 3) {
+    $httpClient.get(url, function(error, response, data) {
+        if (error || !data) {
+            console.log(`请求失败，剩余重试次数: ${retry - 1}`);
+            if (retry > 1) {
+                safeGet(url, retry - 1);
+            } else {
+                $done({ body: JSON.stringify({ error: 'request_failed' }) });
+            }
+        } else {
+            $done({ body: data });
+        }
+    });
+}
+
+
+
+
 m = url.match(/mobi\.s\?f=kwxs/)
 if(m){
     let rid = $persistentStore.read('kuwo_rid')
     if(rid){
         //let url = 'https://mobi.kuwo.cn/mobi.s?f=web&source=kwplayer_ar_1.1.9_jiakong_118980_320.apk&type=convert_url_with_sign&rid='+rid+'&priority=bitrate&network=3G&mode=download&br=2000kflac'
         let url = 'https://mobi.kuwo.cn/mobi.s?f=web&user=1008611&source=kwplayerhd_ar_4.3.0.8_tianbao_T1A_qirui.apk&type=convert_url_with_sign&br=2000kflac&rid='+rid
-        $httpClient.get(url, function(error, response, data) {
-            $done({body:data})
-        });
+        safeGet(url);
+        
+        //$httpClient.get(url, function(error, response, data) {
+            //$done({body:data})
+        //});
     }
 }
 m = url.match(/vip\/v2\/user\/vip\?vers=/)
