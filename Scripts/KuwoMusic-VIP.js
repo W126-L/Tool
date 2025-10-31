@@ -17,12 +17,23 @@ let m = url.match(/vip\/enc/)
 if(m){
     $done({body:dataJson[$argument.vip]})
 }
+
 m = url.match(/vip\/v2\/theme/)
 if(m){
     let res = JSON.parse($response.body)
     res.data.needBieds = null
     $done({body:JSON.stringify(res)})
 }
+m = url.match(/commercia\/vipTab\/myTab\/base/)
+if(m){
+    let obj = JSON.parse($response.body)
+    obj.data.data.memCenter.btnText = "已开通";
+    obj.data.data.actBlock.title = "插件主页";
+    obj.data.data.actBlock.subTitle = "https://github.com/W126-L";
+    obj.data.data.actBlock.jump.jumpUrl = "https://github.com/W126-L";
+    $done({body:JSON.stringify(obj)});
+}
+
 m = url.match(/\/a\.p/)
 if(m){
     if($request.method == "GET"){
@@ -161,13 +172,4 @@ if(m){
     })
     res.data.styles = styles;
     $done({body:JSON.stringify(res)})
-}
-m = url.match(/commercia\/vipTab\/myTab\/base/)
-if(m){
-    //let obj = JSON.parse($response.body)
-    //obj.data.data.memCenter.btnText = "已开通";
-    //obj.data.data.actBlock.title = "插件主页";
-    //obj.data.data.actBlock.subTitle = "https://github.com/W126-L";
-    //obj.data.data.actBlock.jump.jumpUrl = "https://github.com/W126-L";
-    //$done({body:JSON.stringify({})});
 }
