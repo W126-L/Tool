@@ -31,7 +31,7 @@ if(m){
     //obj.data.data.actBlock.title = "插件主页";
     //obj.data.data.actBlock.subTitle = "https://github.com/W126-L";
     //obj.data.data.actBlock.jump.jumpUrl = "https://github.com/W126-L";
-    obj = {}
+    obj.data.data = {}
     $done({body:JSON.stringify(obj)});
 }
 
