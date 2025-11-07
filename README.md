@@ -37,6 +37,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Earthquake.png" alt="Earthquake" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/FanQie.png" alt="FanQie" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Feizhu.png" alt="Feizhu" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Filmix.png" alt="Filmix" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Final.png" alt="Final" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Flyme.png" alt="Flyme" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Foxtiming.png" alt="Foxtiming" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
