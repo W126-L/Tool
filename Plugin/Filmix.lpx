@@ -7,7 +7,7 @@
 #!tag = 阿旺の库
 
 [Script]
-http-response ^https:\/\/appv3\.filmix\.com\.cn\/api\/v2\/user\/user\/info script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Filmix.js, requires-body=true, timeout=60, tag=Filmix
+http-response ^https:\/\/appv3\.filmix\.com\.cn\/api\/v2\/user\/user\/info script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Filmix.js, requires-body=true, timeout=60, tag=filmix-ai影视库重命名整理刮削, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Filmix.png
 
 [MITM]
 hostname = appv3.filmix.com.cn
