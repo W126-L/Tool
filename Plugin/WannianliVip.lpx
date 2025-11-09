@@ -7,7 +7,7 @@
 #!tag = 阿旺の库
 
 [Script]
-http-response ^https://r.51wnl-cq\.com\/Api\/User\/GetExtInfo* script-path= WannianliVip.js, requires-body=true, timeout=60, tag=vip, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Wannianli.png
+http-response ^https://r.51wnl-cq\.com\/Api\/User\/GetExtInfo* script-path= https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/WannianliVip.js, requires-body=true, timeout=60, tag=vip, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Wannianli.png
 
 [MITM]
 hostname = r.51wnl-cq.com
