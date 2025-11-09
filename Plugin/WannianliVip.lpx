@@ -1,0 +1,13 @@
+#!name = 万年历
+#!desc = 万年历解锁终身SVIP！
+#!author = Wuang [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/WannianliVip.lpx
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Wannianli.png
+#!tag = 阿旺の库
+
+[Script]
+http-response ^https://r.51wnl-cq\.com\/Api\/User\/GetExtInfo* script-path= WannianliVip.js, requires-body=true, timeout=60, tag=vip, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Wannianli.png
+
+[MITM]
+hostname = r.51wnl-cq.com
