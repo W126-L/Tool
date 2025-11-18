@@ -1,0 +1,21 @@
+#!name = 一汽大众去广告
+#!desc = 一汽大众APP去开屏广告，小tips：如无效，清除App缓存数据，或卸载APP重新安装
+#!author = Wuang备份-原作者@向晚 [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/YiQiDaZhong.lpx
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/YiQiDaZhong.png
+#!tag = 阿旺の库
+
+[Rewrite]
+# > 一汽大众
+# 感谢【向晚】分享
+^https?:\/\/oneapp-api\.faw-vw\.com\/search\/firstPage\/getPromptList\/v1\?.* response-body-json-jq '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+^https?:\/\/oneapp-api\.faw-vw\.com\/benefits\/benefitsCard\/getInfo\/v1\?.* response-body-json-jq '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v1\?.*showPositionCode=VWAPP_HOME_BUOY response-body-json-jq '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v1\?.*showPositionCode=VWAPP_(ICE|MEB)_(OPEN_SCREEN_ADS|CAR_ZHIHU_COLLEGE) response-body-json-jq '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v1\?.*showPositionCode=VWAPP_(ICE|MEB)_HOME_(OWNER_BANNER|PROSPECTS_BANNER|CUSTOM_BANNER|KONGO|CUSTOM_KONGO) response-body-json-jq '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+^https?:\/\/oneapp-api\.faw-vw\.com\/content\/(customize\/getCustomizePageName|recommend\/getRecommendInfoFlows|activity\/getSquareActivityList|theme\/getThemeList|post\/getPostsByTags|evaluate\/getEvaluateCards)\/v1\?.* response-body-json-jq '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+^https?:\/\/oneapp-api\.faw-vw\.com\/content\/(collection\/getCollectionList)\/v1\?.* response-body-json-jq '. = { returnStatus: "SUCCEED", hasMore: false, data: {} }'
+
+[Mitm]
+hostname = oneapp-api.faw-vw.com
