@@ -38,6 +38,6 @@ hostname =
 
 var body = $response.body; 
 let obj = JSON.parse($response.body);
-obj.id = "https://t.me/GieGie777";
+obj.id = "Wuang";
 obj.vipExpiresAt = "2999-09-01T00:00:00Z"
 $done({body: JSON.stringify(obj)});
