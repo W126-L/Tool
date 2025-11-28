@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > 番茄短剧-视频大全海量爆款短剧持续更新
-^http:\/\/8.149.129.124:3002\/api\/account\/v1 url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/fanqdj.js
+^http:\/\/8.149.129.124:3002\/api\/account\/v1 url script-response-body https://raw.githubusercontent.com/W126-L/Tool/refs/heads/master/Scripts/FanQieDuanJu.js
 
 
 [mitm]
