@@ -3,46 +3,50 @@ name: master_auto_js
 on:
   push:
     branches:
-      - master  # 触发 Actions 的分支（例如 main 分支）
+      - master  # 触发 Actions 的分支
 
 jobs:
   generate_and_commit:
-    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 运行环境
+    runs-on: ubuntu-latest
     
     steps:
     - name: Checkout the repository
-      uses: actions/checkout@v3  # 克隆当前的 GitHub 仓库
+      uses: actions/checkout@v3
 
     - name: Set up Node.js
-      uses: actions/setup-node@v3  # 设置 Node.js 环境
+      uses: actions/setup-node@v3
       with:
-        node-version: '20'  # 你可以根据需要设置 Node.js 版本
+        node-version: '20'
 
     - name: Run makeMdForPlugins.js to generate files
-      run: node makeMdForPlugins.js  # 执行你的脚本生成文件
+      run: node makeMdForPlugins.js
 
-    - name: Find and commit README.md
+    - name: Commit and push README.md if changed
       run: |
-        # 查询README.md文件是否存在
+        # 查找 README.md 文件
         GENERATED_README_FILES=$(find . -maxdepth 1 -type f -name "README.md")
-        # 检查是否有生成的文件
+        
         if [ -n "$GENERATED_README_FILES" ]; then
-          # 设置 Git 配置信息
+          # 设置 Git 用户信息
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          # 遍历文件并逐个添加到 Git 暂存区
+
+          # 添加文件到暂存区
           for file in $GENERATED_README_FILES; do
             git add "$file"
           done
-          
           git add -u
-          # 提交更改
-          git commit -m "自动生成 README.md"
 
-          # 推送更改到 GitHub
-          git push origin master
+          # 判断是否有变动
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "自动生成 README.md"
+            git push origin master
+            echo "✅ README.md has been committed and pushed"
+          else
+            echo "ℹ️ No changes to commit"
+          fi
         else
-          echo "No README.md files to commit"
+          echo "⚠️ No README.md files found"
         fi
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 自动通过 GitHub token 进行身份验证
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
