@@ -1,8 +1,11 @@
-#!name=酷狗音乐VIP
-#!desc=酷狗音乐VIP功能调试
-#!author=@Wuang-baby
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1090.png
-#!tag=KuGoumusic
+#!name = 酷狗音乐VIP
+#!desc = 酷狗音乐VIP功能调试（1.支持下载会员歌曲,仅限普通无损品质,别问为什么仅限,下载未打开,可自行抓包下载地址。2.调试会员专属歌曲。3.音质可选母带/Hi-Res/蝰蛇。 4.部分歌曲版权问题未修改。5.去除开屏直播推流等广告。）
+#!author = Wuang备份-原作者@Baby [https://github.com/W126-L]
+#!homepage = https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/KuGou.sgmodule
+#!tag = 阿旺の库
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/KuGouMusic.lpx
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGouMusic.png
+#!date = 2025-11-05
 
 [Rule]
 # > (静态资源/弹窗拒绝)
@@ -26,11 +29,11 @@ IP-CIDR,157.255.11.247/32,REJECT,no-resolve
 IP-CIDR,111.206.99.202/32,REJECT,no-resolve
 
 [Script]
-http-response ^https?:\/\/(m\.kugou\.com|gateway(retry)?\.kugou\.com|ads\.service\.kugou\.com|welfare\.kugou\.com|fx\.service\.kugou\.com|hwstore\.kugou\.com|loginservice\.kugou\.com|expendablekmrcdnretry\.kugou\.com)\/(ssr\/decocenter\/home|v5\/login_by_token|v2\/get_login_extend_info|card\/v1\/pxy\/top|ads\.gateway\/v2\/sidebar_link|ads\.gateway\/v2\/sidebar_top_card|ads\.gateway\/v2\/home_card|mobile\/vipinfoV2|v4\/mobile_splash(_sort)?|v2\/get_vip_config|ads\.gateway\/v5\/task_video\/qualification|els\.abt\/v1\/tmeab|pxy\/v1\/combo\/startup|mstc\/musicsymbol\/v1\/system\/profile|pendant\/v2\/get_user_pendant|v1\/blindbox_cabinet\/client_cabinet|ads\.gateway\/v2\/mobile_link|card\/v1\/pxy\/listen|flow\/user_config\/get_level_config_ios|v1\/starlight\/get_campaign_infos|searchnofocus\/v1\/search_no_focus_word|updateservice\/v1\/get_dev_user|v1\/login_by_quick_token|card\/v1\/pxy\/recommend_stream(_v2)?|v1\/get_res_privilege\/lite|v1\/union\/audio_info|ads\.gateway\/v2\/task_center_entrance|ocean\/v6\/theme\/category|tools\.mobile\/v2\/theme\/info|promotionvip\/v3\/vip_level\/detail) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗_播放res
+http-response ^https?:\/\/(m\.kugou\.com|gateway(retry)?\.kugou\.com|ads\.service\.kugou\.com|welfare\.kugou\.com|fx\.service\.kugou\.com|hwstore\.kugou\.com|loginservice\.kugou\.com|expendablekmrcdnretry\.kugou\.com)\/(ssr\/decocenter\/home|v5\/login_by_token|v2\/get_login_extend_info|card\/v1\/pxy\/top|ads\.gateway\/v2\/sidebar_link|ads\.gateway\/v2\/sidebar_top_card|ads\.gateway\/v2\/home_card|mobile\/vipinfoV2|v4\/mobile_splash(_sort)?|v2\/get_vip_config|ads\.gateway\/v5\/task_video\/qualification|els\.abt\/v1\/tmeab|pxy\/v1\/combo\/startup|mstc\/musicsymbol\/v1\/system\/profile|pendant\/v2\/get_user_pendant|v1\/blindbox_cabinet\/client_cabinet|ads\.gateway\/v2\/mobile_link|card\/v1\/pxy\/listen|flow\/user_config\/get_level_config_ios|v1\/starlight\/get_campaign_infos|searchnofocus\/v1\/search_no_focus_word|updateservice\/v1\/get_dev_user|v1\/login_by_quick_token|card\/v1\/pxy\/recommend_stream(_v2)?|v1\/get_res_privilege\/lite|v1\/union\/audio_info|ads\.gateway\/v2\/task_center_entrance|ocean\/v6\/theme\/category|tools\.mobile\/v2\/theme\/info|promotionvip\/v3\/vip_level\/detail) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗_播放res, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGouMusic.png
 
-http-response ^https?:\/\/gateway\.kugou\.com\/tracker\/v5\/url script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugouv5.js, requires-body=true, tag=酷狗_播放v5
+http-response ^https?:\/\/gateway\.kugou\.com\/tracker\/v5\/url script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugouv5.js, requires-body=true, tag=酷狗_播放v5, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGouMusic.png
 
-http-response ^https?:\/\/(nacsing\.kugou\.com|acsing\.service\.kugou\.com|vipos\.kugou\.com|gateway\.kugou\.com|gamecenter\.kugou\.com|acsing\.tx\.kugou\.com)\/(sing7\/json\/v2\/user\/login|ccktv\/v1\/ktv_room\/room\/room_config|fxsing\/vip\/member\/info|sing7\/homepage\/json\/v3\/vip\/tip|v4\/price\/get_tips|vipenergy\/v2\/entrance\/vip_center_user_info|fxsing\/vip\/user\/info|sing7\/homepage\/json\/v3\/cdn\/kroom_tab_enter|v1\/home\/member_game|sing7\/homepage\/json\/v3\/cdn\/kroom_tab\/banners) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugouksong.js, requires-body=true, tag=酷狗_K歌
+http-response ^https?:\/\/(nacsing\.kugou\.com|acsing\.service\.kugou\.com|vipos\.kugou\.com|gateway\.kugou\.com|gamecenter\.kugou\.com|acsing\.tx\.kugou\.com)\/(sing7\/json\/v2\/user\/login|ccktv\/v1\/ktv_room\/room\/room_config|fxsing\/vip\/member\/info|sing7\/homepage\/json\/v3\/vip\/tip|v4\/price\/get_tips|vipenergy\/v2\/entrance\/vip_center_user_info|fxsing\/vip\/user\/info|sing7\/homepage\/json\/v3\/cdn\/kroom_tab_enter|v1\/home\/member_game|sing7\/homepage\/json\/v3\/cdn\/kroom_tab\/banners) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugouksong.js, requires-body=true, tag=酷狗_K歌, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGouMusic.png
 
 [MITM]
 hostname = *.kugou.com, *.*.kugou.com
