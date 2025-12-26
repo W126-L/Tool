@@ -8,32 +8,124 @@
 #!date = 2025-12-15
 
 [Rule]
-# > (静态资源/弹窗拒绝)
+# > (广告/弹窗)
 URL-REGEX,"^https:\/\/vipssr\.kugou\.com\/static\/js\/async\/flexPayPopup",REJECT
-URL-REGEX,"^https:\/\/gateway\.kugou\.com\/vipssr\/prepay_ios\.html",REJECT
+URL-REGEX,"^https:\/\/.*\.kugou\.com\/vipssr\/prepay_ios\.html",REJECT
 URL-REGEX,"^https:\/\/staticssl\.kugou\.com\/common\/js-lib\/vip\/dlg_ctrler_v2\.js$",REJECT
 URL-REGEX,"^https:\/\/h5\.kugou\.com\/apps\/vipcenter\/_next\/static\/css",REJECT
 URL-REGEX,"^https:\/\/vipssr\.kugou\.com\/static\/js\/vip\/newUi\/vipPageUnionIosContent-",REJECT
 URL-REGEX,"^https:\/\/fx\.service\.kugou\.com\/fx\/activity\/register\/center\/sidebar\/configV2$",REJECT
 URL-REGEX,"^https:\/\/service1\.fanxing\.kugou\.com\/video\/mo\/live\/pull\/mutiline\/cfg",REJECT
 URL-REGEX,"^http:\/\/log\.web\.kugou\.com\/postEvent\.php$",REJECT
-# > (广告域名拒绝)
+# > (广告域名)
 DOMAIN,webvoobssdl.kugou.com,REJECT
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,ads.service.kugou.com,REJECT
 DOMAIN,adsfile.kugou.com,REJECT
 DOMAIN,mdpfilebssdlbig.kugou.com,REJECT
 DOMAIN,adserviceretry.kugou.com,REJECT
-# > (开屏广告IP拒绝)
+# > (开屏广告)
 IP-CIDR,157.255.11.247/32,REJECT,no-resolve
 IP-CIDR,111.206.99.202/32,REJECT,no-resolve
 
 [Script]
-http-response ^https?:\/\/(m\.kugou\.com|gateway(retry)?\.kugou\.com|ads\.service\.kugou\.com|welfare\.kugou\.com|fx\.service\.kugou\.com|hwstore\.kugou\.com|loginservice\.kugou\.com|expendablekmrcdnretry\.kugou\.com)\/(ssr\/decocenter\/home|v5\/login_by_token|v2\/get_login_extend_info|card\/v1\/pxy\/top|ads\.gateway\/v2\/sidebar_link|ads\.gateway\/v2\/sidebar_top_card|ads\.gateway\/v2\/home_card|mobile\/vipinfoV2|v4\/mobile_splash(_sort)?|v2\/get_vip_config|ads\.gateway\/v5\/task_video\/qualification|els\.abt\/v1\/tmeab|pxy\/v1\/combo\/startup|mstc\/musicsymbol\/v1\/system\/profile|pendant\/v2\/get_user_pendant|v1\/blindbox_cabinet\/client_cabinet|ads\.gateway\/v2\/mobile_link|card\/v1\/pxy\/listen|flow\/user_config\/get_level_config_ios|v1\/starlight\/get_campaign_infos|searchnofocus\/v1\/search_no_focus_word|updateservice\/v1\/get_dev_user|v1\/login_by_quick_token|card\/v1\/pxy\/recommend_stream(_v2)?|v1\/get_res_privilege\/lite|v1\/union\/audio_info|ads\.gateway\/v2\/task_center_entrance|ocean\/v6\/theme\/category|tools\.mobile\/v2\/theme\/info|promotionvip\/v3\/vip_level\/detail) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗_播放res, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGouMusic.png
+# > SSR首页装饰中心
+http-response ^https:\/\/m\.kugou\.com\/ssr\/decocenter\/home script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗SSR首页
 
-http-response ^https?:\/\/gateway\.kugou\.com\/tracker\/v5\/url script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugouv5.js, requires-body=true, tag=酷狗_播放v5, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGouMusic.png
+# > 登录相关接口
+http-response ^https:\/\/.*\.kugou\.com\/v5\/login_by_token script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗登录Token
 
-http-response ^https?:\/\/(nacsing\.kugou\.com|acsing\.service\.kugou\.com|vipos\.kugou\.com|gateway\.kugou\.com|gamecenter\.kugou\.com|acsing\.tx\.kugou\.com)\/(sing7\/json\/v2\/user\/login|ccktv\/v1\/ktv_room\/room\/room_config|fxsing\/vip\/member\/info|sing7\/homepage\/json\/v3\/vip\/tip|v4\/price\/get_tips|vipenergy\/v2\/entrance\/vip_center_user_info|fxsing\/vip\/user\/info|sing7\/homepage\/json\/v3\/cdn\/kroom_tab_enter|v1\/home\/member_game|sing7\/homepage\/json\/v3\/cdn\/kroom_tab\/banners) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugouksong.js, requires-body=true, tag=酷狗_K歌, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGouMusic.png
+http-response ^https?:\/\/(nacsing\.kugou\.com|acsing\.service\.kugou\.com|vipos\.kugou\.com|gateway\.kugou\.com|gamecenter\.kugou\.com|acsing\.tx\.kugou\.com)\/(sing7\/json\/v2\/user\/login|ccktv\/v1\/ktv_room\/room\/room_config|fxsing\/vip\/member\/info|sing7\/homepage\/json\/v3\/vip\/tip|v4\/price\/get_tips|vipenergy\/v2\/entrance\/vip_center_user_info|fxsing\/vip\/user\/info|sing7\/homepage\/json\/v3\/cdn\/kroom_tab_enter|v1\/home\/member_game|sing7\/homepage\/json\/v3\/cdn\/kroom_tab\/banners) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugouksong.js, requires-body=true, tag=酷狗K歌
+
+http-response ^https?:\/\/gateway\.kugou\.com\/tracker\/v5\/url script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugouv5.js, requires-body=true, tag=酷狗播放v5
+
+http-response ^https:\/\/.*\.kugou\.com\/v1\/login_by_quick_token script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗快速登录
+
+http-response ^https:\/\/.*\.kugou\.com\/v2\/get_login_extend_info script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗登录扩展信息
+
+# > VIP信息相关
+http-response ^https:\/\/.*\.kugou\.com\/mobile\/vipinfoV2 script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗VIP信息V2
+
+http-response ^https:\/\/.*\.kugou\.com\/v2\/get_vip_config script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗VIP配置
+
+http-response ^https:\/\/.*\.kugou\.com\/promotionvip\/v3\/vip_level\/detail script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗VIP等级详情
+
+http-response ^https:\/\/vipos\.kugou\.com\/v4\/price\/get_tips script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗价格提示
+
+http-response ^https:\/\/.*\.kugou\.com\/vip\/v1\/fusion\/userinfo script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗融合用户信息
+
+http-response ^https:\/\/.*\.kugou\.com\/v2\/super\/welfarelist script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗超级VIP福利
+
+# > 卡片相关接口
+http-response ^https:\/\/.*\.kugou\.com\/card\/v1\/pxy\/top script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗卡片顶部
+
+http-response ^https:\/\/.*\.kugou\.com\/card\/v1\/pxy\/listen script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗卡片听歌
+
+http-response ^https:\/\/.*\.kugou\.com\/card\/v1\/pxy\/recommend_stream$ script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗推荐流
+
+http-response ^https:\/\/.*\.kugou\.com\/card\/v1\/pxy\/recommend_stream_v2 script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗推荐流V2
+
+# > 广告相关接口 (使用通配符匹配所有子域名)
+http-response ^https:\/\/.*\.kugou\.com\/ads\.gateway\/v2\/sidebar_link script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗侧边栏链接
+
+http-response ^https:\/\/.*\.kugou\.com\/ads\.gateway\/v2\/sidebar_top_card script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗侧边栏顶部卡片
+
+http-response ^https:\/\/.*\.kugou\.com\/ads\.gateway\/v2\/home_card script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗首页卡片
+
+http-response ^https:\/\/.*\.kugou\.com\/ads\.gateway\/v2\/mobile_link script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗移动端链接
+
+http-response ^https:\/\/.*\.kugou\.com\/ads\.gateway\/v2\/task_center_entrance script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗任务中心入口
+
+http-response ^https:\/\/.*\.kugou\.com\/ads\.gateway\/v5\/task_video\/qualification script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗任务视频资格
+
+http-response ^https:\/\/.*\.kugou\.com\/ads\.gateway\/v4\/search_banner script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗搜索横幅
+
+# > 移动端启动画面
+http-response ^https:\/\/.*\.kugou\.com\/v4\/mobile_splash$ script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗移动端启动画面
+
+http-response ^https:\/\/.*\.kugou\.com\/v4\/mobile_splash_sort script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗移动端启动画面排序
+
+# > AB测试相关
+http-response ^https:\/\/.*\.kugou\.com\/els\.abt\/v1\/tmeab script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗AB测试
+
+# > 代理组合相关
+http-response ^https:\/\/.*\.kugou\.com\/pxy\/v1\/combo\/startup script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗代理组合启动
+
+http-response ^https:\/\/.*\.kugou\.com\/playerpxy\/v1\/combo\/play_page_index script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗播放页面索引
+
+# > 系统相关
+http-response ^https:\/\/.*\.kugou\.com\/mstc\/musicsymbol\/v1\/system\/profile script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗音乐符号系统配置
+
+http-response ^https:\/\/.*\.kugou\.com\/pendant\/v2\/get_user_pendant script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗用户挂件
+
+http-response ^https:\/\/.*\.kugou\.com\/v1\/blindbox_cabinet\/client_cabinet script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗盲盒柜
+
+http-response ^https:\/\/.*\.kugou\.com\/flow\/user_config\/get_level_config_ios script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗用户等级配置
+
+http-response ^https:\/\/.*\.kugou\.com\/v1\/starlight\/get_campaign_infos script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗星光活动信息
+
+http-response ^https:\/\/.*\.kugou\.com\/searchnofocus\/v1\/search_no_focus_word script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗搜索无焦点词
+
+http-response ^https:\/\/.*\.kugou\.com\/updateservice\/v1\/get_dev_user script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗开发用户更新
+
+# > 资源权限相关
+http-response ^https:\/\/.*\.kugou\.com\/v1\/get_res_privilege\/lite script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗资源权限精简版
+
+http-response ^https:\/\/.*\.kugou\.com\/v1\/union\/audio_info script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗联合音频信息
+
+# > 主题相关
+http-response ^https:\/\/.*\.kugou\.com\/ocean\/v6\/theme\/category script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗主题分类
+
+http-response ^https:\/\/.*\.kugou\.com\/tools\.mobile\/v2\/theme\/info script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗主题信息
+
+# > 广告播放页面组合
+http-response ^https:\/\/.*\.kugou\.com\/adp\/ad\/v1\/playpage_combine script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗广告播放页面组合
+
+# > VIP中心
+http-response ^https:\/\/.*\.kugou\.com\/v3\/vip_center script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗VIP中心V3
+
+# > 我的顶部横幅
+http-response ^https:\/\/.*\.kugou\.com\/mine_top_banner script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗我的顶部横幅
 
 [MITM]
-hostname = *.kugou.com, *.*.kugou.com
+hostname = *.kugou.com
