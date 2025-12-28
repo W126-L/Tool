@@ -8,7 +8,7 @@
 #!date = 2025-12-15
 
 [Rule]
-# > (广告/弹窗)1
+# > (广告/弹窗)
 URL-REGEX,"^https:\/\/vipssr\.kugou\.com\/static\/js\/async\/flexPayPopup",REJECT
 URL-REGEX,"^https:\/\/.*\.kugou\.com\/vipssr\/prepay_ios\.html",REJECT
 URL-REGEX,"^https:\/\/staticssl\.kugou\.com\/common\/js-lib\/vip\/dlg_ctrler_v2\.js$",REJECT
