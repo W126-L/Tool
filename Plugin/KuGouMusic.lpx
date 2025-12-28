@@ -5,7 +5,7 @@
 #!tag = 阿旺の库
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/KuGouMusic.lpx
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGouMusic.png
-#!date = 2025-12-15
+#!date = 2025-12-27
 
 [Rule]
 # > (广告/弹窗)
