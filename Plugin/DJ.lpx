@@ -5,4 +5,11 @@
 #!tag = 阿旺の库
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/DJ.lpx
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/DJMusic.png
-#!date = 2025-11-05
+#!date = 2026-01-01
+
+[Script]
+# > dj串烧集-大型dj串烧歌曲
+http-response ^http:\/\/csj\.yy-5\.com\/api\/User\/Info script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/djcs.js, requires-body=true, timeout=60, tag=djcs
+
+[MITM]
+hostname = csj.yy-5.com
