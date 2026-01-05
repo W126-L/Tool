@@ -1,15 +1,10 @@
 #!name = 荐片去广告
 #!desc = 荐片去广告
 #!author = Wuang备份 [https://github.com/W126-L]
-#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/China-Operator.lpx
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/JianPian.lpx
 #!homepage = https://github.com/W126-L
-#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/China-Operator.png
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/JianPian.png
 #!tag = 阿旺の库
-
-
-
-
-
 
 [Rewrite]
 ^https:\/\/h5v2\.cibnabg\.com\/api\/advertise\/list - reject
