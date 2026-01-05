@@ -1,0 +1,12 @@
+
+
+
+
+
+
+
+[Rewrite]
+^https:\/\/h5v2\.cibnabg\.com\/api\/advertise\/list - reject
+
+[MITM]
+hostname = h5v2.cibnabg.com
