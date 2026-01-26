@@ -7,6 +7,14 @@
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
 #!date = 2025-11-05
 
+[Rewrite]
+^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/((getIOSIsHideAd|getMotor)\.do|adEarnGuajian\/adinfo) - reject-200
+^https?:\/\/rich\.kuwo\.cn\/(AdService|ecom)\/kaiping\/ad[iI]nfo - reject-200
+^https?:\/\/wapi\.kuwo\.cn\/openapi\/v1\/user\/adVip\/info - reject-200
+^https?:\/\/wapi\.kuwo\.cn\/openapi\/v1\/operate(\/(adVip|freeMode\/h5))?\/text - reject-200
+^https?:\/\/ad\.tencentmusic\.com\/config\/uni - reject-200
+^https?:\/\abt-kuwo\.tencentmusic\.com\/kuwo\/ui\/info - reject-200
+
 [Script]
 # > 酷我音乐 会员调试  
 http-response ^https?:\/\/(?:musicpay|nmobi|vip1|audiobookpay|tingshu|anymatch|mobilebasedata|rich|mobilead|wapi)\.kuwo\.cn\/(?:music\.pay\?newver=\d+|mobi.s\?f=kwxs|vip\/(?:enc\/user\/vip\?op=ui&uid=|v2\/theme\?op=gd)|a\.p|v2\/api\/pay\/user\/info|api\/music\/info|AdService\/kaiping\/adinfo|EcomResourceServer\/(?:adEarnGuajian\/adinfo|getMotor\.do)|openapi\/v1\/(?:operate\/homePage|user\/freeMode\/h5\/text|operate\/message\/info|user\/dolby\/text)|commercia\/(?:vipTab\/myTab\/base|userAssets\/downloadCoupon\/reduce|recall\/pop\/jxhGearInfo|vip\/(?:dressCenter\/getResourceList|player\/getStyleListByModel))|api\/v2\/pay\/app\/getConfigInfo(?:\?configType)?|vip\/v2\/sysinfo|commercia\/recall\/pop\/jxhMultiGearInfo) script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/kuwo.js, requires-body=true, timeout=60, tag=酷我-会员调试, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
