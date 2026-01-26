@@ -29,7 +29,7 @@ if(m){
     let obj = JSON.parse($response.body)
     obj.data.data.memCenter.btnText = "已开通";
     obj.data.data.memCenter.subTitle = null;
-    obj.data.data.actBlock.title = "作者主页";
+    obj.data.data.actBlock.title = "插件主页";
     obj.data.data.actBlock.subTitle = "https://github.com/W126-L";
     obj.data.data.actBlock.jump.jumpUrl = "https://github.com/W126-L";
     $done({body:JSON.stringify(obj)});
