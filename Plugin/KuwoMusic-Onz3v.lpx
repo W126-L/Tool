@@ -1,5 +1,5 @@
 #!name = 酷我音乐-Onz3v
-#!desc = （12.0.4版本）解锁会员权限
+#!desc = （12.0.6版本）解锁会员权限
 #!author = Wuang备份-原作者@Onz3v
 #!homepage = https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Kuwo/kuwo.sgmodule
 #!tag = 阿旺の库
@@ -7,29 +7,40 @@
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
 #!date = 2025-12-22
 
+[Rewrite]
+^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/((getIOSIsHideAd|getMotor)\.do|adEarnGuajian\/adinfo) - reject-200
+^https?:\/\/rich\.kuwo\.cn\/(AdService|ecom)\/kaiping\/ad[iI]nfo - reject-200
+^https?:\/\/wapi\.kuwo\.cn\/openapi\/v1\/user\/adVip\/info - reject-200
+^https?:\/\/wapi\.kuwo\.cn\/openapi\/v1\/operate(\/(adVip|freeMode\/h5))?\/text - reject-200
+^https?:\/\/ad\.tencentmusic\.com\/config\/uni - reject-200
+^https?:\/\abt-kuwo\.tencentmusic\.com\/kuwo\/ui\/info - reject-200
+
 [Script]
-# ========== 酷我 ==========
-http-response ^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/vip script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=酷我修改会员信息, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
+http-response ^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/vip script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
 
-http-request ^https?:\/\/music(pay)?\.kuwo\.cn\/music.pay\?newver=3 script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=酷我修改音乐信息, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
+http-request ^https?:\/\/music(pay)?\.kuwo\.cn\/music.pay\?newver=3 script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
 
-http-response ^https?:\/\/.+\.kuwo\.cn\/mobi\.s\?f=kwxs&q= script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=酷我修改播放接口, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
+http-response ^https?:\/\/.+\.kuwo\.cn\/mobi\.s\?f=kwxs&q= script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
 
-http-response ^https?:\/\/tingshu\.kuwo\.cn\/api\/v2\/pay\/app\/getConfigInfo script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=酷我听书伪装会员, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
+http-response ^https?:\/\/tingshu\.kuwo\.cn\/api\/v2\/pay\/app\/getConfigInfo script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
 
-http-response ^https?:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/payInfo\/kwplayer\/payMiniBar script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=酷我听书列表横幅, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
+http-response ^https?:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/payInfo\/kwplayer\/payMiniBar script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
 
-http-request ^https?:\/\/audiobookpay\.kuwo\.cn\/a\.p\?simpleToken=1 script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=酷我修改听书信息, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
+http-request ^https?:\/\/audiobookpay\.kuwo\.cn\/a\.p\?simpleToken=1 script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
 
-http-response ^https?:\/\/audiobookpay\.kuwo\.cn\/a\.p\?newver=3 script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=酷我修改漫剧信息, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
+http-response ^https?:\/\/audiobookpay\.kuwo\.cn\/a\.p\?newver=3 script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
 
-http-response ^https?:\/\/vip1\.kuwo\.cn\/(commercia\/)?vip\/(v2\/theme\?op\=gd|(player\/getStyleListByModel|hanger\/wear)) script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=酷我解锁会员皮肤, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
+http-response ^https?:\/\/vip1\.kuwo\.cn\/(commercia\/)?vip\/(v2\/theme\?op\=gd|(player\/getStyleListByModel|hanger\/wear)) script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
 
-http-response ^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/user\/vip script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=酷我解锁会员信息, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
+http-response ^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/user\/vip script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
 
-http-response ^https?:\/\/vip1\.kuwo\.cn\/commercia\/vip\/dressCenter\/getTabList script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=酷我去除装扮横幅, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
+http-response ^https?:\/\/vip1\.kuwo\.cn\/commercia\/vip\/dressCenter\/getTabList script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
 
-http-response ^https?:\/\/vip1\.kuwo\.cn\/commercia\/vipTab\/myTab\/base script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=酷我个人信息修改, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
+http-response ^https?:\/\/vip1\.kuwo\.cn\/commercia\/vipTab\/myTab\/base script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
+
+http-response ^https?:\/\/vip1\.kuwo\.cn\/commercia\/userAssets\/downloadCoupon\/reduce script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
+
+http-response ^https?:\/\/homepages\.kuwo\.cn(\.eo\.dnse1\.com)?\/mgxh\.s script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, requires-body=true, timeout=60, tag=kuwo
 
 [MITM]
-hostname = *.kuwo.cn
+hostname = *.kuwo.cn, ad.tencentmusic.com, abt-kuwo.tencentmusic.com
