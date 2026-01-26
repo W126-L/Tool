@@ -1,11 +1,11 @@
 #!name = 酷我音乐-Onz3v
-#!desc = （12.0.6版本）解锁会员权限
+#!desc = （12.0.6版本）解锁会员权限、支持切换音质
 #!author = Wuang备份-原作者@Onz3v
 #!homepage = https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Kuwo/kuwo.sgmodule
 #!tag = 阿旺の库
 #!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/KuwoMusic-Onz3v.lpx
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png
-#!date = 2025-12-22
+#!date = 2026-01-22
 
 [Rewrite]
 ^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/((getIOSIsHideAd|getMotor)\.do|adEarnGuajian\/adinfo) - reject-200
