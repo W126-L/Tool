@@ -9,6 +9,14 @@
 [Argument]
 vip = select,"超级会员6","豪华VIP5",tag=会员
 
+[Rewrite]
+^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/((getIOSIsHideAd|getMotor)\.do|adEarnGuajian\/adinfo) - reject-200
+^https?:\/\/rich\.kuwo\.cn\/(AdService|ecom)\/kaiping\/ad[iI]nfo - reject-200
+^https?:\/\/wapi\.kuwo\.cn\/openapi\/v1\/user\/adVip\/info - reject-200
+^https?:\/\/wapi\.kuwo\.cn\/openapi\/v1\/operate(\/(adVip|freeMode\/h5))?\/text - reject-200
+^https?:\/\/ad\.tencentmusic\.com\/config\/uni - reject-200
+^https?:\/\abt-kuwo\.tencentmusic\.com\/kuwo\/ui\/info - reject-200
+
 [Script]
 http-response ^https?:\/\/(?:musicpay|nmobi|vip1|audiobookpay|tingshu|anymatch)\.kuwo\.cn\/(?:music\.pay\?newver=\d+|commercia/vip/player/getStyleListByModel|commercia/vipTab/myTab/base|mobi.s\?f=kwxs|vip\/(?:enc\/user\/vip\?op=ui&uid=|v2\/theme\?op=gd|v2\/user\/vip\?vers)|a\.p|v2\/api\/pay\/user\/info) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/KuwoMusic-VIP.js, requires-body=true, timeout=60, tag=酷我音乐解锁会员皮肤、会员音频(最高无损)、听书权限, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic-Pro.png,argument=[{vip}]
 
