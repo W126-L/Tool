@@ -51,6 +51,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Goodnotes6.png" alt="Goodnotes6" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Google_Search.png" alt="Google_Search" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Guoshangguowang.png" alt="Guoshangguowang" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/HG.png" alt="HG" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/HKA.png" alt="HKA" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Hanglvzongheng.png" alt="Hanglvzongheng" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Heiliao.png" alt="Heiliao" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
