@@ -7,7 +7,6 @@
 #!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGouMusic.png
 #!date = 2026-01-24
 
-
 [Rule]
 # > (广告/弹窗)
 URL-REGEX,"^https:\/\/vipssr\.kugou\.com\/static\/js\/async\/flexPayPopup",REJECT
@@ -18,6 +17,7 @@ URL-REGEX,"^https:\/\/vipssr\.kugou\.com\/static\/js\/vip\/newUi\/vipPageUnionIo
 URL-REGEX,"^https:\/\/fx\.service\.kugou\.com\/fx\/activity\/register\/center\/sidebar\/configV2$",REJECT
 URL-REGEX,"^https:\/\/service1\.fanxing\.kugou\.com\/video\/mo\/live\/pull\/mutiline\/cfg",REJECT
 URL-REGEX,"^http:\/\/log\.web\.kugou\.com\/postEvent\.php$",REJECT
+
 # > (广告域名)
 DOMAIN,webvoobssdl.kugou.com,REJECT
 DOMAIN,ad.tencentmusic.com,REJECT
@@ -25,6 +25,7 @@ DOMAIN,ads.service.kugou.com,REJECT
 DOMAIN,adsfile.kugou.com,REJECT
 DOMAIN,mdpfilebssdlbig.kugou.com,REJECT
 DOMAIN,adserviceretry.kugou.com,REJECT
+
 # > (开屏广告)
 IP-CIDR,157.255.11.247/32,REJECT,no-resolve
 IP-CIDR,111.206.99.202/32,REJECT,no-resolve
