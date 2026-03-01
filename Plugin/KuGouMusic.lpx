@@ -30,7 +30,7 @@ DOMAIN,adserviceretry.kugou.com,REJECT
 IP-CIDR,157.255.11.247/32,REJECT,no-resolve
 IP-CIDR,111.206.99.202/32,REJECT,no-resolve
 
-[Script[Script]
+[Script]
 # > SSR首页装饰中心
 http-response ^https:\/\/m\.kugou\.com\/ssr\/decocenter\/home script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kugou.js, requires-body=true, tag=酷狗SSR首页, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGouMusic.png
 
