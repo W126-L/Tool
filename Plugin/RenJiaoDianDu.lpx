@@ -1,9 +1,10 @@
-
-
-
-
-
-
+#!name = 人教点读解锁
+#!desc = (人教点读功能调试（解锁所有教程、直接选择试读、解锁完整权限）
+#!author = Wuang备份-原作者@Baby [https://github.com/W126-L]
+#!homepage = https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/rjdd.js
+#!tag = 阿旺の库
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/RenJiaoDianDu.lpx
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/RenJiaoDianDu.png
 
 [Script]
 http-response ^https?:\/\/.*\.mypep\.cn\/(thirdPartyService\/book_init(_v3)?\.json|user\/ak\/pep_click\/user\/.*\/userinfo\.json|loginvcode|unit\/encrypt\/detail) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/rjdd.js, requires-body=true, timeout=60, tag=rjdd
