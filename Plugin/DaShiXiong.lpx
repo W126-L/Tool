@@ -1,0 +1,13 @@
+#!name = 大师兄影视净化
+#!desc = 大师兄影视净化，去弹窗，去banner，去广告
+#!author = Wuang备份 [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Filmix.lpx
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Filmix.png
+#!tag = 阿旺の库
+
+[Rewrite]
+http:\/\/app\.dsx\.ac\/ndsx\.php\/v\d\/logs response-body-json-jq 'del(.data.banners) | if .data.is_top then .data = [] else . end'
+
+[MITM]
+hostname = app.dsx.ac
