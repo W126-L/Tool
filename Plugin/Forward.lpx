@@ -1,17 +1,13 @@
-#!name = 酷狗音乐VIP
-#!desc = (酷狗音乐VIP功能调试（解锁酷狗音乐会员功能，包括VIP歌曲、无损音质、去广告、皮肤等-1.2.2.6）
+#!name = Forward Pro
+#!desc = Forward Pro功能调试
 #!author = Wuang备份-原作者@Baby [https://github.com/W126-L]
-#!homepage = https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/KuGou.sgmodule
+#!homepage = https://mock.forward1.workers.dev/forward/Forward.lpx
 #!tag = 阿旺の库
-#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/KuGouMusic.lpx
-#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuGouMusic.png
-#!date = 2026-02-28
-
-[Argument]
-Mock=input,https://mock.forward1.workers.dev/forward,tag=Mock, desc=Mock
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Forward.lpx
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Forward.png
 
 [Rewrite]
-^https:\/\/fluxapi\.vvebo\.vip\/v1\/(purchase\/iap\/subscription) {Mock}/v1/$1 header
+^https:\/\/fluxapi\.vvebo\.vip\/v1\/(purchase\/iap\/subscription) header https://mock.forward1.workers.dev/forward/v1/$1
 
 [MITM]
 hostname = fluxapi.vvebo.vip
