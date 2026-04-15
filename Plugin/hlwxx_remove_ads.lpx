@@ -1,0 +1,14 @@
+
+
+
+[Rewrite]
+^https?:\/\/stats\.kwvprfcr\.xyz - reject
+^https?:\/\/mc\.yandex\.ru - reject
+
+[Script]
+http-request ^https?:\/\/(?:www\.)?hl(?:wxx|cx\d*)\.com\/(?:$|\?|archives\/|category\/|memora|search|index\.htm) script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-header.js, timeout=30, tag=replaceHeader, argument=(%5Cr%5Cn)Accept-Encoding%3A.%2B(%5Cr%5Cn)-%3E%241Accept-Encoding%3A%20identity%242
+
+http-response ^https?:\/\/(?:www\.)?hl(?:wxx|cx\d*)\.com\/(?:$|\?|archives\/|category\/|memora|search|index\.htm) script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/refs/heads/main/hlwxx_remove_ads.js, requires-body=true, timeout=60, tag=hlwxx_remove_ads
+
+[MITM]
+hostname = *.hlwxx.com, *.hlcx16.com, stats.kwvprfcr.xyz, mc.yandex.ru, hlwxx.com
