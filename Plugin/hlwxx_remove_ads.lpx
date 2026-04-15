@@ -1,4 +1,11 @@
-https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/Github429.lpx
+#!name = 黑料网净化
+#!desc = 黑料网净化，更纯粹的刷黑料
+#!author = Wuang备份-原作者@怎么肥事 [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/hlwxx_remove_ads.lpx
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Weibo.png
+#!tag = 阿旺の库
+#!update=2026-04-14
 
 
 [Rewrite]
