@@ -75,6 +75,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic-Pro.png" alt="KuwoMusic-Pro" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/KuwoMusic.png" alt="KuwoMusic" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Lenovo.png" alt="Lenovo" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Lianxiaoyu.png" alt="Lianxiaoyu" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Loon.png" alt="Loon" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Love.png" alt="Love" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/MaDou.png" alt="MaDou" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
