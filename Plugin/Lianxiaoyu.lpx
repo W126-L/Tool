@@ -7,10 +7,10 @@
 
 [Script]
 # VIP显示
-http-response ^https?:\/\/api\.love\.823123\.com\/facades\/account\.show script-path=https://raw.githubusercontent.com/wf021325/qx/master/js/lxy.js, requires-body=true, timeout=60, tag=lxy
+http-response ^https?:\/\/api\.love\.823123\.com\/facades\/account\.show script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Lianxiaoyu.js, requires-body=true, timeout=60, tag=lxy
 
 # 小恋老师，键盘-回复它-开场白
-http-request ^https?:\/\/api\.love\.823123\.com\/(facades\/open\.chat_stream|v1\/discovery\/query) script-path=https://raw.githubusercontent.com/wf021325/qx/master/js/lxy.js, timeout=60, tag=lxy
+http-request ^https?:\/\/api\.love\.823123\.com\/(facades\/open\.chat_stream|v1\/discovery\/query) script-path=https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/Lianxiaoyu.js, timeout=60, tag=lxy
 
 [MITM]
 hostname = api.love.823123.com
