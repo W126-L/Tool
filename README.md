@@ -133,6 +133,7 @@
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/WenJian-Emby.png" alt="WenJian-Emby" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/WenJian.png" alt="WenJian" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Whatsapp.png" alt="Whatsapp" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Wuang.png" alt="Wuang" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/XBoy.png" alt="XBoy" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Xbox.png" alt="Xbox" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/Xiangse_blue.png" alt="Xiangse_blue" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
