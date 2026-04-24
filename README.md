@@ -1338,6 +1338,7 @@ QureColor-All
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/QureColor-All/Netflix.png" alt="Netflix" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/QureColor-All/Netflix_Letter.png" alt="Netflix_Letter" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/QureColor-All/Nfcloud.png" alt="Nfcloud" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
+<img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/QureColor-All/NoPic.png" alt="NoPic" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/QureColor-All/Notion.png" alt="Notion" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/QureColor-All/Null_Nation.png" alt="Null_Nation" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
 <img src="https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/QureColor-All/Oceania_Map.png" alt="Oceania_Map" width="51" height="51" style="border: 1px solid #000;border-radius: 10px;" loading="lazy">
