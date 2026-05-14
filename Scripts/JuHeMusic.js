@@ -1,5 +1,5 @@
 /*!
- * @name 聚合API接口(ꪡᥙꪖꪕᧁ）
+ * @name 聚合API接口音源(ꪡᥙꪖꪕᧁ）
  * @description ꪡᥙꪖꪕᧁ
  * @version ꪡᥙꪖꪕᧁ
  * @author ꪡᥙꪖꪕᧁ
