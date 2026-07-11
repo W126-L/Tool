@@ -1,0 +1,14 @@
+#!name = 养基宝
+#!desc = 养基宝解锁部分Pro，去除广告
+#!author = Wuang [https://github.com/W126-L]
+#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/YangJiBao.lpx
+#!homepage = https://github.com/W126-L
+#!icon = https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/YangJiBao.png
+#!tag = 阿旺の
+
+[Rewrite]
+^https?:\/\/.*yangjibao\.com\/.*\/account|vip_info response-body-json-jq '.data.vip_label=true|.data.vip_expiry_date="2099-12-31"|.data.is_pay=true'
+^https?:\/\/.*yangjibao.com\/unify_ad response-body-json-jq '.data=null'
+
+[MITM]
+hostname = *.yangjibao.com
