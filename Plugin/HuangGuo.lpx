@@ -3,7 +3,7 @@
 #!author = 墨染青一
 
 [Script]
-http-response ^https://pic\.wirqed\.cn* script-path= Test.js, requires-body=true,binary-body-mode=true, timeout=60, tag=debug
+http-response ^https://pic\.wirqed\.cn* script-path= https://raw.githubusercontent.com/W126-L/Tool/master/Scripts/HuangGuo.js, requires-body=true,binary-body-mode=true, timeout=60, tag=debug
 
 
 
