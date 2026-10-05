@@ -1,0 +1,12 @@
+#!name = 黄果封面解密
+#!desc = 用于本地调试
+#!author = 墨染青一
+
+[Script]
+http-response ^https://pic\.wirqed\.cn* script-path= Test.js, requires-body=true,binary-body-mode=true, timeout=60, tag=debug
+
+
+
+
+[MITM]
+hostname = pic.wirqed.cn
