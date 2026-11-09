@@ -13,6 +13,10 @@ var schemeMap = {
 };
 var NOTIFY_SCHEME = schemeMap[schemeLabel] !== undefined ? schemeMap[schemeLabel] : "";
 
+// ===== 可编辑：去重缓存期限（毫秒） =====
+// 默认 10 分钟。同一链接在期限内只通知一次，超期后可再次通知
+var CACHE_TTL = 1 * 60 * 1000;
+
 var url = $request.url;
 var match = url.match(/^https?:\/\/api\.[^\/]+\.(com|net|io|xyz|cn)\/txapi\/m3u8\/p\/[^\/?]+\.m3u8/);
 
@@ -20,15 +24,28 @@ if (match) {
   var notifyUrl = url;
 
   if (NOTIFY_SCHEME === "mobox") {
-    // 关键改动：把原始 URL 作为 url 参数拼进 mobox://download?url=...
     notifyUrl = "mobox://download?url=" + url;
   }
 
-  // 去重：同一链接只通知一次
+  // ===== 带期限的去重 =====
   var key = "tx_m3u8_notified";
-  var lastUrl = $persistentStore.read(key);
+  var cache = $persistentStore.read(key);   // 存的是 "时间戳|链接"
+  var now = Date.now();
+  var shouldNotify = true;
 
-  if (lastUrl !== notifyUrl) {
+  if (cache) {
+    var sep = cache.indexOf("|");
+    if (sep > 0) {
+      var ts = parseInt(cache.substring(0, sep), 10);
+      var cachedUrl = cache.substring(sep + 1);
+      // 链接相同 且 未超期 → 跳过
+      if (cachedUrl === notifyUrl && !isNaN(ts) && (now - ts) < CACHE_TTL) {
+        shouldNotify = false;
+      }
+    }
+  }
+
+  if (shouldNotify) {
     $notification.post(
       "Tx",
       "M3u8视频",
@@ -39,7 +56,8 @@ if (match) {
       },
       300
     );
-    $persistentStore.write(notifyUrl, key);
+    // 存 "时间戳|链接"
+    $persistentStore.write(now + "|" + notifyUrl, key);
   }
 }
 
