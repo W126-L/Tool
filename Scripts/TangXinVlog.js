@@ -4,25 +4,7 @@
 var url = $request.url;
 var method = ($request.method || "GET").toLowerCase();
 
-console.log("URL: " + url); // 调试用，先确认 url 到底是什么
-
-var match = url.match(/^https?:\/\/api\.[^\/]+\.(com|net|io|xyz|cn)\/txapi\/m3u8\/p\/[^\/?]+\.m3u8/);
-if (match) {
-  $notification.post(
-    "Tx",
-    "M3u8视频",
-    "点击跳转",
-    {
-      openUrl: url,
-      clipboard: url
-    },
-    300
-  );
-  $done();
-  return;
-}
-
-match = url.match(/^https?:\/\/([^/?#]+)(\/[^?#]*)?(\?.*)?/);
+var match = url.match(/^https?:\/\/([^/?#]+)(\/[^?#]*)?(\?.*)?/);
 
 if (match) {
   var targetUrl = "https://txscript.pages.dev/tx/" + match[1] + (match[2] || "") + (match[3] || "");
