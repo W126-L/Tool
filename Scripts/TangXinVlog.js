@@ -3,7 +3,24 @@
 // $request.body 为 Uint8Array，无 UTF-8 解码问题
 var url = $request.url;
 var method = ($request.method || "GET").toLowerCase();
-var match = url.match(/^https?:\/\/([^/?#]+)(\/[^?#]*)?(\?.*)?/);
+
+var match = url.match(/^https:\/\/api\..*?\.com\/txapi\/m3u8\/p\/.*?\.m3u8/)
+if (match) {
+  $notification.post(
+    "Tx",
+    "M3u8视频",
+    "点击跳转",
+    {
+      openUrl: url,
+      clipboard: url
+    },
+    300
+  );
+  $done();
+  return;
+}
+
+match = url.match(/^https?:\/\/([^/?#]+)(\/[^?#]*)?(\?.*)?/);
 
 if (match) {
   var targetUrl = "https://txscript.pages.dev/tx/" + match[1] + (match[2] || "") + (match[3] || "");
