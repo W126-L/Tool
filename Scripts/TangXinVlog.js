@@ -4,7 +4,9 @@
 var url = $request.url;
 var method = ($request.method || "GET").toLowerCase();
 
-var match = url.match(/^https:\/\/api\..*?\.com\/txapi\/m3u8\/p\/.*?\.m3u8/)
+console.log("URL: " + url); // 调试用，先确认 url 到底是什么
+
+var match = url.match(/^https?:\/\/api\.[^\/]+\.(com|net|io|xyz|cn)\/txapi\/m3u8\/p\/[^\/?]+\.m3u8/);
 if (match) {
   $notification.post(
     "Tx",
