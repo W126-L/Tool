@@ -1,17 +1,12 @@
-#!name=糖心Vlog
-#!desc=糖心Vlog 解锁点播去除广告 + M3u8 视频链接通知. 域名自动更新
-#!author = Wuang备份-原作者@Baby [https://github.com/W126-L]
-#!openUrl = https://raw.githubusercontent.com/W126-L/Tool/master/Plugin/TangXinVlog.lpx
-#!homepage = https://github.com/W126-L
-#!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/TangXinVlog.png
-#!tag = 阿旺の库
+[Argument]
+scheme = input,"",tag=协议头,desc=留空保持原样，可填 https 或 mobox
 
 [Script]
-# 糖心解锁 / 去广告（原有逻辑，处理 user/system/movie 接口）
+# 糖心解锁 / 去广告
 http-request ^https?:\/\/([^\/]+)\/(txapi\/(?:user\/info|system\/info|movie\/(?:detail|navBlock|navFilter|blockDetail|similarSearch))) script-path=https://raw.githubusercontent.com/W126-L/Tool/refs/heads/master/Scripts/TangXinVlog.js, tag=糖心解锁, requires-body=true, binary-body-mode=true, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/TangXinVlog.png
 
-# M3u8 视频链接通知（独立脚本，仅发通知+复制链接，不读 body）
-http-request ^https?:\/\/api\.[^\/]+\.(com|net|io|xyz|cn)\/txapi\/m3u8\/p\/[^\/?]+\.m3u8 script-path=https://raw.githubusercontent.com/W126-L/Tool/refs/heads/master/Scripts/TxM3u8Notify.js, tag=TxM3u8通知, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/TangXinVlog.png
+# M3u8 视频链接通知
+http-request ^https?:\/\/api\.[^\/]+\.(com|net|io|xyz|cn)\/txapi\/m3u8\/p\/[^\/?]+\.m3u8 script-path=https://raw.githubusercontent.com/W126-L/Tool/refs/heads/master/Scripts/TxM3u8Notify.js, argument=[{scheme}], tag=TxM3u8通知, img-url=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/TangXinVlog.png
 
 [Mitm]
 hostname = *.txxkl7s60j.com, *.tx6cyknm46.com, *.txui3fvxr2.com, *.tx3it6zzx8.com, *.txwnxvha73.com, *.txfdnb0xib.com, *.txqv37xp3c.com, *.txgwp6d7vl.com, *.txsvlcr8yl.com, *.txl83dbwq1.com, *.kgnowf33.com, *.jy7cmojt.com, *.b4a2n9ck.com, *.pjcs8g.com, *.mwhrtfio.com, *.cbnazm9.com, *.c0m60bw.com, *.01oq2i.com, *.3tdb9dp6.com, *.mknqsv.com, *.z617px.com, *.58469214.com, *.9lfx0q1.com, *.gsgnou.com, *.r21pf6ip.com, txxkl7s60j.com, tx6cyknm46.com, txui3fvxr2.com, tx3it6zzx8.com, txwnxvha73.com, txfdnb0xib.com, txqv37xp3c.com, txgwp6d7vl.com, txsvlcr8yl.com, txl83dbwq1.com, kgnowf33.com, jy7cmojt.com, b4a2n9ck.com, pjcs8g.com, mwhrtfio.com, cbnazm9.com, c0m60bw.com, 01oq2i.com, 3tdb9dp6.com, mknqsv.com, z617px.com, 58469214.com, 9lfx0q1.com, gsgnou.com, r21pf6ip.com
