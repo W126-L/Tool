@@ -47,7 +47,7 @@ if (match) {
 
   if (shouldNotify) {
     $notification.post(
-      "Tx",
+      "糖心",
       "M3u8视频",
       "点击跳转",
       {
