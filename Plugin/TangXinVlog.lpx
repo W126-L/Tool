@@ -7,7 +7,12 @@
 #!icon=https://raw.githubusercontent.com/W126-L/Tool/main/IconSet/108px/TangXinVlog.png
 
 [Argument]
-scheme = input,"",tag=协议头,desc=留空保持原样，可填 https 或 mobox
+scheme = select,"Safari","墨阁阁",type=string, tag=协议头
+
+
+
+
+
 
 [Script]
 # 糖心解锁 / 去广告
